@@ -23,7 +23,7 @@ const AvisoLegal = () => {
               En cumplimiento con el deber de información recogido en artículo 10 de la <strong>Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE)</strong>, se facilitan los siguientes datos:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-              <li><strong>Titular de la web:</strong> Pau Vilardell</li>
+              <li><strong>Titular de la web:</strong> TechFiscal Solutions</li>
               <li><strong>Ubicación:</strong> Barcelona, España</li>
               <li><strong>Contacto:</strong> info.devfreelance2026@gmail.com</li>
             </ul>

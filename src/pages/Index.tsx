@@ -21,8 +21,8 @@ const Index = () => {
             "url": "https://devfreelance.es",
             "description": "Guías prácticas de impuestos, cotización y gastos deducibles para desarrolladores freelance en España. Calculadora de neto, tramos 2026 y más.",
             "author": {
-              "@type": "Person",
-              "name": "Pau Vilardell Lladó",
+              "@type": "Organization",
+              "name": "TechFiscal Solutions",
               "email": "info.devfreelance2026@gmail.com"
             },
             "publisher": {

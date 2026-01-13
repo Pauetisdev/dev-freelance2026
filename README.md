@@ -63,9 +63,9 @@ public/
 
 ## 🧑‍💻 Autor
 
-**Pau Vilardell Lladó**
+**TechFiscal Solutions**
 
-- LinkedIn: [pauvilardell-](https://www.linkedin.com/in/pauvilardell-/)
+- Web: [devfreelance.es](https://devfreelance.es)
 - Email: info.devfreelance2026@gmail.com
 
 ## ⚖️ Licencia y Uso

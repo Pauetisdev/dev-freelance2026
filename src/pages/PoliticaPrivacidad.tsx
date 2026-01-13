@@ -20,7 +20,7 @@ const PoliticaPrivacidad = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">1. Responsable del Tratamiento</h2>
             <p className="text-muted-foreground leading-relaxed">
-              El responsable del tratamiento de los datos recabados es <strong>Pau Vilardell</strong>, con email de contacto: <a href="mailto:info.devfreelance2026@gmail.com" className="text-accent hover:underline">info.devfreelance2026@gmail.com</a>.
+              El responsable del tratamiento de los datos recabados es <strong>TechFiscal Solutions</strong>, con email de contacto: <a href="mailto:info.devfreelance2026@gmail.com" className="text-accent hover:underline">info.devfreelance2026@gmail.com</a>.
             </p>
           </section>
 

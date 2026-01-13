@@ -9,7 +9,7 @@ export function Footer() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "DevFreelance España",
+            "name": "TechFiscal Solutions",
             "url": "https://devfreelance.es",
             "logo": "https://devfreelance.es/favicon.svg",
             "description": "Recursos fiscales y legales para programadores autónomos en España",

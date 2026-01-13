@@ -1,6 +1,6 @@
 import { Layout } from '@/components/Layout';
 import { Helmet } from 'react-helmet-async';
-import { Linkedin, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 
 const SobreElProyecto = () => {
@@ -10,7 +10,7 @@ const SobreElProyecto = () => {
         <title>Sobre el Proyecto - DevFreelance España</title>
         <meta 
           name="description" 
-          content="Proyecto divulgativo creado por Pau Vilardell Lladó para ayudar a desarrolladores autónomos a entender la fiscalidad en España. Financiado por publicidad, contenido gratuito basado en fuentes oficiales." 
+          content="Proyecto divulgativo creado para ayudar a desarrolladores autónomos a entender la fiscalidad en España. Financiado por publicidad, contenido gratuito basado en fuentes oficiales." 
         />
       </Helmet>
 
@@ -23,13 +23,13 @@ const SobreElProyecto = () => {
             <div className="flex items-start gap-4">
               <Avatar className="w-16 h-16 bg-gradient-to-br from-cyan-600 to-blue-600 flex-shrink-0">
                 <AvatarFallback className="text-white text-xl font-semibold bg-transparent">
-                  PV
+                  DF
                 </AvatarFallback>
               </Avatar>
               <div className="flex-1">
-                <h2 className="text-xl font-semibold mb-1">Pau Vilardell Lladó</h2>
+                <h2 className="text-xl font-semibold mb-1">Senior Tech Strategist</h2>
                 <p className="text-muted-foreground text-sm mb-2">
-                  Plataforma dedicada a la divulgación técnica sobre fiscalidad y gestión eficiente para autónomos del sector IT. Mi enfoque combina la ingeniería de software con el análisis de la normativa fiscal vigente para ofrecer herramientas y recursos que faciliten la transición al mundo freelance.
+                  Plataforma dedicada a la divulgación técnica sobre fiscalidad y gestión eficiente para autónomos del sector IT. Nuestro enfoque combina la ingeniería de software con el análisis de la normativa fiscal vigente para ofrecer herramientas y recursos que faciliten la transición al mundo freelance.
                 </p>
                 <div className="flex flex-col gap-1.5">
                   <a 
@@ -38,15 +38,6 @@ const SobreElProyecto = () => {
                   >
                     <span>✉️</span>
                     info.devfreelance2026@gmail.com
-                  </a>
-                  <a 
-                    href="https://www.linkedin.com/in/pauvilardell-/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-accent transition-colors"
-                  >
-                    <Linkedin className="w-3.5 h-3.5" />
-                    Perfil profesional
                   </a>
                 </div>
               </div>
