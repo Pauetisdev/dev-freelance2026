@@ -66,37 +66,57 @@ const Index = () => {
           </div>
 
           {/* Features */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto">
-            <div className="flex items-start gap-3 p-4">
-              <div className="p-2 rounded-lg bg-accent/10">
-                <TrendingUp className="w-5 h-5 text-accent" />
-              </div>
-              <div>
-                <h3 className="font-medium mb-1">Tramos 2026</h3>
-                <p className="text-sm text-muted-foreground">
-                  Nuevas cuotas de autónomo actualizadas
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-6xl mx-auto">
+            {/* Card 1 - Tramos 2026 */}
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500 opacity-0 group-hover:opacity-100"></div>
+              <div className="relative bg-gradient-to-br from-card via-card to-cyan-950/5 dark:to-cyan-500/5 border-2 border-border group-hover:border-cyan-500/50 rounded-3xl p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="mb-4">
+                  <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 shadow-lg shadow-cyan-500/50 group-hover:shadow-cyan-500/80 transition-all group-hover:scale-110">
+                    <TrendingUp className="w-8 h-8 text-white" />
+                  </div>
+                </div>
+                <h3 className="font-bold text-xl mb-3 text-foreground group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
+                  Tramos 2026
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Nuevas cuotas de autónomo actualizadas y simulador de ingresos
                 </p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-4">
-              <div className="p-2 rounded-lg bg-accent/10">
-                <Calculator className="w-5 h-5 text-accent" />
-              </div>
-              <div>
-                <h3 className="font-medium mb-1">Calculadora</h3>
-                <p className="text-sm text-muted-foreground">
-                  Estima tu neto real en segundos
+
+            {/* Card 2 - Calculadora */}
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500 opacity-0 group-hover:opacity-100"></div>
+              <div className="relative bg-gradient-to-br from-card via-card to-emerald-950/5 dark:to-emerald-500/5 border-2 border-border group-hover:border-emerald-500/50 rounded-3xl p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="mb-4">
+                  <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 shadow-lg shadow-emerald-500/50 group-hover:shadow-emerald-500/80 transition-all group-hover:scale-110 group-hover:rotate-6">
+                    <Calculator className="w-8 h-8 text-white" />
+                  </div>
+                </div>
+                <h3 className="font-bold text-xl mb-3 text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                  Calculadora
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Calcula tu neto real en segundos con IRPF y Seguridad Social
                 </p>
               </div>
             </div>
-            <div className="flex items-start gap-3 p-4">
-              <div className="p-2 rounded-lg bg-accent/10">
-                <Shield className="w-5 h-5 text-accent" />
-              </div>
-              <div>
-                <h3 className="font-medium mb-1">Fuentes oficiales</h3>
-                <p className="text-sm text-muted-foreground">
-                  Info verificada con BOE y AEAT
+
+            {/* Card 3 - Fuentes oficiales */}
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-violet-500/20 to-purple-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500 opacity-0 group-hover:opacity-100"></div>
+              <div className="relative bg-gradient-to-br from-card via-card to-violet-950/5 dark:to-violet-500/5 border-2 border-border group-hover:border-violet-500/50 rounded-3xl p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="mb-4">
+                  <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-violet-500 to-purple-600 shadow-lg shadow-violet-500/50 group-hover:shadow-violet-500/80 transition-all group-hover:scale-110">
+                    <Shield className="w-8 h-8 text-white" />
+                  </div>
+                </div>
+                <h3 className="font-bold text-xl mb-3 text-foreground group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
+                  Fuentes oficiales
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Toda la info verificada con BOE, AEAT y Seguridad Social
                 </p>
               </div>
             </div>

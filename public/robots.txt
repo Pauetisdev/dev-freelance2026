@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dev-freelance-2026.vercel.app/sitemap.xml
+Sitemap: https://devfreelance.es/sitemap.xml

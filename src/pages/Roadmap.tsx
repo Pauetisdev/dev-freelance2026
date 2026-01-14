@@ -110,7 +110,7 @@ const Roadmap = () => {
                       `}>
                         {level.level}
                         <div className="absolute -bottom-2 -right-2 w-10 h-10 rounded-full bg-background flex items-center justify-center shadow-md">
-                          <Icon className="w-5 h-5" />
+                          <Icon className="w-5 h-5 text-foreground" />
                         </div>
                       </div>
 

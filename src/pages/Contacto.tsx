@@ -7,7 +7,7 @@ export default function Contacto() {
       <Helmet>
         <title>Contacto - DevFreelance España</title>
         <meta name="description" content="Contacta con nosotros para resolver tus dudas sobre fiscalidad y gestión de autónomos en España." />
-        <link rel="canonical" href="https://dev-freelance-2026.vercel.app/contacto" />
+        <link rel="canonical" href="https://devfreelance.es/contacto" />
       </Helmet>
 
       <div className="container mx-auto px-4 py-12 max-w-3xl">
@@ -24,11 +24,16 @@ export default function Contacto() {
           <h2 className="text-2xl font-semibold mb-4">Envíanos un Mensaje</h2>
           
           <form 
-            action="mailto:info.devfreelance2026@gmail.com" 
-            method="post" 
-            encType="text/plain"
+            action="https://formsubmit.co/info.devfreelance2026@gmail.com" 
+            method="POST"
             className="space-y-4"
           >
+            {/* Configuración de FormSubmit */}
+            <input type="hidden" name="_subject" value="Nuevo mensaje desde DevFreelance España" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://devfreelance.es/contacto?success=true" />
+            
             <div>
               <label htmlFor="name" className="block text-sm font-medium mb-2">
                 Nombre *
@@ -36,7 +41,7 @@ export default function Contacto() {
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="Nombre"
                 required
                 className="w-full px-4 py-2 bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
                 placeholder="Tu nombre"
@@ -50,7 +55,7 @@ export default function Contacto() {
               <input
                 type="email"
                 id="email"
-                name="email"
+                name="Email"
                 required
                 className="w-full px-4 py-2 bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
                 placeholder="tu@email.com"
@@ -64,7 +69,7 @@ export default function Contacto() {
               <input
                 type="text"
                 id="subject"
-                name="subject"
+                name="Asunto"
                 required
                 className="w-full px-4 py-2 bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
                 placeholder="¿En qué podemos ayudarte?"
@@ -77,7 +82,7 @@ export default function Contacto() {
               </label>
               <textarea
                 id="message"
-                name="message"
+                name="Mensaje"
                 required
                 rows={6}
                 className="w-full px-4 py-2 bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent resize-none"

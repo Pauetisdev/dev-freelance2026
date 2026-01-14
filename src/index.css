@@ -133,27 +133,31 @@
 
   /* Post content styling */
   .post-content {
-    @apply max-w-none;
+    @apply max-w-none text-base lg:text-lg leading-relaxed;
   }
 
   .post-content h2 {
-    @apply text-xl font-semibold mt-8 mb-4 text-foreground border-b border-border pb-2;
+    @apply text-2xl lg:text-3xl font-bold mt-12 mb-6 text-foreground border-b-2 border-border pb-3;
   }
 
   .post-content h3 {
-    @apply text-lg font-medium mt-6 mb-3 text-foreground;
+    @apply text-xl lg:text-2xl font-semibold mt-8 mb-4 text-foreground;
+  }
+
+  .post-content h4 {
+    @apply text-lg lg:text-xl font-medium mt-6 mb-3 text-foreground;
   }
 
   .post-content p {
-    @apply mb-4 leading-relaxed text-foreground/90;
+    @apply mb-6 leading-relaxed text-foreground/90;
   }
 
   .post-content ul, .post-content ol {
-    @apply mb-4 pl-6 space-y-2;
+    @apply mb-6 pl-8 space-y-3;
   }
 
   .post-content li {
-    @apply text-foreground/90;
+    @apply text-foreground/90 leading-relaxed;
   }
 
   .post-content ul li {
@@ -164,20 +168,24 @@
     @apply list-decimal;
   }
 
+  .post-content ul ul, .post-content ol ol {
+    @apply mt-3 mb-3;
+  }
+
   .post-content a {
-    @apply text-accent hover:underline;
+    @apply text-accent hover:underline font-medium;
   }
 
   .post-content table {
-    @apply w-full mb-4 border-collapse;
+    @apply w-full mb-8 border-collapse bg-card rounded-lg overflow-hidden;
   }
 
   .post-content th, .post-content td {
-    @apply border border-border px-3 py-2 text-sm;
+    @apply border border-border px-4 py-3 text-sm;
   }
 
   .post-content th {
-    @apply bg-muted font-medium text-left;
+    @apply bg-muted font-semibold text-left;
   }
 
   .post-content pre, .post-content code {
@@ -185,11 +193,11 @@
   }
 
   .post-content pre {
-    @apply bg-muted p-4 rounded-lg overflow-x-auto mb-4;
+    @apply bg-muted p-6 rounded-lg overflow-x-auto mb-6;
   }
 
   .post-content code {
-    @apply bg-muted px-1.5 py-0.5 rounded text-accent;
+    @apply bg-muted px-2 py-1 rounded text-accent;
   }
 
   .post-content pre code {

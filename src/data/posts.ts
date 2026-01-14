@@ -4302,10 +4302,10 @@ Luego preguntas específicas como:
 ];
 
 export const categories = {
-  impuestos: { label: 'Impuestos', color: 'bg-amber-500/20 text-amber-400' },
-  internacional: { label: 'Internacional', color: 'bg-cyan-500/20 text-cyan-400' },
-  gastos: { label: 'Gastos', color: 'bg-emerald-500/20 text-emerald-400' },
-  cotizacion: { label: 'Cotización', color: 'bg-violet-500/20 text-violet-400' }
+  impuestos: { label: 'Impuestos', color: 'bg-amber-100 text-amber-900 dark:bg-amber-500/20 dark:text-amber-400 font-semibold' },
+  internacional: { label: 'Internacional', color: 'bg-cyan-100 text-cyan-900 dark:bg-cyan-500/20 dark:text-cyan-400 font-semibold' },
+  gastos: { label: 'Gastos', color: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-500/20 dark:text-emerald-400 font-semibold' },
+  cotizacion: { label: 'Cotización', color: 'bg-violet-100 text-violet-900 dark:bg-violet-500/20 dark:text-violet-400 font-semibold' }
 };
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
