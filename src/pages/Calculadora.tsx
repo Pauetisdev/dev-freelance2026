@@ -7,7 +7,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
-import { AdPlaceholder } from '@/components/AdPlaceholder';
 import {
   Accordion,
   AccordionContent,
@@ -412,13 +411,6 @@ const Calculadora = () => {
                 </CardContent>
               </Card>
               </div>
-
-              {/* Columna derecha: Ad vertical alineado con desglose */}
-              <div className="hidden lg:block">
-                <div className="sticky top-6">
-                  <AdPlaceholder size="336x450" />
-                </div>
-              </div>
             </div>
           )}
 
@@ -514,11 +506,6 @@ const Calculadora = () => {
                   Este cálculo es <strong>orientativo</strong>. No incluye IVA, retenciones de clientes, situaciones fiscales especiales, ni deducciones adicionales. Consulta siempre con un asesor fiscal profesional para tu caso concreto.
                 </AlertDescription>
               </Alert>
-
-              {/* Ad final */}
-              <div className="flex justify-center">
-                <AdPlaceholder size="728x90" />
-              </div>
             </div>
           )}
         </div>

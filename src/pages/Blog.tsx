@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Layout } from '@/components/Layout';
 import { PostCard } from '@/components/PostCard';
-import { AdPlaceholder } from '@/components/AdPlaceholder';
 import { Button } from '@/components/ui/button';
 import { posts, categories } from '@/data/posts';
 
@@ -51,16 +50,8 @@ const Blog = () => {
 
           {/* Posts Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredPosts.map((post, index) => (
-              <>
-                <PostCard key={post.id} post={post} />
-                {/* Ad every 3 posts */}
-                {(index + 1) % 3 === 0 && index !== filteredPosts.length - 1 && (
-                  <div key={`ad-${index}`} className="col-span-1 md:col-span-2 lg:col-span-3 flex justify-center py-4">
-                    <AdPlaceholder size="728x90" />
-                  </div>
-                )}
-              </>
+            {filteredPosts.map((post) => (
+              <PostCard key={post.id} post={post} />
             ))}
           </div>
 

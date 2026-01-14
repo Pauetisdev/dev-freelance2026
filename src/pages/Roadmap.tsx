@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { CheckCircle2, Rocket, Target, TrendingUp, Sparkles } from 'lucide-react';
 import { posts } from '@/data/posts';
-import { AdPlaceholder } from '@/components/AdPlaceholder';
 
 const Roadmap = () => {
   // Organizar posts por niveles
@@ -75,16 +74,6 @@ const Roadmap = () => {
               como desarrollador freelance en España. Desde el alta hasta la optimización avanzada.
             </p>
           </div>
-          
-          {/* Espacio para anuncio superior derecha (300x250) */}
-          <div className="hidden lg:block">
-            <AdPlaceholder size="300x250" />
-          </div>
-        </div>
-
-        {/* Anuncio horizontal superior móvil (320x100) */}
-        <div className="lg:hidden mb-8">
-          <AdPlaceholder size="320x100" />
         </div>
 
         {/* Timeline con espacios para anuncios */}
@@ -172,13 +161,6 @@ const Roadmap = () => {
                     ))}
                   </div>
                 </div>
-
-                {/* Espacio para anuncio entre niveles (728x90 desktop, 320x100 móvil) */}
-                {index < roadmapLevels.length - 1 && (
-                  <div className="my-12 flex justify-center">
-                    <AdPlaceholder size="728x90" />
-                  </div>
-                )}
               </div>
             );
           })}
@@ -209,16 +191,6 @@ const Roadmap = () => {
               </Link>
             </div>
           </div>
-
-          {/* Espacio para anuncio inferior derecha (300x600) */}
-          <div className="hidden lg:block">
-            <AdPlaceholder size="300x600" />
-          </div>
-        </div>
-
-        {/* Anuncio final móvil */}
-        <div className="lg:hidden mt-8">
-          <AdPlaceholder size="320x100" />
         </div>
       </div>
     </Layout>

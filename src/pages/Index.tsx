@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Calculator, TrendingUp, Shield } from 'lucide-react';
 import { Layout } from '@/components/Layout';
 import { PostCard } from '@/components/PostCard';
-import { AdPlaceholder } from '@/components/AdPlaceholder';
 import { Button } from '@/components/ui/button';
 import { Helmet } from 'react-helmet-async';
 import { posts } from '@/data/posts';
@@ -141,13 +140,6 @@ const Index = () => {
               <PostCard key={post.id} post={post} />
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* AdSense Placeholder */}
-      <section className="py-8">
-        <div className="container mx-auto px-4 flex justify-center">
-          <AdPlaceholder size="728x90" />
         </div>
       </section>
     </Layout>

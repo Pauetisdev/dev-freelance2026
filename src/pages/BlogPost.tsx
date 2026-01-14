@@ -3,7 +3,6 @@ import { Calendar, Clock, ExternalLink } from 'lucide-react';
 import { Layout } from '@/components/Layout';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { PostCard } from '@/components/PostCard';
-import { AdPlaceholder } from '@/components/AdPlaceholder';
 import { Badge } from '@/components/ui/badge';
 import { getPostBySlug, getRelatedPosts, categories } from '@/data/posts';
 import { Helmet } from 'react-helmet-async';
@@ -79,7 +78,7 @@ const BlogPost = () => {
             ]} 
           />
 
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8">
+          <div className="max-w-4xl mx-auto">
             {/* Main Content */}
             <div>
               {/* Header */}
@@ -140,19 +139,7 @@ const BlogPost = () => {
                   </ul>
                 </section>
               )}
-
-              {/* Bottom Ad */}
-              <div className="mt-8 flex justify-center">
-                <AdPlaceholder size="728x90" />
-              </div>
             </div>
-
-            {/* Sidebar */}
-            <aside className="hidden lg:block">
-              <div className="sticky top-24">
-                <AdPlaceholder size="300x600" />
-              </div>
-            </aside>
           </div>
 
           {/* Related Posts - Full Width */}
