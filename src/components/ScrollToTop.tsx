@@ -7,31 +7,17 @@ export function ScrollToTop() {
   useEffect(() => {
     window.scrollTo(0, 0);
     
-    // Forzar tracking de GTM en navegación cliente
-    if (typeof window !== 'undefined') {
-      // Esperar a que el DOM se actualice
+    // Tracking para navegación cliente (SPA)
+    if (typeof window !== 'undefined' && window.dataLayer) {
+      // Esperar a que el DOM y título se actualicen
       setTimeout(() => {
-        // Método 1: Push a dataLayer con configuración completa
-        if (window.dataLayer) {
-          window.dataLayer.push({
-            event: 'pageview',
-            page: {
-              path: pathname,
-              title: document.title,
-              url: window.location.href
-            }
-          });
-        }
-        
-        // Método 2: Disparar evento de historial para GTM
-        if (window.gtag) {
-          window.gtag('event', 'page_view', {
-            page_path: pathname,
-            page_title: document.title,
-            page_location: window.location.href
-          });
-        }
-      }, 100);
+        // Enviar evento de historial a GTM
+        window.dataLayer.push({
+          event: 'virtualPageview',
+          virtualPageURL: pathname,
+          virtualPageTitle: document.title
+        });
+      }, 200);
     }
   }, [pathname]);
 
