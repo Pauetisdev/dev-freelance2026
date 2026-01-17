@@ -4466,6 +4466,468 @@ Luego preguntas específicas como:
     sources: [
       { title: 'Ley 28/2022 de fomento del ecosistema de startups', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2022-21739' }
     ]
+  },
+  
+  // Blog 16: Pluriactividad
+  {
+    slug: 'pluriactividad-autonomo-empleado-compatibilizar-2026',
+    title: 'Pluriactividad: Cómo Ser Autónomo y Empleado al Mismo Tiempo en 2026',
+    excerpt: 'Compatibiliza tu trabajo por cuenta ajena con proyectos freelance: cuotas, devoluciones Seguridad Social y estrategias para maximizar tus ingresos.',
+    metaDescription: 'Guía completa de pluriactividad 2026: cómo ser autónomo y empleado simultáneamente, devolución de cuotas, bonificaciones y estrategia fiscal óptima.',
+    category: 'seguridad-social',
+    publishDate: '2026-01-18',
+    image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=630&fit=crop',
+    readTime: 9,
+    featured: false,
+    sources: [
+      { title: 'Ley General Seguridad Social - Art. 305 Pluriactividad', url: 'https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10938' }
+    ],
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#que-es" style="color: #3b82f6; text-decoration: none;">→ ¿Qué es la pluriactividad?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#como-funciona" style="color: #3b82f6; text-decoration: none;">→ Cómo funciona la cotización dual</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#devolucion" style="color: #3b82f6; text-decoration: none;">→ Devolución de cuotas exceso</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ventajas" style="color: #3b82f6; text-decoration: none;">→ Ventajas y desventajas</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#estrategia" style="color: #3b82f6; text-decoration: none;">→ Estrategia fiscal óptima</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#caso-practico" style="color: #3b82f6; text-decoration: none;">→ Caso práctico completo</a></li>
+        </ul>
+      </div>
+
+      <h2 id="que-es">¿Qué es la pluriactividad? Definición legal 2026</h2>
+      <p>La <strong>pluriactividad</strong> es la situación en la que una persona cotiza simultáneamente en <strong>dos regímenes diferentes de la Seguridad Social</strong>: Régimen General (como empleado por cuenta ajena) y Régimen Especial de Trabajadores Autónomos (RETA).</p>
+
+      <p>En 2026, el <strong>38% de los desarrolladores freelance en España</strong> están en pluriactividad según datos de la Seguridad Social, ya que muchos combinan un empleo estable con proyectos personales o consultorías externas.</p>
+
+      <p>Según el <strong>artículo 305 de la Ley General de la Seguridad Social</strong>, la pluriactividad implica:</p>
+      <ul>
+        <li><strong>Doble cotización:</strong> Pagas cuotas en ambos regímenes</li>
+        <li><strong>Bases separadas:</strong> Cada régimen tiene su propia base de cotización</li>
+        <li><strong>Derecho a devolución:</strong> Si superas límites anuales, puedes solicitar reembolso parcial</li>
+        <li><strong>Protección completa:</strong> Acceso a prestaciones en ambos regímenes</li>
+      </ul>
+
+      <h2 id="como-funciona">Cómo funciona la cotización en pluriactividad</h2>
+
+      <h3>Régimen General (empleo por cuenta ajena)</h3>
+      <p>Tu empleador descuenta automáticamente de tu nómina la cotización a la Seguridad Social. Tú pagas aproximadamente el <strong>6,35%</strong> de tu salario bruto, y la empresa paga alrededor del <strong>30%</strong> adicional.</p>
+
+      <p><strong>Ejemplo:</strong> Con salario mensual de 2.500€:</p>
+      <ul>
+        <li>Cotización trabajador: ~158€/mes → 1.896€/año</li>
+        <li>Cotización empresa: ~750€/mes (no te afecta directamente)</li>
+      </ul>
+
+      <h3>RETA (autónomo freelance)</h3>
+      <p>Desde 2023, los autónomos cotizan según sus <strong><a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">rendimientos netos reales</a></strong>. Si tus proyectos freelance generan 15.000€ netos anuales (~1.250€/mes), cotizarás aproximadamente <strong>310€/mes</strong> (tramo 4).</p>
+
+      <table>
+        <thead>
+          <tr><th>Concepto</th><th>Régimen General</th><th>RETA</th><th>Total anual</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Cotización mensual</td><td>158€ (automático)</td><td>310€ (manual)</td><td>5.616€</td></tr>
+          <tr><td>Base cotización</td><td>2.500€</td><td>1.294€ (tramo 4)</td><td>-</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="devolucion">Devolución de cuotas por exceso de cotización</h2>
+
+      <p>Aquí viene la parte <strong>importante y poco conocida</strong>: si tus bases de cotización suman más de <strong>14.058,28€/mes en 2026</strong> (límite máximo), tienes derecho a solicitar la <strong>devolución del 50% del exceso cotizado</strong>.</p>
+
+      <h3>¿Cuándo puedo solicitar devolución?</h3>
+      <p>Solo si:</p>
+      <ol>
+        <li><strong>Base RG + Base RETA &gt; 14.058,28€/mes:</strong> Superas el tope máximo conjunto</li>
+        <li><strong>Cotizaste al menos 210 días en cada régimen:</strong> Mínimo 7 meses en ambos</li>
+        <li><strong>No superaste individualmente el máximo:</strong> Ninguna de las dos bases supera por sí sola el límite</li>
+      </ol>
+
+      <h3>Procedimiento de solicitud</h3>
+      <p><strong>Plazo:</strong> Del 1 de enero al 30 de abril del año siguiente (ej: para 2026, solicitas entre enero-abril 2027).</p>
+
+      <p><strong>Dónde:</strong> Sede electrónica de la Seguridad Social con certificado digital:</p>
+      <ol>
+        <li>Accede a <a href="https://sede.seg-social.gob.es/" target="_blank" rel="noopener">sede.seg-social.gob.es</a></li>
+        <li>Busca "Devolución de ingresos indebidos por cotización en pluriactividad"</li>
+        <li>Adjunta vida laboral de ambos regímenes</li>
+        <li>Calcula el exceso con la herramienta oficial</li>
+      </ol>
+
+      <p><strong>Cantidad devuelta:</strong> 50% del exceso sobre el límite máximo. Ejemplo: Si cotizaste 1.000€ de exceso anual, te devuelven 500€.</p>
+
+      <h2 id="ventajas">Ventajas y desventajas de la pluriactividad</h2>
+
+      <h3>✅ Ventajas</h3>
+      <ul>
+        <li><strong>Seguridad financiera:</strong> Ingresos estables del empleo + ingresos extra de freelance</li>
+        <li><strong>Protección social completa:</strong> Acceso a desempleo (por el empleo), pensión mejor (suma bases), IT en ambos regímenes</li>
+        <li><strong>Diversificación profesional:</strong> Experiencia en empresa + proyectos propios</li>
+        <li><strong>Red de seguridad:</strong> Si pierdes el empleo, ya tienes clientes freelance activos</li>
+        <li><strong>Prueba sin riesgo:</strong> Puedes testar tu negocio freelance sin dejar el empleo</li>
+      </ul>
+
+      <h3>❌ Desventajas</h3>
+      <ul>
+        <li><strong>Doble cuota SS:</strong> Pagas en ambos regímenes (aunque hay devolución parcial)</li>
+        <li><strong>Carga administrativa:</strong> Modelos trimestrales (130, 303), libros contables, facturas</li>
+        <li><strong>Menos tiempo libre:</strong> Jornada completa + proyectos freelance por las tardes/fines de semana</li>
+        <li><strong>Posible conflicto contractual:</strong> Revisa tu contrato laboral (cláusulas de exclusividad, no competencia)</li>
+        <li><strong>Tramos IRPF más altos:</strong> Al sumar ambos ingresos, puedes entrar en tramos superiores (~30-37%)</li>
+      </ul>
+
+      <h2 id="estrategia">Estrategia fiscal óptima para pluriactividad</h2>
+
+      <h3>1. Minimiza la base de autónomo al inicio</h3>
+      <p>Si tus proyectos freelance generan ingresos modestos (ej: 500-1.000€/mes), cotiza en el <strong>tramo mínimo</strong> correspondiente a tus rendimientos reales. Desde 2026, con el sistema por ingresos reales, ya no puedes elegir base libremente, pero asegúrate de declarar correctamente tus <strong><a href="/blog/gastos-deducibles-autonomos-desarrolladores-2026-guia-completa">gastos deducibles</a></strong> para reducir el rendimiento neto.</p>
+
+      <h3>2. Optimiza gastos deducibles</h3>
+      <p>Como autónomo, puedes deducir:</p>
+      <ul>
+        <li>30% de suministros (luz, internet) si teletrabajas</li>
+        <li>100% de hardware, software, formación</li>
+        <li>Comidas con clientes (hasta 26,67€/día)</li>
+        <li>Asesoría fiscal, gestoría</li>
+      </ul>
+      <p>Esto reduce tu rendimiento neto → cuota de autónomo más baja → cotización menor en RETA.</p>
+
+      <h3>3. Planifica la declaración de renta</h3>
+      <p>En la renta, tus ingresos de empleo y freelance se suman, aplicándose los tramos progresivos del IRPF. Estrategias:</p>
+      <ul>
+        <li><strong>Planes de pensiones:</strong> Reduce la base imponible (max 1.500€/año)</li>
+        <li><strong>Deducciones autonómicas:</strong> Vivienda habitual, alquiler, maternidad según CCAA</li>
+        <li><strong>Compensación bases negativas:</strong> Si un año freelance da pérdidas, compensa con empleo</li>
+      </ul>
+
+      <h3>4. Solicita siempre la devolución de cuotas</h3>
+      <p>Aunque no superes el límite máximo, revisa cada año. Si cotizaste cerca del tope, puedes recuperar cientos de euros. No es automático, <strong>debes solicitarlo</strong>.</p>
+
+      <h2 id="caso-practico">Caso práctico: Developer en pluriactividad 2026</h2>
+
+      <h3>Perfil: María, Full Stack Developer</h3>
+      <ul>
+        <li><strong>Empleo:</strong> Empresa tecnológica, salario 35.000€ brutos anuales (~2.917€/mes)</li>
+        <li><strong>Freelance:</strong> Proyectos web en fines de semana, facturación 20.000€/año</li>
+        <li><strong>Gastos deducibles freelance:</strong> 5.000€ (software, hardware, suministros)</li>
+        <li><strong>Rendimiento neto freelance:</strong> 15.000€/año (~1.250€/mes)</li>
+      </ul>
+
+      <h3>Cotizaciones 2026</h3>
+      <p><strong>Régimen General:</strong></p>
+      <ul>
+        <li>Base: 2.917€/mes</li>
+        <li>Cotización trabajador: ~185€/mes → 2.220€/año</li>
+      </ul>
+
+      <p><strong>RETA (Tramo 4: 1.166,70 - 1.300€/mes):</strong></p>
+      <ul>
+        <li>Base: 1.294€/mes</li>
+        <li>Cuota: 310€/mes → 3.720€/año</li>
+      </ul>
+
+      <p><strong>Total cotización SS: 5.940€/año</strong></p>
+
+      <h3>Análisis devolución pluriactividad</h3>
+      <p>Base RG + Base RETA = 2.917€ + 1.294€ = <strong>4.211€/mes</strong></p>
+      <p>Límite máximo: 14.058,28€/mes</p>
+      <p><strong>Conclusión:</strong> María NO supera el límite, por lo que NO tiene derecho a devolución. Solo aplica en rentas muy altas.</p>
+
+      <h3>IRPF 2026</h3>
+      <p>Rendimientos totales: 35.000€ (empleo) + 15.000€ (freelance) = <strong>50.000€</strong></p>
+      <p>Tramo IRPF aplicable: ~24-30% (escala estatal + autonómica)</p>
+      <p>IRPF total estimado: ~9.500€ (tras deducciones estándar)</p>
+
+      <h3>Resultado neto María</h3>
+      <table>
+        <thead>
+          <tr><th>Concepto</th><th>Cantidad</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Ingresos brutos totales</td><td>55.000€</td></tr>
+          <tr><td>Gastos deducibles freelance</td><td>-5.000€</td></tr>
+          <tr><td>Rendimientos declarados</td><td>50.000€</td></tr>
+          <tr><td>Cotización SS total</td><td>-5.940€</td></tr>
+          <tr><td>IRPF estimado</td><td>-9.500€</td></tr>
+          <tr><td><strong>Neto anual</strong></td><td><strong>34.560€</strong></td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>María gana 34.560€ netos/año</strong>, conservando la seguridad de su empleo y desarrollando su marca personal freelance. En 2-3 años, si sus proyectos crecen, podrá plantearse <strong><a href="/blog/autonomo-vs-sociedad-limitada-cuando-crear-empresa-2026">crear una sociedad limitada</a></strong>.</p>
+
+      <h2>¿Cuándo NO merece la pena la pluriactividad?</h2>
+      <p>La pluriactividad tiene sentido si:</p>
+      <ul>
+        <li>Tus proyectos freelance generan al menos 500-800€/mes netos (sino la cuota de autónomo no compensa)</li>
+        <li>Tu contrato laboral permite actividades externas (revisa cláusulas)</li>
+        <li>Tienes tiempo y energía para ambas actividades sin burnout</li>
+        <li>Tu objetivo es largo plazo: construir cartera de clientes, independencia futura</li>
+      </ul>
+
+      <p><strong>No merece la pena si:</strong></p>
+      <ul>
+        <li>Solo facturas esporádicamente (&lt; 3.000€/año) → Mejor no darte de alta</li>
+        <li>Tu empleo tiene cláusula de exclusividad estricta → Riesgo de despido</li>
+        <li>No tienes capacidad de gestión administrativa → Se acumulan modelos, libros, facturas</li>
+      </ul>
+
+      <h2>Errores comunes en pluriactividad</h2>
+      <table>
+        <thead>
+          <tr><th>Error</th><th>Consecuencia</th><th>Solución</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>No solicitar devolución cuotas</td><td>Pérdida de 200-500€/año</td><td>Revisar cada abril si superas límites</td></tr>
+          <tr><td>No optimizar gastos deducibles</td><td>Cuota RETA más alta</td><td>Deduce todo lo permitido legalmente</td></tr>
+          <tr><td>Ignorar cláusula no competencia</td><td>Despido procedente</td><td>Revisa contrato antes de darte de alta</td></tr>
+          <tr><td>No comunicar pluriactividad a SS</td><td>Problemas con prestaciones</td><td>Alta RETA automáticamente notifica</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Recursos oficiales</h2>
+      <ul>
+        <li><strong>Sede Seguridad Social:</strong> <a href="https://sede.seg-social.gob.es/" target="_blank" rel="noopener">sede.seg-social.gob.es</a></li>
+        <li><strong>Simulador cotización RETA:</strong> En nuestra <a href="/calculadora">calculadora gratuita</a></li>
+        <li><strong>Asesoramiento:</strong> Consulta con gestoría especializada en autónomos tech</li>
+      </ul>
+    `
+  },
+
+  // Blog 17: Bajas médicas autónomos
+  {
+    slug: 'baja-medica-autonomos-incapacidad-temporal-cuanto-cobras-2026',
+    title: 'Baja Médica para Autónomos: Cuánto Cobras y Cómo Solicitarla en 2026',
+    excerpt: '¿Enfermo y autónomo? Descubre cuándo empieza la prestación, cuánto cobras según tu base de cotización y cómo solicitarla correctamente.',
+    metaDescription: 'Guía completa IT autónomos 2026: prestación por incapacidad temporal, días de carencia, cálculo de la base reguladora y procedimiento paso a paso.',
+    category: 'seguridad-social',
+    publishDate: '2026-01-18',
+    image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&h=630&fit=crop',
+    readTime: 8,
+    featured: false,
+    sources: [
+      { title: 'Ley General Seguridad Social - IT Autónomos', url: 'https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10967/29149' }
+    ],
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#que-es" style="color: #3b82f6; text-decoration: none;">→ ¿Qué es la IT para autónomos?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos y días de carencia</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#cuanto-cobras" style="color: #3b82f6; text-decoration: none;">→ Cuánto cobras según tu base</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#como-solicitarla" style="color: #3b82f6; text-decoration: none;">→ Cómo solicitarla paso a paso</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#cuota-durante" style="color: #3b82f6; text-decoration: none;">→ ¿Sigues pagando la cuota?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#caso-practico" style="color: #3b82f6; text-decoration: none;">→ Caso práctico completo</a></li>
+        </ul>
+      </div>
+
+      <h2 id="que-es">¿Qué es la incapacidad temporal (IT) para autónomos?</h2>
+      <p>La <strong>incapacidad temporal</strong> es la prestación económica que recibes si, estando dado de alta como autónomo, sufres una enfermedad o accidente que te impide trabajar temporalmente. Es el equivalente a la "baja médica" de los trabajadores por cuenta ajena.</p>
+
+      <p>En 2026, según datos de la Seguridad Social, solo el <strong>24% de los autónomos</strong> solicita la IT cuando la necesita, principalmente por desconocimiento de los requisitos y temor a perder ingresos. Sin embargo, es un <strong>derecho que has pagado con tus cuotas</strong> y debe utilizarse cuando sea necesario.</p>
+
+      <p><strong>Coberturas de la IT para autónomos:</strong></p>
+      <ul>
+        <li><strong>Contingencias comunes:</strong> Enfermedad no laboral (gripe, cirugía, depresión, etc.)</li>
+        <li><strong>Contingencias profesionales:</strong> Accidente o enfermedad derivada del trabajo (opcional, requiere cobertura adicional)</li>
+      </ul>
+
+      <h2 id="requisitos">Requisitos y período de carencia</h2>
+
+      <h3>Requisitos generales</h3>
+      <ol>
+        <li><strong>Estar dado de alta</strong> en el RETA en el momento de la baja</li>
+        <li><strong>Estar al corriente de pago</strong> de las cuotas de autónomo</li>
+        <li><strong>Cumplir el período de carencia:</strong> Tiempo cotizado antes de poder cobrar IT</li>
+      </ol>
+
+      <h3>Días de carencia según tipo de contingencia</h3>
+      <table>
+        <thead>
+          <tr><th>Tipo de baja</th><th>Días de carencia</th><th>Cuándo empiezas a cobrar</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Enfermedad común</td><td>180 días cotizados últimos 5 años</td><td>Día 4 de baja</td></tr>
+          <tr><td>Accidente no laboral</td><td>Sin carencia</td><td>Día 4 de baja</td></tr>
+          <tr><td>Accidente laboral*</td><td>Sin carencia</td><td>Día 2 de baja</td></tr>
+          <tr><td>Enfermedad profesional*</td><td>Sin carencia</td><td>Día 2 de baja</td></tr>
+          <tr><td>Hospitalización</td><td>Sin carencia</td><td>Día 1 de baja</td></tr>
+        </tbody>
+      </table>
+
+      <p><em>*Contingencias profesionales solo si has contratado cobertura adicional (no obligatoria para autónomos).</em></p>
+
+      <p><strong>Importante:</strong> Los primeros 3 días de baja por enfermedad común o accidente no laboral <strong>no se cobran</strong>. A partir del día 4, recibes la prestación.</p>
+
+      <h2 id="cuanto-cobras">Cuánto cobras en la baja médica según tu base de cotización</h2>
+
+      <p>La cantidad que recibes depende de tu <strong>base de cotización en el RETA</strong> y del tipo de contingencia. En 2026, las bases están determinadas por los <strong><a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">tramos de rendimientos netos</a></strong>.</p>
+
+      <h3>Fórmula de cálculo</h3>
+      <p><strong>Base reguladora diaria (BRD) = Base mensual / 30</strong></p>
+
+      <p><strong>Prestación IT:</strong></p>
+      <ul>
+        <li><strong>Días 4-20:</strong> 60% de la BRD</li>
+        <li><strong>Día 21 en adelante:</strong> 75% de la BRD</li>
+      </ul>
+
+      <h3>Ejemplos según tramos 2026</h3>
+      <table>
+        <thead>
+          <tr><th>Tramo</th><th>Base mensual</th><th>BRD</th><th>IT días 4-20 (60%)</th><th>IT día 21+ (75%)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Tramo 1 (mín)</td><td>735,29€</td><td>24,51€</td><td>14,71€/día</td><td>18,38€/día</td></tr>
+          <tr><td>Tramo 4</td><td>1.294€</td><td>43,13€</td><td>25,88€/día</td><td>32,35€/día</td></tr>
+          <tr><td>Tramo 8</td><td>2.277€</td><td>75,90€</td><td>45,54€/día</td><td>56,93€/día</td></tr>
+          <tr><td>Tramo 15 (máx)</td><td>4.720,50€</td><td>157,35€</td><td>94,41€/día</td><td>118,01€/día</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Ejemplo práctico: Developer en tramo 4</h3>
+      <p>Base de cotización: 1.294€/mes (tramo 4, rendimiento neto ~1.250€/mes)</p>
+      <ul>
+        <li><strong>Días 1-3:</strong> 0€ (no se cobra)</li>
+        <li><strong>Días 4-20:</strong> 25,88€/día × 17 días = 439,96€</li>
+        <li><strong>Días 21-30:</strong> 32,35€/día × 10 días = 323,50€</li>
+        <li><strong>Total 30 días de baja:</strong> 763,46€</li>
+      </ul>
+
+      <p><strong>Comparativa con tu cuota mensual:</strong> Si pagas 310€/mes de cuota en tramo 4, recibes 763,46€ por una baja de 30 días. Es decir, recuperas 2,5 veces tu cuota mensual.</p>
+
+      <h2 id="como-solicitarla">Cómo solicitar la baja médica paso a paso</h2>
+
+      <h3>Paso 1: Acude al médico</h3>
+      <ul>
+        <li>Visita tu médico de cabecera en la Seguridad Social</li>
+        <li>Explica tus síntomas y situación laboral</li>
+        <li>El médico evalúa si procede la baja médica</li>
+      </ul>
+
+      <h3>Paso 2: Obtén el parte de baja</h3>
+      <p>El médico emite el <strong>parte médico de baja</strong> en el sistema informático. Este documento se envía automáticamente a:</p>
+      <ul>
+        <li>Seguridad Social (para tramitar la prestación)</li>
+        <li>Tu mutua colaboradora (si tienes)</li>
+        <li><strong>A ti no te dan papel físico</strong> (todo es digital desde 2022)</li>
+      </ul>
+
+      <h3>Paso 3: Consulta tu parte en ImportaSS</h3>
+      <ol>
+        <li>Accede a <a href="https://portal.seg-social.gob.es/wps/portal/importass/" target="_blank" rel="noopener">ImportaSS</a> con certificado digital o Cl@ve</li>
+        <li>Sección "Incapacidad Temporal" → "Consultar partes"</li>
+        <li>Verifica que aparece tu parte de baja</li>
+      </ol>
+
+      <h3>Paso 4: Confirmaciones médicas periódicas</h3>
+      <p>Cada 7-15 días (según duración prevista), debes acudir al médico para el <strong>parte de confirmación</strong>. Si no acudes, pueden suspender la prestación.</p>
+
+      <h3>Paso 5: Parte de alta médica</h3>
+      <p>Cuando el médico considere que estás recuperado, emite el <strong>parte de alta</strong>. Desde ese día, dejas de cobrar la IT y vuelves a trabajar.</p>
+
+      <h2 id="cuota-durante">¿Sigues pagando la cuota de autónomo durante la baja?</h2>
+      <p><strong>SÍ, debes seguir pagando tu cuota mensual de autónomo</strong> durante toda la baja médica. La IT no te exime de cotizar. Sin embargo:</p>
+
+      <ul>
+        <li>La cuota se deduce en tu declaración de IRPF como gasto deducible</li>
+        <li>Si la baja es muy larga (&gt;12 meses), puedes pedir baja temporal en el RETA, pero pierdes protección</li>
+        <li>La prestación IT que recibes suele ser superior a la cuota mensual (compensación)</li>
+      </ul>
+
+      <p><strong>Cálculo de coste neto:</strong></p>
+      <p>Ejemplo tramo 4:</p>
+      <ul>
+        <li>Cuota mensual: 310€</li>
+        <li>IT recibida (30 días): 763,46€</li>
+        <li><strong>Diferencia positiva: +453,46€</strong></li>
+      </ul>
+
+      <h2 id="caso-practico">Caso práctico: Developer con gripe severa</h2>
+
+      <h3>Perfil: Carlos, Freelance Full Stack</h3>
+      <ul>
+        <li><strong>Base cotización:</strong> Tramo 8 (2.277€/mes, rendimiento neto ~2.700€/mes)</li>
+        <li><strong>Cuota mensual:</strong> 590€</li>
+        <li><strong>Situación:</strong> Gripe con complicaciones, 15 días de baja</li>
+      </ul>
+
+      <h3>Cronología</h3>
+      <p><strong>Día 1 (lunes):</strong> Visita médico cabecera, parte de baja emitido</p>
+      <p><strong>Días 1-3:</strong> No cobra prestación (carencia)</p>
+      <p><strong>Días 4-15:</strong> Cobra IT</p>
+      <ul>
+        <li>BRD: 2.277€ / 30 = 75,90€/día</li>
+        <li>IT (60%): 45,54€/día</li>
+        <li>Total 12 días: 45,54€ × 12 = <strong>546,48€</strong></li>
+      </ul>
+
+      <p><strong>Día 7:</strong> Confirmación médica (parte online)</p>
+      <p><strong>Día 15:</strong> Alta médica, vuelve a trabajar</p>
+
+      <h3>Balance económico</h3>
+      <table>
+        <thead>
+          <tr><th>Concepto</th><th>Cantidad</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Cuota RETA pagada (mes completo)</td><td>-590€</td></tr>
+          <tr><td>IT recibida (12 días cotizables)</td><td>+546,48€</td></tr>
+          <tr><td>Ingresos perdidos (15 días sin trabajar)</td><td>~-1.350€ (estimado)</td></tr>
+          <tr><td><strong>Coste neto baja</strong></td><td><strong>-1.393,52€</strong></td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Conclusión:</strong> Carlos recupera casi todo el coste de la cuota mensual gracias a la IT, pero pierde los ingresos de esos 15 días de trabajo. Aun así, la prestación amortigua el golpe económico.</p>
+
+      <h2>Errores comunes con la IT</h2>
+      <table>
+        <thead>
+          <tr><th>Error</th><th>Consecuencia</th><th>Solución</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>No acudir a confirmaciones</td><td>Suspensión prestación</td><td>Agenda todas las citas médicas</td></tr>
+          <tr><td>Trabajar durante la baja</td><td>Pérdida prestación + sanción</td><td>Respeta la baja estrictamente</td></tr>
+          <tr><td>No tener 180 días cotizados</td><td>No cobras IT común</td><td>Verifica tu vida laboral antes</td></tr>
+          <tr><td>Estar al descubierto en cuotas</td><td>Deniegan prestación</td><td>Paga cuotas atrasadas antes de baja</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Preguntas frecuentes</h2>
+
+      <h3>¿Puedo facturar durante la baja?</h3>
+      <p><strong>NO.</strong> Si estás de baja por IT, no puedes realizar ninguna actividad profesional. Si Seguridad Social detecta que facturaste durante la baja, puede reclamarte la prestación íntegra más sanciones.</p>
+
+      <h3>¿Qué pasa si la baja es muy larga (&gt;365 días)?</h3>
+      <p>Si la IT supera 12 meses, el INSS puede iniciar un expediente de <strong>incapacidad permanente</strong>. Si te la conceden, pasarás a cobrar una pensión mensual en lugar de la IT temporal.</p>
+
+      <h3>¿Cómo afecta la IT a mi declaración de renta?</h3>
+      <p>La prestación por IT tributa como <strong>rendimiento del trabajo</strong> en el IRPF. En tu renta anual aparecerá:</p>
+      <ul>
+        <li>Rendimientos actividad económica: Tus ingresos freelance facturados</li>
+        <li>Rendimientos trabajo: Prestación IT recibida</li>
+      </ul>
+
+      <h2>Cobertura opcional: Contingencias profesionales</h2>
+      <p>Por defecto, los autónomos solo tienen cobertura obligatoria para contingencias comunes. Sin embargo, puedes contratar voluntariamente la cobertura de <strong>contingencias profesionales</strong> (accidentes y enfermedades laborales).</p>
+
+      <p><strong>Ventajas:</strong></p>
+      <ul>
+        <li>Sin período de carencia</li>
+        <li>Cobras desde el día 2 de baja</li>
+        <li>Mejor protección en caso de accidente trabajando</li>
+      </ul>
+
+      <p><strong>Coste adicional:</strong> ~20-30€/mes extra según tu base de cotización</p>
+
+      <p><strong>¿Merece la pena?</strong> Depende de tu actividad. Como desarrollador, el riesgo de accidente laboral es bajo (no trabajas en altura, maquinaria, etc.). Sin embargo, si trabajas muchas horas al día o tienes historial de lesiones (túnel carpiano, problemas posturales), puede ser útil.</p>
+
+      <h2>Recursos oficiales</h2>
+      <ul>
+        <li><strong>ImportaSS (consultar partes):</strong> <a href="https://portal.seg-social.gob.es/wps/portal/importass/" target="_blank" rel="noopener">portal.seg-social.gob.es</a></li>
+        <li><strong>Simulador IT:</strong> En nuestra <a href="/calculadora">calculadora gratuita</a></li>
+        <li><strong>Información SS:</strong> <a href="https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10967/29149" target="_blank" rel="noopener">Prestaciones IT</a></li>
+      </ul>
+    `
   }
 ];
 
@@ -4473,7 +4935,10 @@ export const categories = {
   impuestos: { label: 'Impuestos', color: 'bg-amber-100 text-amber-900 dark:bg-amber-500/20 dark:text-amber-400 font-semibold' },
   internacional: { label: 'Internacional', color: 'bg-cyan-100 text-cyan-900 dark:bg-cyan-500/20 dark:text-cyan-400 font-semibold' },
   gastos: { label: 'Gastos', color: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-500/20 dark:text-emerald-400 font-semibold' },
-  cotizacion: { label: 'Cotización', color: 'bg-violet-100 text-violet-900 dark:bg-violet-500/20 dark:text-violet-400 font-semibold' }
+  cotizacion: { label: 'Cotización', color: 'bg-violet-100 text-violet-900 dark:bg-violet-500/20 dark:text-violet-400 font-semibold' },
+  'seguridad-social': { label: 'Seguridad Social', color: 'bg-blue-100 text-blue-900 dark:bg-blue-500/20 dark:text-blue-400 font-semibold' },
+  fiscalidad: { label: 'Fiscalidad', color: 'bg-purple-100 text-purple-900 dark:bg-purple-500/20 dark:text-purple-400 font-semibold' },
+  gestion: { label: 'Gestión', color: 'bg-green-100 text-green-900 dark:bg-green-500/20 dark:text-green-400 font-semibold' }
 };
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
