@@ -32,13 +32,13 @@ export const posts: BlogPost[] = [
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
         <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
-        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
-          <li style="margin-bottom: 0.5rem;"><a href="#por-que-vital" style="color: #3b82f6; text-decoration: none;">→ ¿Por qué es vital entender el IVA internacional?</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#paises-fuera-ue" style="color: #3b82f6; text-decoration: none;">→ Operaciones con países fuera de la UE</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#intracomunitarias" style="color: #3b82f6; text-decoration: none;">→ Operaciones intracomunitarias</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#vies" style="color: #3b82f6; text-decoration: none;">→ Sistema VIES: Verificación del VAT</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#roi-modelo-349" style="color: #3b82f6; text-decoration: none;">→ Registro ROI y Modelo 349</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#errores" style="color: #3b82f6; text-decoration: none;">→ Errores comunes y sanciones</a></li>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; color: #475569;">
+          <li style="margin-bottom: 0.5rem;">¿Por qué es vital entender el IVA internacional?</li>
+          <li style="margin-bottom: 0.5rem;">Operaciones con países fuera de la UE</li>
+          <li style="margin-bottom: 0.5rem;">Operaciones intracomunitarias</li>
+          <li style="margin-bottom: 0.5rem;">Sistema VIES: Verificación del VAT</li>
+          <li style="margin-bottom: 0.5rem;">Registro ROI y Modelo 349</li>
+          <li style="margin-bottom: 0.5rem;">Errores comunes y sanciones</li>
         </ul>
       </div>
 
@@ -211,13 +211,13 @@ export const posts: BlogPost[] = [
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
         <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
-        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
-          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos legales para deducibilidad</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#hardware" style="color: #3b82f6; text-decoration: none;">→ Hardware y equipamiento tecnológico</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#software" style="color: #3b82f6; text-decoration: none;">→ Software y servicios cloud</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#suministros" style="color: #3b82f6; text-decoration: none;">→ Suministros del hogar (30% deducible)</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#formacion" style="color: #3b82f6; text-decoration: none;">→ Formación profesional</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#caso-practico" style="color: #3b82f6; text-decoration: none;">→ Caso práctico con ahorro real</a></li>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; color: #475569;">
+          <li style="margin-bottom: 0.5rem;">Requisitos legales para deducibilidad</li>
+          <li style="margin-bottom: 0.5rem;">Hardware y equipamiento tecnológico</li>
+          <li style="margin-bottom: 0.5rem;">Software y servicios cloud</li>
+          <li style="margin-bottom: 0.5rem;">Suministros del hogar (30% deducible)</li>
+          <li style="margin-bottom: 0.5rem;">Formación profesional</li>
+          <li style="margin-bottom: 0.5rem;">Caso práctico con ahorro real</li>
         </ul>
       </div>
 
@@ -1122,13 +1122,13 @@ TOTAL A PAGAR: 3.420€
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
         <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
-        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
-          <li style="margin-bottom: 0.5rem;"><a href="#sistema" style="color: #3b82f6; text-decoration: none;">→ Cómo funciona el sistema por ingresos reales</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#tabla-tramos" style="color: #3b82f6; text-decoration: none;">→ Tabla completa de 15 tramos</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#calculo" style="color: #3b82f6; text-decoration: none;">→ Cálculo del rendimiento neto</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#cambios" style="color: #3b82f6; text-decoration: none;">→ Cambios de tramo y estrategia</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#regularizacion" style="color: #3b82f6; text-decoration: none;">→ Regularización anual</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#estrategias" style="color: #3b82f6; text-decoration: none;">→ Estrategias avanzadas</a></li>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; color: #475569;">
+          <li style="margin-bottom: 0.5rem;">Cómo funciona el sistema por ingresos reales</li>
+          <li style="margin-bottom: 0.5rem;">Tabla completa de 15 tramos</li>
+          <li style="margin-bottom: 0.5rem;">Cálculo del rendimiento neto</li>
+          <li style="margin-bottom: 0.5rem;">Cambios de tramo y estrategia</li>
+          <li style="margin-bottom: 0.5rem;">Regularización anual</li>
+          <li style="margin-bottom: 0.5rem;">Estrategias avanzadas</li>
         </ul>
       </div>
 
@@ -3705,13 +3705,13 @@ Luego preguntas específicas como:
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
         <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
-        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
-          <li style="margin-bottom: 0.5rem;"><a href="#que-es" style="color: #3b82f6; text-decoration: none;">→ Qué es y por qué es obligatoria</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos técnicos</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#software" style="color: #3b82f6; text-decoration: none;">→ Software compatible</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#certificado" style="color: #3b82f6; text-decoration: none;">→ Certificado digital</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#plazos" style="color: #3b82f6; text-decoration: none;">→ Plazos de implementación</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#transicion" style="color: #3b82f6; text-decoration: none;">→ Proceso de transición</a></li>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; color: #475569;">
+          <li style="margin-bottom: 0.5rem;">Qué es y por qué es obligatoria</li>
+          <li style="margin-bottom: 0.5rem;">Requisitos técnicos</li>
+          <li style="margin-bottom: 0.5rem;">Software compatible</li>
+          <li style="margin-bottom: 0.5rem;">Certificado digital</li>
+          <li style="margin-bottom: 0.5rem;">Plazos de implementación</li>
+          <li style="margin-bottom: 0.5rem;">Proceso de transición</li>
         </ul>
       </div>
 
@@ -4157,13 +4157,13 @@ Luego preguntas específicas como:
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
         <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
-        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
-          <li style="margin-bottom: 0.5rem;"><a href="#que-es" style="color: #3b82f6; text-decoration: none;">→ Qué es la Ley de Startups</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos para el 15%</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#comparativa" style="color: #3b82f6; text-decoration: none;">→ Comparativa fiscal</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#solicitar" style="color: #3b82f6; text-decoration: none;">→ Cómo solicitarlo</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#incompatibilidades" style="color: #3b82f6; text-decoration: none;">→ Incompatibilidades</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#casos" style="color: #3b82f6; text-decoration: none;">→ Casos prácticos</a></li>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; color: #475569;">
+          <li style="margin-bottom: 0.5rem;">Qué es la Ley de Startups</li>
+          <li style="margin-bottom: 0.5rem;">Requisitos para el 15%</li>
+          <li style="margin-bottom: 0.5rem;">Comparativa fiscal</li>
+          <li style="margin-bottom: 0.5rem;">Cómo solicitarlo</li>
+          <li style="margin-bottom: 0.5rem;">Incompatibilidades</li>
+          <li style="margin-bottom: 0.5rem;">Casos prácticos</li>
         </ul>
       </div>
 
