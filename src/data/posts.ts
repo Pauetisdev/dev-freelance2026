@@ -179,8 +179,7 @@ export const posts: BlogPost[] = [
       </ol>
     `,
     sources: [
-      { title: 'Sistema VIES - Comisión Europea', url: 'https://ec.europa.eu/taxation_customs/vies/' },
-      { title: 'Modelo 349 - Información AEAT', url: 'https://sede.agenciatributaria.gob.es/Sede/iva.html' }
+      { title: 'Sistema VIES - Comisión Europea', url: 'https://ec.europa.eu/taxation_customs/vies/' }
     ]
   },
 
@@ -481,8 +480,7 @@ export const posts: BlogPost[] = [
       <p><strong>Sanción por no justificar:</strong> Si Hacienda requiere justificante y no lo aportas, puede rechazar la deducción + recargo 15% + intereses moratorios (4,0625% en 2026).</p>
     `,
     sources: [
-      { title: 'Ley 35/2006 IRPF - Gastos deducibles', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764' },
-      { title: 'RD 634/2015 - Tablas amortización oficial', url: 'https://www.boe.es/eli/es/rd/2015/07/10/634' }
+      { title: 'Ley 35/2006 IRPF - Gastos deducibles', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764' }
     ]
   },
 
@@ -736,8 +734,7 @@ Uso: 100% profesional (desarrollo software)
       </ol>
     `,
     sources: [
-      { title: 'Real Decreto 634/2015 - Tablas oficiales amortización', url: 'https://www.boe.es/eli/es/rd/2015/07/10/634' },
-      { title: 'Ley 35/2006 IRPF - Gastos deducibles', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764' }
+      { title: 'Real Decreto 634/2015 - Tablas oficiales amortización', url: 'https://www.boe.es/eli/es/rd/2015/07/10/634' }
     ]
   },
 
@@ -1081,8 +1078,7 @@ TOTAL A PAGAR: 3.420€
       </ul>
     `,
     sources: [
-      { title: 'Modelo 036 Alta censal - Sede Electrónica AEAT', url: 'https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G322.shtml' },
-      { title: 'Alta autónomos RETA - Seguridad Social', url: 'https://www.seg-social.es/wps/portal/wss/internet/Trabajadores' }
+      { title: 'Modelo 036 Alta censal - Sede Electrónica AEAT', url: 'https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G322.shtml' }
     ]
   },
 
@@ -1328,9 +1324,7 @@ TOTAL A PAGAR: 3.420€
       <p>Recuerda: una cotización adecuada no solo evita sanciones, también mejora tu futura pensión y prestaciones por cese de actividad.</p>
     `,
     sources: [
-      { title: 'Real Decreto-ley 13/2022 cotización autónomos - BOE', url: 'https://www.boe.es/buscar/doc.php?id=BOE-A-2022-12482' },
-      { title: 'Cotización trabajadores autónomos - Seguridad Social', url: 'https://www.seg-social.es/wps/portal/wss/internet/Trabajadores' },
-      { title: 'Tesorería General Seguridad Social', url: 'https://www.seg-social.es/wps/portal/wss/internet/Inicio' }
+      { title: 'Real Decreto-ley 13/2022 cotización autónomos', url: 'https://www.boe.es/buscar/doc.php?id=BOE-A-2022-12482' }
     ]
   },
 
@@ -1687,8 +1681,7 @@ TOTAL A PAGAR: 3.420€
       <p>Recuerda: <strong>esta decisión no es irreversible</strong>, pero cambiar tiene costes. Tómate tu tiempo, haz números con tus datos reales, y consulta con un profesional antes de dar el salto.</p>
     `,
     sources: [
-      { title: 'Impuesto sobre Sociedades - AEAT', url: 'https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G324.shtml' },
-      { title: 'IRPF - Agencia Tributaria', url: 'https://sede.agenciatributaria.gob.es/Sede/irpf.html' }
+      { title: 'Impuesto sobre Sociedades - AEAT', url: 'https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G324.shtml' }
     ]
   },
 
@@ -1902,7 +1895,6 @@ Resultado Renta:    1.500€ a pagar</code></pre>
       <p><strong>Clave:</strong> El 130 te ayuda a repartir el IRPF en pagos trimestrales. Automatiza reservando el 20% de cada factura, usa software de contabilidad y presenta siempre en plazo.</p>
     `,
     sources: [
-      { title: 'Información IRPF - Agencia Tributaria', url: 'https://sede.agenciatributaria.gob.es/Sede/irpf.html' },
       { title: 'Ley 35/2006 IRPF - BOE', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764&tn=1&p=20240703#a110' }
     ]
   },
@@ -2469,7 +2461,6 @@ Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
       <p>Recuerda: <strong>no deduzcas más de lo razonable</strong>. Una inspección de Hacienda puede cuestionarte si los porcentajes son desproporcionados. La clave está en el equilibrio entre optimizar fiscalmente y mantener una posición defendible.</p>
     `,
     sources: [
-      { title: 'Ley 6/2017 Reformas Trabajo Autónomo - BOE', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2017-12207' },
       { title: 'Consulta Vinculante V0673-18 - DGT', url: 'https://petete.tributos.hacienda.gob.es/consultas/' }
     ]
   },
@@ -2915,9 +2906,7 @@ async function verificarVAT(vatNumber, countryCode) {
       </ul>
     `,
     sources: [
-      { title: 'Sistema VIES - Validación VAT Comisión Europea', url: 'https://ec.europa.eu/taxation_customs/vies/' },
-      { title: 'IVA Intracomunitario - Agencia Tributaria', url: 'https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G322.shtml' },
-      { title: 'Tipos de cambio BCE', url: 'https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html' }
+      { title: 'Sistema VIES - Validación VAT Comisión Europea', url: 'https://ec.europa.eu/taxation_customs/vies/' }
     ]
   },
 
@@ -3527,9 +3516,7 @@ A los 65 años:
       </ul>
     `,
     sources: [
-      { title: 'Cotización trabajadores autónomos - Seguridad Social', url: 'https://www.seg-social.es/wps/portal/wss/internet/Trabajadores' },
-      { title: 'Real Decreto-ley 13/2022 sistema cotización - BOE', url: 'https://www.boe.es/buscar/doc.php?id=BOE-A-2022-12482' },
-      { title: 'Import@ss - Portal Seguridad Social', url: 'https://portal.seg-social.gob.es/wps/portal/importass' }
+      { title: 'Real Decreto-ley 13/2022 sistema cotización', url: 'https://www.boe.es/buscar/doc.php?id=BOE-A-2022-12482' }
     ]
   },
 
@@ -3664,8 +3651,7 @@ Luego preguntas específicas como:
       </ul>
     `,
     sources: [
-      { title: 'Holded - Gestión contable con IA', url: 'https://www.holded.com/' },
-      { title: 'n8n - Automatización workflows open source', url: 'https://n8n.io/' }
+      { title: 'Ley 35/2006 IRPF - BOE', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764' }
     ]
   },
   {
