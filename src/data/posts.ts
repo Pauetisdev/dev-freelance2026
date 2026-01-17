@@ -1681,7 +1681,7 @@ TOTAL A PAGAR: 3.420€
       <p>Recuerda: <strong>esta decisión no es irreversible</strong>, pero cambiar tiene costes. Tómate tu tiempo, haz números con tus datos reales, y consulta con un profesional antes de dar el salto.</p>
     `,
     sources: [
-      { title: 'Impuesto sobre Sociedades - AEAT', url: 'https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G324.shtml' }
+      { title: 'Impuesto sobre Sociedades - AEAT', url: 'https://sede.agenciatributaria.gob.es/Sede/impuestos-tasas/impuesto-sobre-sociedades.html' }
     ]
   },
 
