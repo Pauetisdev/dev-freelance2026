@@ -3813,15 +3813,6 @@ Luego preguntas específicas como:
       </div>
 
       <h2 id="que-es">¿Qué es la factura electrónica y por qué es obligatoria?</h2>
-          <li>Requisitos técnicos y formatos admitidos</li>
-          <li>Software compatible y soluciones técnicas</li>
-          <li>Certificado digital: Obtención y uso</li>
-          <li>Plazos de implementación obligatoria</li>
-          <li>Proceso paso a paso de transición</li>
-        </ul>
-      </div>
-
-      <h2>¿Qué es la factura electrónica y por qué es obligatoria?</h2>
       <p>La <strong>Ley 18/2022 de Creación y Crecimiento de Empresas</strong> (Ley Crea y Crece) estableció en su artículo 12 la obligatoriedad de la facturación electrónica para <strong>todas las transacciones entre empresas y autónomos</strong> (B2B). Esta medida, que entró en vigor progresivamente desde 2023, busca combatir el fraude fiscal, reducir la economía sumergida y facilitar la digitalización del tejido empresarial español.</p>
 
       <p>Como desarrollador freelance, esto te afecta directamente: <strong>todas las facturas que emitas a empresas deben ser electrónicas</strong>, cumplir con estándares técnicos específicos y estar firmadas digitalmente. Las facturas en PDF enviadas por email ya no son suficientes para cumplir con la normativa.</p>
@@ -4480,7 +4471,7 @@ Luego preguntas específicas como:
     readTime: 9,
     featured: false,
     sources: [
-      { title: 'Ley General Seguridad Social - Art. 305 Pluriactividad', url: 'https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10938' }
+      { title: 'Ley General Seguridad Social - BOE', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724' }
     ],
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
@@ -4683,18 +4674,12 @@ Luego preguntas específicas como:
           <tr><td>No comunicar pluriactividad a SS</td><td>Problemas con prestaciones</td><td>Alta RETA automáticamente notifica</td></tr>
         </tbody>
       </table>
-
-      <h2>Recursos oficiales</h2>
-      <ul>
-        <li><strong>Sede Seguridad Social:</strong> <a href="https://sede.seg-social.gob.es/" target="_blank" rel="noopener">sede.seg-social.gob.es</a></li>
-        <li><strong>Simulador cotización RETA:</strong> En nuestra <a href="/calculadora">calculadora gratuita</a></li>
-        <li><strong>Asesoramiento:</strong> Consulta con gestoría especializada en autónomos tech</li>
-      </ul>
     `
   },
 
   // Blog 17: Bajas médicas autónomos
   {
+    id: '17',
     slug: 'baja-medica-autonomos-incapacidad-temporal-cuanto-cobras-2026',
     title: 'Baja Médica para Autónomos: Cuánto Cobras y Cómo Solicitarla en 2026',
     excerpt: '¿Enfermo y autónomo? Descubre cuándo empieza la prestación, cuánto cobras según tu base de cotización y cómo solicitarla correctamente.',
@@ -4704,9 +4689,7 @@ Luego preguntas específicas como:
     image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&h=630&fit=crop',
     readTime: 8,
     featured: false,
-    sources: [
-      { title: 'Ley General Seguridad Social - IT Autónomos', url: 'https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10967/29149' }
-    ],
+    sources: [],
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
         <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
@@ -4920,14 +4903,835 @@ Luego preguntas específicas como:
       <p><strong>Coste adicional:</strong> ~20-30€/mes extra según tu base de cotización</p>
 
       <p><strong>¿Merece la pena?</strong> Depende de tu actividad. Como desarrollador, el riesgo de accidente laboral es bajo (no trabajas en altura, maquinaria, etc.). Sin embargo, si trabajas muchas horas al día o tienes historial de lesiones (túnel carpiano, problemas posturales), puede ser útil.</p>
+    `
+  },
+  {
+    id: '19',
+    slug: 'cese-actividad-paro-autonomos-prestacion-requisitos-2026',
+    title: 'Cese de Actividad: El Paro para Autónomos - Requisitos y Cuantías 2026',
+    metaDescription: 'Guía completa sobre la prestación por cese de actividad para autónomos en 2026: requisitos, cuánto cobras, cómo solicitarla y errores comunes a evitar.',
+    category: 'cotizacion',
+    publishDate: '2026-01-17',
+    readTime: 8,
+    featured: false,
+    excerpt: 'Los autónomos también tienen derecho a una prestación similar al paro. Descubre si cumples los requisitos, cuánto cobrarías y cómo solicitar la prestación por cese de actividad.',
+    image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1200&auto=format&fit=crop',
+    imageAlt: 'Persiana metálica bajada de un local comercial, símbolo de cierre de negocio y cese de actividad',
+    sources: [],
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#que-es" style="color: #3b82f6; text-decoration: none;">→ Qué es y quién tiene derecho</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos para cobrar la prestación</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#cuanto-cobras" style="color: #3b82f6; text-decoration: none;">→ Cuánto cobras y durante cuánto tiempo</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#como-solicitarla" style="color: #3b82f6; text-decoration: none;">→ Cómo solicitar el cese de actividad</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#compatibilidades" style="color: #3b82f6; text-decoration: none;">→ Compatibilidades y obligaciones</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#errores-comunes" style="color: #3b82f6; text-decoration: none;">→ Errores comunes a evitar</a></li>
+        </ul>
+      </div>
 
-      <h2>Recursos oficiales</h2>
+      <h2 id="que-es">¿Qué es la prestación por cese de actividad?</h2>
+      
+      <p>La <strong>prestación por cese de actividad</strong> es el equivalente al paro para autónomos. Desde 2010, los trabajadores por cuenta propia que cotizan al RETA tienen derecho a una protección económica cuando cesan involuntariamente su actividad por motivos económicos, técnicos, productivos o de fuerza mayor.</p>
+
+      <p><strong>Importante:</strong> No es un "paro voluntario". No puedes simplemente decidir dejar de trabajar y cobrar la prestación. Debe existir una causa justificada que demuestre que el cese es involuntario y te impide continuar con tu actividad.</p>
+
+      <h3>¿Quién tiene derecho?</h3>
+      <p>Todos los autónomos dados de alta en el RETA que coticen por <strong>cese de actividad</strong>. Esta cotización es:</p>
       <ul>
-        <li><strong>ImportaSS (consultar partes):</strong> <a href="https://portal.seg-social.gob.es/wps/portal/importass/" target="_blank" rel="noopener">portal.seg-social.gob.es</a></li>
-        <li><strong>Simulador IT:</strong> En nuestra <a href="/calculadora">calculadora gratuita</a></li>
-        <li><strong>Información SS:</strong> <a href="https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10967/29149" target="_blank" rel="noopener">Prestaciones IT</a></li>
+        <li><strong>Obligatoria</strong> desde noviembre 2010 para nuevas altas</li>
+        <li><strong>Voluntaria</strong> para quienes ya eran autónomos antes de esa fecha</li>
+        <li><strong>Coste adicional:</strong> 0,7% sobre la base de cotización (~2-5€/mes según tu base)</li>
+      </ul>
+
+      <p>Si no tienes contratada esta cobertura, <strong>no tendrás derecho a la prestación</strong> aunque cumplas todos los demás requisitos.</p>
+
+      <h2 id="requisitos">Requisitos para cobrar la prestación por cese de actividad</h2>
+
+      <p>Para acceder a la prestación debes cumplir <strong>todos</strong> estos requisitos simultáneamente:</p>
+
+      <table>
+        <thead>
+          <tr><th>Requisito</th><th>Detalles</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1. Cotización mínima</strong></td>
+            <td>Haber cotizado al menos <strong>12 meses</strong> por cese de actividad en los 24 meses anteriores al cese</td>
+          </tr>
+          <tr>
+            <td><strong>2. Cese involuntario</strong></td>
+            <td>El cese debe ser por <strong>motivos económicos, técnicos, productivos o fuerza mayor</strong>. Debes demostrarlo</td>
+          </tr>
+          <tr>
+            <td><strong>3. Pérdidas económicas</strong></td>
+            <td>Rendimientos netos inferiores al <strong>SMI</strong> (1.134€/mes en 2026) durante al menos 1 trimestre completo</td>
+          </tr>
+          <tr>
+            <td><strong>4. Alta y al corriente</strong></td>
+            <td>Estar dado de alta en el RETA y al corriente de pago de cotizaciones</td>
+          </tr>
+          <tr>
+            <td><strong>5. Solicitud en plazo</strong></td>
+            <td>Solicitar la prestación en el <strong>mes siguiente</strong> al cese de actividad (baja en RETA)</td>
+          </tr>
+          <tr>
+            <td><strong>6. No haber rechazado trabajos</strong></td>
+            <td>No haber rechazado oferta de trabajo adecuada ni haberte negado a participar en acciones de formación</td>
+          </tr>
+          <tr>
+            <td><strong>7. Inscripción como demandante</strong></td>
+            <td>Suscribir compromiso de actividad e inscribirte como demandante de empleo</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Causas válidas de cese involuntario</h3>
+      <p>La Seguridad Social reconoce estas situaciones como cese involuntario:</p>
+
+      <ul>
+        <li><strong>Pérdida de clientes principales:</strong> Pérdida de al menos el 75% de ingresos por cese de relaciones con clientes principales (debes demostrarlo con facturas)</li>
+        <li><strong>Fuerza mayor:</strong> Incendio, inundación, catástrofe natural que destruya tu negocio o local</li>
+        <li><strong>Pérdidas económicas sostenidas:</strong> Rendimientos netos por debajo del SMI durante un trimestre completo</li>
+        <li><strong>Violencia de género:</strong> Si eres víctima de violencia de género y el cese te protege</li>
+        <li><strong>Divorcio/separación:</strong> Si trabajabas en negocio familiar y te ves obligado a cesar por divorcio</li>
+      </ul>
+
+      <p><strong>No son causas válidas:</strong></p>
+      <ul>
+        <li>Decidir cambiar de actividad o profesión</li>
+        <li>Querer emprender otro negocio</li>
+        <li>Cansancio o falta de motivación</li>
+        <li>Emigrar a otro país voluntariamente</li>
+      </ul>
+
+      <h2 id="cuanto-cobras">¿Cuánto cobras y durante cuánto tiempo?</h2>
+
+      <h3>Cuantía de la prestación</h3>
+      <p>La cantidad mensual que recibes es el <strong>70% de tu base reguladora</strong>, con límites máximos y mínimos:</p>
+
+      <table>
+        <thead>
+          <tr><th>Situación</th><th>Cuantía</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Sin hijos a cargo</strong></td>
+            <td>70% base reguladora (mín: 794€/mes, máx: 1.587€/mes en 2026)</td>
+          </tr>
+          <tr>
+            <td><strong>Con 1 hijo a cargo</strong></td>
+            <td>80% base reguladora (mín: 794€/mes, máx: 1.587€/mes)</td>
+          </tr>
+          <tr>
+            <td><strong>Con 2+ hijos a cargo</strong></td>
+            <td>80% base reguladora (mín: 794€/mes, máx: 1.587€/mes)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Base reguladora:</strong> Promedio de tus bases de cotización durante los 12 meses anteriores al cese.</p>
+
+      <h3>Duración de la prestación</h3>
+      <p>El tiempo que cobras depende de cuánto hayas cotizado por cese de actividad:</p>
+
+      <table>
+        <thead>
+          <tr><th>Meses cotizados</th><th>Duración prestación</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>12-17 meses</td><td><strong>4 meses</strong></td></tr>
+          <tr><td>18-23 meses</td><td><strong>6 meses</strong></td></tr>
+          <tr><td>24-29 meses</td><td><strong>8 meses</strong></td></tr>
+          <tr><td>30-35 meses</td><td><strong>10 meses</strong></td></tr>
+          <tr><td>36-41 meses</td><td><strong>12 meses</strong></td></tr>
+          <tr><td>42-47 meses</td><td><strong>16 meses</strong></td></tr>
+          <tr><td>48+ meses</td><td><strong>24 meses (máximo)</strong></td></tr>
+        </tbody>
+      </table>
+
+      <h3>Caso práctico: Carlos, desarrollador freelance</h3>
+      <p><strong>Situación:</strong></p>
+      <ul>
+        <li>Carlos lleva 5 años como autónomo cotizando por cese de actividad</li>
+        <li>Base de cotización: 1.700€/mes (tramo 8)</li>
+        <li>Pierde su cliente principal que representaba el 80% de sus ingresos</li>
+        <li>Sin hijos a cargo</li>
+      </ul>
+
+      <p><strong>Cálculo:</strong></p>
+      <ul>
+        <li>Base reguladora: 1.700€ (promedio últimos 12 meses)</li>
+        <li>Cuantía: 70% × 1.700€ = <strong>1.190€/mes</strong></li>
+        <li>Duración: 48+ meses cotizados = <strong>24 meses</strong></li>
+        <li><strong>Total a percibir:</strong> 1.190€/mes durante 24 meses = 28.560€</li>
+      </ul>
+
+      <p>Durante estos 24 meses, Carlos puede buscar nuevos clientes, reorientar su actividad o incluso formarse en nuevas tecnologías mientras mantiene un ingreso.</p>
+
+      <h2 id="como-solicitarla">Cómo solicitar la prestación por cese de actividad</h2>
+
+      <h3>Paso 1: Darte de baja en el RETA</h3>
+      <p>Presenta el <strong>modelo 036/037</strong> en Hacienda para cesar la actividad. Esto genera la baja automática en el RETA.</p>
+
+      <h3>Paso 2: Reunir documentación</h3>
+      <p>Necesitarás:</p>
+      <ul>
+        <li><strong>Modelo oficial de solicitud</strong> (lo proporciona la Seguridad Social)</li>
+        <li><strong>DNI/NIE</strong></li>
+        <li><strong>Justificación del cese involuntario:</strong>
+          <ul>
+            <li>Si es pérdida de cliente: carta del cliente comunicando fin de relación + facturas que demuestren que representaba >75% ingresos</li>
+            <li>Si es fuerza mayor: certificados, fotos, informes oficiales (bomberos, policía, etc.)</li>
+            <li>Si es pérdidas económicas: declaraciones trimestrales (modelos 130/303) que demuestren rendimientos < SMI</li>
+          </ul>
+        </li>
+        <li><strong>Últimas declaraciones fiscales</strong> (modelos 130, 303, declaración IRPF)</li>
+        <li><strong>Certificado de estar al corriente</strong> de pago con Seguridad Social</li>
+      </ul>
+
+      <h3>Paso 3: Presentar solicitud</h3>
+      <p>Tienes <strong>15 días hábiles</strong> desde la baja en el RETA para presentar la solicitud. Puedes hacerlo:</p>
+      <ul>
+        <li><strong>Online:</strong> A través de la sede electrónica de la Seguridad Social (necesitas certificado digital o Cl@ve)</li>
+        <li><strong>Presencialmente:</strong> En cualquier oficina del SEPE o Seguridad Social (pide cita previa)</li>
+      </ul>
+
+      <h3>Paso 4: Inscribirte como demandante de empleo</h3>
+      <p>Debes inscribirte en el SEPE como demandante de empleo y firmar el <strong>compromiso de actividad</strong>. Esto implica:</p>
+      <ul>
+        <li>Aceptar ofertas de empleo acordes a tu formación</li>
+        <li>Participar en acciones formativas si te lo requieren</li>
+        <li>Renovar la demanda periódicamente (cada 3 meses)</li>
+      </ul>
+
+      <h3>Paso 5: Esperar resolución</h3>
+      <p>La Seguridad Social tiene <strong>3 meses</strong> para resolver. Si es favorable, el primer pago llega al mes siguiente de la resolución.</p>
+
+      <h2 id="compatibilidades">Compatibilidades y obligaciones mientras cobras</h2>
+
+      <h3>¿Puedo trabajar mientras cobro la prestación?</h3>
+      <p><strong>NO puedes volver a darte de alta como autónomo</strong> mientras cobras la prestación (perderías el derecho). Sin embargo:</p>
+      <ul>
+        <li><strong>SÍ puedes trabajar por cuenta ajena</strong> (contrato laboral). En este caso, la prestación se suspende mientras dure el contrato y se reanuda después si aún te queda periodo pendiente</li>
+        <li><strong>NO puedes facturar como autónomo</strong> bajo ningún concepto</li>
+        <li><strong>SÍ puedes formarte</strong> en cursos, bootcamps, etc.</li>
+      </ul>
+
+      <h3>Obligaciones durante la prestación</h3>
+      <ul>
+        <li><strong>Renovar la demanda de empleo</strong> cada 3 meses en el SEPE</li>
+        <li><strong>Comunicar cualquier cambio:</strong> Si empiezas a trabajar, te mudas al extranjero, etc.</li>
+        <li><strong>Aceptar ofertas adecuadas:</strong> Si rechazas una oferta de trabajo acorde a tu perfil sin justificación, pierdes la prestación</li>
+        <li><strong>No puedes salir de España >15 días</strong> sin autorización (excepto por formación o búsqueda de empleo justificada)</li>
+      </ul>
+
+      <h3>¿Y si quiero volver a ser autónomo?</h3>
+      <p>Puedes hacerlo, pero <strong>perderás la prestación</strong>. Sin embargo, existe una ventaja:</p>
+      <ul>
+        <li>Puedes solicitar el <strong>pago único</strong> del 40% de la prestación pendiente para invertirlo en tu nueva actividad</li>
+        <li>Ejemplo: Si te quedan 10 meses de prestación a 1.000€/mes (10.000€ totales), puedes recibir 4.000€ de golpe para invertir en tu nuevo negocio</li>
+      </ul>
+
+      <h2 id="errores-comunes">Errores comunes que te pueden denegar la prestación</h2>
+
+      <table>
+        <thead>
+          <tr><th>Error</th><th>Consecuencia</th><th>Cómo evitarlo</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>No tener contratada la cobertura de cese de actividad</td>
+            <td>No tienes derecho a la prestación</td>
+            <td>Verifica en tu vida laboral que cotizas por cese (aparece separado de la cuota ordinaria)</td>
+          </tr>
+          <tr>
+            <td>Darte de baja sin justificación del cese involuntario</td>
+            <td>Denegación por cese voluntario</td>
+            <td>Recopila documentación ANTES de darte de baja: cartas de clientes, facturas, etc.</td>
+          </tr>
+          <tr>
+            <td>Solicitar fuera de plazo (>15 días desde baja)</td>
+            <td>Pérdida de derecho a la prestación</td>
+            <td>Solicita INMEDIATAMENTE tras la baja en RETA, no esperes</td>
+          </tr>
+          <tr>
+            <td>No inscribirte como demandante de empleo</td>
+            <td>Suspensión o denegación de la prestación</td>
+            <td>Inscríbete en el SEPE el mismo día que solicitas la prestación</td>
+          </tr>
+          <tr>
+            <td>Seguir facturando "en B" mientras cobras</td>
+            <td>Devolución total + sanción + posible delito (fraude)</td>
+            <td>No facturen nada mientras cobras. Si quieres trabajar, hazlo por cuenta ajena</td>
+          </tr>
+          <tr>
+            <td>No renovar la demanda de empleo</td>
+            <td>Suspensión automática de la prestación</td>
+            <td>Pon alarma en el calendario para renovar cada 3 meses</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <p style="margin: 0; font-weight: 600; color: #92400e;">⚠️ Consejo importante</p>
+        <p style="margin: 0.5rem 0 0 0; color: #92400e;">Si estás considerando solicitar la prestación, consulta con tu <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">gestoría o asesor fiscal</a> ANTES de darte de baja. La documentación y justificación del cese involuntario es crítica - un error puede costarte meses de prestación (miles de euros). Muchas solicitudes se deniegan por falta de documentación o justificación insuficiente.</p>
+      </div>
+
+      <h3>Checklist antes de solicitar el cese de actividad:</h3>
+      <ul>
+        <li>✓ Verificar que cotizas por cese de actividad desde hace >12 meses</li>
+        <li>✓ Recopilar toda la documentación que justifica el cese involuntario</li>
+        <li>✓ Calcular cuánto cobrarías y durante cuánto tiempo (usa las tablas de arriba)</li>
+        <li>✓ Estar al corriente de pago con Seguridad Social e Hacienda</li>
+        <li>✓ Planificar el proceso: baja RETA → solicitud prestación (max 15 días) → inscripción SEPE</li>
+        <li>✓ Consultar con gestoría/asesor para revisar tu caso específico</li>
+        <li>✓ Tener plan B: ¿qué harás si te deniegan la prestación?</li>
+      </ul>
+    `,
+    
+  },
+  {
+    id: '20',
+    slug: 'planes-pensiones-autonomos-jubilacion-ahorro-fiscal-2026',
+    title: 'Planes de Pensiones para Autónomos: Jubilación y Ahorro Fiscal 2026',
+    metaDescription: 'Guía completa sobre planes de pensiones para autónomos: cómo funcionan, ventajas fiscales, límites de aportación, alternativas de ahorro y simulación de jubilación.',
+    category: 'impuestos',
+    publishDate: '2026-01-17',
+    readTime: 10,
+    featured: false,
+    excerpt: 'La pensión pública de los autónomos suele ser baja. Descubre cómo los planes de pensiones te ayudan a complementar tu jubilación y reducir tu factura fiscal ahora.',
+    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop',
+    imageAlt: 'Persona mayor feliz disfrutando de la jubilación en la naturaleza',
+      sources: [],
+    
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#por-que-necesitas" style="color: #3b82f6; text-decoration: none;">→ Por qué los autónomos necesitan un plan de pensiones</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ventajas-fiscales" style="color: #3b82f6; text-decoration: none;">→ Ventajas fiscales y límites de aportación</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#tipos-planes" style="color: #3b82f6; text-decoration: none;">→ Tipos de planes: individuales, empleo, PIAS</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#alternativas" style="color: #3b82f6; text-decoration: none;">→ Alternativas: fondos indexados, SIALP, inmuebles</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#simulacion" style="color: #3b82f6; text-decoration: none;">→ Simulación: cuánto necesitas ahorrar</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#estrategia" style="color: #3b82f6; text-decoration: none;">→ Estrategia recomendada según edad</a></li>
+        </ul>
+      </div>
+
+      <h2 id="por-que-necesitas">Por qué los autónomos necesitan un plan de pensiones</h2>
+      
+      <p>La <strong>pensión de jubilación de los autónomos suele ser significativamente inferior</strong> a la de los empleados por cuenta ajena. Esto se debe a dos factores principales:</p>
+
+      <ul>
+        <li><strong>Bases de cotización más bajas:</strong> Hasta 2023, muchos autónomos cotizaban por la base mínima (~1.000€/mes) para reducir costes. Con el nuevo sistema por <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">rendimientos netos</a>, esto está cambiando, pero sigue habiendo diferencias</li>
+        <li><strong>Periodos sin cotizar:</strong> Los autónomos suelen tener periodos de inactividad (entre proyectos, crisis económicas) donde no cotizan</li>
+      </ul>
+
+      <h3>Datos clave en 2026:</h3>
+      <table>
+        <thead>
+          <tr><th>Concepto</th><th>Empleado medio</th><th>Autónomo medio</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Pensión media mensual</strong></td><td>1.485€</td><td>957€</td></tr>
+          <tr><td><strong>Años cotizados promedio</strong></td><td>37 años</td><td>31 años</td></tr>
+          <tr><td><strong>Base de cotización media</strong></td><td>2.200€</td><td>1.450€</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>La brecha es real:</strong> Un autónomo cobra de media <strong>528€/mes menos</strong> de pensión que un asalariado. A lo largo de 25 años de jubilación, esto supone <strong>158.400€ menos</strong>.</p>
+
+      <p>Por eso, si eres autónomo y quieres mantener tu nivel de vida en la jubilación, necesitas <strong>complementar la pensión pública</strong> con ahorro privado.</p>
+
+      <h2 id="ventajas-fiscales">Ventajas fiscales de los planes de pensiones</h2>
+
+      <p>Los planes de pensiones tienen una <strong>doble ventaja</strong>: te ayudan a ahorrar para el futuro Y reducen tu factura fiscal ahora.</p>
+
+      <h3>Deducción en el IRPF</h3>
+      <p>Tus aportaciones al plan de pensiones <strong>reducen tu base imponible</strong> en el IRPF. Es decir, pagas menos impuestos.</p>
+
+      <p><strong>Límites de aportación en 2026:</strong></p>
+      <ul>
+        <li>Hasta <strong>1.500€/año</strong> (máximo general)</li>
+        <li>O el <strong>30% de tus rendimientos netos</strong> del trabajo/actividad económica (si es inferior a 1.500€)</li>
+      </ul>
+
+      <p><strong>Ejemplo práctico: Laura, diseñadora freelance</strong></p>
+      <ul>
+        <li>Rendimientos netos: 45.000€/año</li>
+        <li>Tramo IRPF marginal: 30%</li>
+        <li>Aporta 1.500€/año al plan de pensiones</li>
+      </ul>
+
+      <p><strong>Ahorro fiscal:</strong></p>
+      <ul>
+        <li>Base imponible original: 45.000€</li>
+        <li>Tras aportación plan: 45.000€ - 1.500€ = <strong>43.500€</strong></li>
+        <li>Ahorro en IRPF: 1.500€ × 30% = <strong>450€</strong></li>
+      </ul>
+
+      <p>Laura invierte 1.500€ pero "solo le cuesta" 1.050€ porque Hacienda le devuelve 450€ en la declaración de la Renta.</p>
+
+      <h3>¿Cuándo pagas impuestos?</h3>
+      <p>Los planes de pensiones aplican <strong>imposición diferida</strong>:</p>
+      <ul>
+        <li><strong>Ahora:</strong> Deduces las aportaciones (pagas menos IRPF)</li>
+        <li><strong>En la jubilación:</strong> Cuando rescates el plan, tributas como rendimientos del trabajo</li>
+      </ul>
+
+      <p><strong>Ventaja:</strong> En la jubilación, normalmente tu renta es inferior → tributas a tipo marginal más bajo. Además, si rescatas en forma de capital (todo de golpe), aplicas reducciones fiscales por aportaciones anteriores a 2007.</p>
+
+      <h2 id="tipos-planes">Tipos de planes de pensiones y alternativas</h2>
+
+      <h3>1. Plan de Pensiones Individual (PPI)</h3>
+      <p><strong>Para quién:</strong> Cualquier autónomo que quiera ahorrar para la jubilación con ventajas fiscales.</p>
+
+      <p><strong>Características:</strong></p>
+      <ul>
+        <li>Límite aportación: 1.500€/año deducibles en IRPF</li>
+        <li>Gestión: por entidades bancarias, aseguradoras, gestoras de fondos</li>
+        <li>Tipos: renta fija (conservador), mixto, renta variable (agresivo)</li>
+        <li>Comisiones: 0,5%-2% anual (elige bajo coste)</li>
+        <li>Liquidez: Baja (solo rescatable en jubilación, paro >12 meses, enfermedad grave, o >10 años desde aportación)</li>
+      </ul>
+
+      <p><strong>Mejores planes 2026 (bajo coste):</strong></p>
+      <table>
+        <thead>
+          <tr><th>Plan</th><th>Entidad</th><th>Comisión</th><th>Perfil</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Indexa Capital PP Cartera 90</td><td>Indexa Capital</td><td>0,45%</td><td>Agresivo (jóvenes)</td></tr>
+          <tr><td>MyInvestor Plan Naranja 75</td><td>MyInvestor</td><td>0,50%</td><td>Moderado-agresivo</td></tr>
+          <tr><td>Fondos DWS (varios)</td><td>DWS</td><td>0,60%-1%</td><td>Diversificados globales</td></tr>
+          <tr><td>Plan Pensiones Renta Fija Corto Plazo</td><td>Varios</td><td>0,30%-0,50%</td><td>Conservador (cerca jubilación)</td></tr>
+        </tbody>
+      </table>
+
+      <h3>2. Plan de Pensiones de Empleo (PPE)</h3>
+      <p><strong>Para quién:</strong> Autónomos societarios (SL) o autónomos con empleados.</p>
+
+      <p><strong>Ventajas adicionales:</strong></p>
+      <ul>
+        <li>Límite mayor: hasta <strong>8.500€/año</strong> deducibles (vs 1.500€ del individual)</li>
+        <li>Si eres autónomo societario, la empresa puede aportar y deducir como gasto</li>
+        <li>Puedes combinar PPE (8.500€) + PPI (1.500€) = <strong>10.000€/año deducibles</strong></li>
+      </ul>
+
+      <p><strong>Requisito:</strong> Debes constituirlo a través de tu SL o asociación profesional.</p>
+
+      <h3>3. PIAS (Plan Individual de Ahorro Sistemático)</h3>
+      <p><strong>Para quién:</strong> Autónomos que priorizan flexibilidad sobre deducción fiscal.</p>
+
+      <p><strong>Características:</strong></p>
+      <ul>
+        <li>NO deducible en IRPF (no reduces base imponible)</li>
+        <li>Pero: rendimientos exentos de IRPF si rescatas tras 5 años y >50 años edad</li>
+        <li>Mayor liquidez que planes de pensiones tradicionales</li>
+        <li>Límite aportación: 8.000€/año, máximo 240.000€ acumulado</li>
+      </ul>
+
+      <p><strong>¿Cuándo elegir PIAS vs Plan de Pensiones?</strong></p>
+      <ul>
+        <li>PIAS: Si necesitas flexibilidad, tienes rentas altas y ya agotaste límites de planes</li>
+        <li>Plan Pensiones: Si buscas deducción fiscal inmediata y no necesitas liquidez</li>
+      </ul>
+
+      <h2 id="alternativas">Alternativas a los planes de pensiones tradicionales</h2>
+
+      <p>Los planes de pensiones tienen <strong>limitaciones</strong>: baja liquidez, comisiones altas (en muchos casos), rentabilidad mediocre. Por eso, muchos autónomos diversifican con otras opciones:</p>
+
+      <h3>1. Fondos indexados (fuera de plan de pensiones)</h3>
+      <p><strong>Ventajas:</strong></p>
+      <ul>
+        <li>Comisiones bajas (0,10%-0,30% anual)</li>
+        <li>Liquidez total (puedes vender cuando quieras)</li>
+        <li>Rentabilidad histórica superior (S&P 500: ~10% anual promedio últimos 30 años)</li>
+      </ul>
+
+      <p><strong>Desventajas:</strong></p>
+      <ul>
+        <li>NO deducible en IRPF</li>
+        <li>Tributas por plusvalías al vender (19%-26% según importe)</li>
+      </ul>
+
+      <p><strong>Recomendados:</strong> Vanguard, iShares, Amundi ETFs sobre índices mundiales (MSCI World, S&P 500)</p>
+
+      <h3>2. Unit Linked / SIALP</h3>
+      <p>Seguros de ahorro que invierten en fondos. Fiscalidad favorable:</p>
+      <ul>
+        <li>Puedes traspasar entre fondos SIN tributar (diferimiento fiscal)</li>
+        <li>En caso de fallecimiento, beneficiarios reciben sin tributar en sucesiones (según comunidad autónoma)</li>
+        <li>Flexibilidad para rescate parcial</li>
+      </ul>
+
+      <p><strong>Inconveniente:</strong> Comisiones más altas que fondos indexados directos.</p>
+
+      <h3>3. Inversión inmobiliaria</h3>
+      <p>Comprar inmuebles para alquilar como complemento a la jubilación:</p>
+      <ul>
+        <li><strong>Ventaja:</strong> Rentas pasivas mensuales en la jubilación</li>
+        <li><strong>Desventaja:</strong> Requiere capital inicial elevado, gestión activa, no tan líquido</li>
+      </ul>
+
+      <h3>4. Cartera de dividendos (acciones)</h3>
+      <p>Invertir en empresas con dividendos crecientes (ej: Coca-Cola, Procter & Gamble):</p>
+      <ul>
+        <li>Ingresos pasivos recurrentes</li>
+        <li>Tributación favorable (19% primeros 6.000€ de dividendos)</li>
+        <li>Liquidez total</li>
+      </ul>
+
+      <h2 id="simulacion">Simulación: ¿Cuánto necesitas ahorrar para la jubilación?</h2>
+
+      <h3>Regla del 4%</h3>
+      <p>Método conservador: puedes retirar el <strong>4% anual</strong> de tu patrimonio invertido sin que se agote.</p>
+
+      <p><strong>Ejemplo: Carlos, 35 años, desarrollador freelance</strong></p>
+      <ul>
+        <li>Edad actual: 35 años</li>
+        <li>Edad jubilación: 67 años (32 años hasta jubilación)</li>
+        <li>Pensión pública estimada: 1.100€/mes</li>
+        <li>Gastos deseados en jubilación: 2.500€/mes</li>
+        <li>Déficit mensual: 2.500€ - 1.100€ = <strong>1.400€/mes</strong> (16.800€/año)</li>
+      </ul>
+
+      <p><strong>Patrimonio necesario (regla 4%):</strong></p>
+      <p>16.800€ / 0,04 = <strong>420.000€</strong></p>
+
+      <p><strong>Aportación mensual necesaria (rentabilidad 6% anual):</strong></p>
+      <p>Para acumular 420.000€ en 32 años a 6% anual: <strong>525€/mes</strong></p>
+
+      <h3>Comparación estrategias de ahorro:</h3>
+      <table>
+        <thead>
+          <tr><th>Estrategia</th><th>Aportación mensual</th><th>Deducción IRPF anual</th><th>Coste real mensual</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Solo Plan Pensiones (1.500€/año)</td>
+            <td>125€</td>
+            <td>450€ (tramo 30%)</td>
+            <td>88€</td>
+          </tr>
+          <tr>
+            <td>Plan Pensiones + Fondos indexados</td>
+            <td>125€ + 400€ = 525€</td>
+            <td>450€</td>
+            <td>488€</td>
+          </tr>
+          <tr>
+            <td>PPE (societario) + Fondos</td>
+            <td>708€ (8.500€ PPE) + 0€</td>
+            <td>2.550€ (tramo 30%)</td>
+            <td>495€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="estrategia">Estrategia recomendada según tu edad y situación</h2>
+
+      <h3>Si tienes 25-35 años (early career)</h3>
+      <p><strong>Prioridad:</strong> Crecimiento agresivo + máxima flexibilidad</p>
+      <ul>
+        <li>✓ Plan de Pensiones: 1.500€/año (125€/mes) → Deducción fiscal inmediata</li>
+        <li>✓ Fondos indexados globales: 300-500€/mes adicionales (liquidez total)</li>
+        <li>✓ Perfil: 90% renta variable (tienes tiempo para recuperar caídas)</li>
+        <li>✓ Total ahorro: 425-625€/mes</li>
+      </ul>
+
+      <h3>Si tienes 35-50 años (mid-career)</h3>
+      <p><strong>Prioridad:</strong> Acelerar ahorro + diversificación</p>
+      <ul>
+        <li>✓ Plan de Pensiones: 1.500€/año (deducción fiscal)</li>
+        <li>✓ Si tienes SL: considerar PPE para aumentar límite a 8.500€/año</li>
+        <li>✓ Fondos indexados: 500-800€/mes</li>
+        <li>✓ Perfil: 70% renta variable, 30% renta fija</li>
+        <li>✓ Considerar inmueble para alquilar si tienes capital</li>
+      </ul>
+
+      <h3>Si tienes 50-67 años (late career)</h3>
+      <p><strong>Prioridad:</strong> Conservación capital + generar rentas</p>
+      <ul>
+        <li>✓ Plan de Pensiones: reducir exposición renta variable (50% RF, 50% RV)</li>
+        <li>✓ Empezar a construir cartera de dividendos para ingresos pasivos</li>
+        <li>✓ Si tienes inmuebles: considerar alquilarlos en lugar de vender</li>
+        <li>✓ A partir de 65 años: rescate paulatino plan pensiones (cobrar 5-10 años antes de agotar)</li>
+      </ul>
+
+      <div style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 1rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <p style="margin: 0; font-weight: 600; color: #1e3a8a;">💡 Consejo clave</p>
+        <p style="margin: 0.5rem 0 0 0; color: #1e3a8a;">No pongas todos los huevos en la misma cesta. La estrategia óptima para autónomos es <strong>diversificar</strong>: combina planes de pensiones (ventaja fiscal inmediata) con fondos indexados (liquidez y rentabilidad) y, si puedes, inmuebles o cartera de dividendos. Revisa tu estrategia cada 2-3 años según evolucione tu situación económica.</p>
+      </div>
+
+      <h3>Errores comunes a evitar:</h3>
+      <ul>
+        <li>❌ No ahorrar nada porque "ya cotizo a la Seguridad Social" (insuficiente)</li>
+        <li>❌ Elegir plan de pensiones por comisiones altas (>1%) → Busca gestoras low-cost</li>
+        <li>❌ Aportaciones irregulares (mejor 100€/mes constante que 1.500€ una vez al año)</li>
+        <li>❌ Perfil conservador si eres joven (<45 años) → Pierdes potencial de crecimiento</li>
+        <li>❌ No revisar rentabilidad del plan (si va mal 3 años seguidos, cambia de plan)</li>
+        <li>❌ Depender solo de la pensión pública (puede recortarse en el futuro)</li>
       </ul>
     `
+  },
+  {
+    id: '18',
+    slug: 'nomada-digital-autonomo-espana-fiscalidad-residencia-fiscal-2026',
+    title: 'Nómada Digital como Autónomo en España: Fiscalidad y Residencia Fiscal 2026',
+    metaDescription: 'Guía completa sobre fiscalidad para nómadas digitales autónomos españoles: residencia fiscal, regla 183 días, obligaciones tributarias y cómo tributar viviendo en el extranjero.',
+    category: 'internacional',
+    publishDate: '2026-01-17',
+    readTime: 9,
+    featured: false,
+    excerpt: 'Si eres autónomo y trabajas desde el extranjero como nómada digital, tu residencia fiscal determina dónde pagas impuestos. Descubre cómo funciona la regla de los 183 días y qué obligaciones tienes con Hacienda.',
+    image: 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200&auto=format&fit=crop',
+    imageAlt: 'Mapa del mundo con iconos de ubicación y conexiones globales',
+    sources: [],
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#residencia-fiscal" style="color: #3b82f6; text-decoration: none;">→ Qué es la residencia fiscal y por qué importa</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#regla-183-dias" style="color: #3b82f6; text-decoration: none;">→ Regla de los 183 días: Cómo se calcula</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#obligaciones-hacienda" style="color: #3b82f6; text-decoration: none;">→ Obligaciones con Hacienda española</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#convenios-doble-imposicion" style="color: #3b82f6; text-decoration: none;">→ Convenios de doble imposición</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#escenarios-practicos" style="color: #3b82f6; text-decoration: none;">→ Escenarios prácticos según destinos</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#errores-comunes" style="color: #3b82f6; text-decoration: none;">→ Errores comunes y sanciones</a></li>
+        </ul>
+      </div>
+
+      <h2 id="residencia-fiscal">¿Qué es la residencia fiscal y por qué importa?</h2>
+      
+      <p>Como autónomo español que trabaja desde el extranjero, tu <strong>residencia fiscal</strong> determina en qué país debes pagar impuestos (IRPF, IVA, cotizaciones). Muchos nómadas digitales creen erróneamente que pueden dejar de tributar en España simplemente viajando, pero Hacienda tiene reglas muy claras al respecto.</p>
+
+      <p><strong>Eres residente fiscal en España si cumples al menos uno de estos criterios:</strong></p>
+      <ul>
+        <li><strong>Permanencia:</strong> Pasas más de 183 días al año en territorio español (la famosa "regla de los 183 días")</li>
+        <li><strong>Centro de intereses económicos:</strong> La mayor parte de tus ingresos (directos o indirectos) provienen de España</li>
+        <li><strong>Residencia familiar:</strong> Tu cónyuge e hijos menores residen habitualmente en España</li>
+      </ul>
+
+      <p><strong>¿Qué implica ser residente fiscal español?</strong></p>
+      <ul>
+        <li>Debes tributar por tu <strong>renta mundial</strong> en España (todos tus ingresos, vengan de donde vengan)</li>
+        <li>Obligación de presentar declaración de IRPF, modelos trimestrales (130, 303), y seguir cotizando al RETA</li>
+        <li>Puedes deducir impuestos pagados en otros países (gracias a convenios de doble imposición)</li>
+      </ul>
+
+      <h2 id="regla-183-dias">Regla de los 183 días: Cómo se calcula correctamente</h2>
+
+      <h3>¿Cómo cuenta Hacienda los días?</h3>
+      <p>La AEAT usa un criterio estricto para calcular los 183 días:</p>
+
+      <table>
+        <thead>
+          <tr><th>Situación</th><th>¿Cuenta como día en España?</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Día completo en España (00:00 - 23:59)</td><td><strong>SÍ</strong></td></tr>
+          <tr><td>Vuelo internacional (sales de España por la mañana)</td><td><strong>SÍ</strong> (día completo)</td></tr>
+          <tr><td>Vuelo internacional (llegas a España por la noche)</td><td><strong>SÍ</strong> (día completo)</td></tr>
+          <tr><td>Ausencias esporádicas (conferencias, vacaciones cortas)</td><td><strong>SÍ</strong> (presunción de residencia)</td></tr>
+          <tr><td>Días en Canarias, Baleares, Ceuta, Melilla</td><td><strong>SÍ</strong> (territorio español)</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Importante:</strong> Hacienda presume que resides en España salvo que demuestres lo contrario. La <strong>carga de la prueba</strong> recae sobre ti. Necesitas evidencias sólidas:</p>
+      <ul>
+        <li>Sellos de pasaporte / registros de entrada-salida (sistema VES de inmigración)</li>
+        <li>Facturas de alojamiento en otros países (Airbnb, hoteles)</li>
+        <li>Extractos bancarios con transacciones en el extranjero</li>
+        <li>Certificados de residencia fiscal de otros países</li>
+        <li>Contratos de alquiler fuera de España</li>
+      </ul>
+
+      <h3>Caso práctico: Laura, desarrolladora nómada</h3>
+      <p><strong>Situación:</strong> Laura es freelance y viaja constantemente. En 2026 estuvo:</p>
+      <ul>
+        <li>Enero-Febrero: 60 días en Barcelona</li>
+        <li>Marzo-Junio: 120 días en Bali (Indonesia)</li>
+        <li>Julio-Agosto: 62 días en Barcelona</li>
+        <li>Septiembre-Diciembre: 123 días en Lisboa (Portugal)</li>
+      </ul>
+
+      <p><strong>Total días en España:</strong> 60 + 62 = <strong>122 días</strong></p>
+      <p><strong>Resultado:</strong> Laura NO es residente fiscal en España por permanencia. Sin embargo, debe revisar:</p>
+      <ul>
+        <li>¿Sus principales clientes son españoles? (centro de intereses económicos)</li>
+        <li>¿Tiene pareja/hijos en España? (residencia familiar)</li>
+      </ul>
+      <p>Si cualquiera de estos criterios se cumple, <strong>seguiría siendo residente fiscal española</strong> aunque pase menos de 183 días.</p>
+
+      <h2 id="obligaciones-hacienda">Obligaciones con Hacienda española según tu situación</h2>
+
+      <h3>Escenario 1: Sigues siendo residente fiscal español (más de 183 días o centro de intereses)</h3>
+      <p><strong>Obligaciones completas:</strong></p>
+      <ul>
+        <li>Alta en RETA y <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">cotización mensual</a> (cuota mínima ~230-300€/mes según tramo)</li>
+        <li>Modelo 130 (pago fraccionado IRPF) cada trimestre</li>
+        <li>Modelo 303 (IVA) cada trimestre si facturas a clientes españoles</li>
+        <li>Declaración de la Renta anual (modelo 100)</li>
+        <li>Modelo 720 si tienes bienes en el extranjero >50.000€ (cuentas bancarias, criptos, etc.)</li>
+      </ul>
+
+      <p><strong>Ventajas:</strong></p>
+      <ul>
+        <li>Acceso al sistema sanitario español</li>
+        <li>Cotizas para tu futura pensión</li>
+        <li>Puedes deducir gastos relacionados con tu actividad (equipamiento, viajes de trabajo, formación)</li>
+      </ul>
+
+      <h3>Escenario 2: Dejas de ser residente fiscal español</h3>
+      <p><strong>Pasos obligatorios:</strong></p>
+      <ol>
+        <li><strong>Baja en el RETA:</strong> Presentar baja censal (modelo 036/037) y comunicar cese de actividad</li>
+        <li><strong>Certificado de no residencia:</strong> Comunicar cambio de residencia fiscal a Hacienda</li>
+        <li><strong>Última declaración de IRPF:</strong> Declarar como no residente desde la fecha de salida</li>
+        <li><strong>Obtener residencia fiscal en otro país:</strong> Algunos países exigen esto para evitar la "residencia fiscal en ningún sitio"</li>
+      </ol>
+
+      <p><strong>Consecuencias:</strong></p>
+      <ul>
+        <li>Ya no cotizas al sistema español (no acumulas pensión)</li>
+        <li>Pierdes acceso a sanidad pública española (necesitarás seguro privado internacional)</li>
+        <li>Si facturas a clientes españoles, podrías tener que pagar retenciones del 24% (no residentes)</li>
+        <li>Debes cumplir con las obligaciones fiscales del país donde residas fiscalmente</li>
+      </ul>
+
+      <h2 id="convenios-doble-imposicion">Convenios de doble imposición: Cómo evitar pagar dos veces</h2>
+
+      <p>España tiene <strong>convenios para evitar la doble imposición (CDI)</strong> con más de 90 países. Estos tratados determinan:</p>
+      <ul>
+        <li>Qué país tiene derecho a gravar tus rentas</li>
+        <li>Cómo deducir impuestos pagados en un país de los debidos en otro</li>
+      </ul>
+
+      <h3>Países populares para nómadas y su tratamiento fiscal:</h3>
+
+      <table>
+        <thead>
+          <tr><th>País</th><th>¿CDI con España?</th><th>Observaciones</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Portugal</strong></td>
+            <td>SÍ</td>
+            <td>Régimen NHR (Non-Habitual Resident) permite 0% IRPF durante 10 años para freelancers extranjeros</td>
+          </tr>
+          <tr>
+            <td><strong>Países Bajos</strong></td>
+            <td>SÍ</td>
+            <td>Régimen 30% ruling para extranjeros cualificados (30% ingresos exentos)</td>
+          </tr>
+          <tr>
+            <td><strong>Tailandia</strong></td>
+            <td>SÍ</td>
+            <td>No grava rentas de servicios prestados desde el extranjero si no se transfieren a Tailandia el mismo año fiscal</td>
+          </tr>
+          <tr>
+            <td><strong>Indonesia (Bali)</strong></td>
+            <td>SÍ</td>
+            <td>Residencia fiscal desde 183 días. Gravamen ~30% pero muchos nómadas no se registran (zona gris)</td>
+          </tr>
+          <tr>
+            <td><strong>México</strong></td>
+            <td>SÍ</td>
+            <td>Residencia fiscal desde 183 días. Régimen simplificado para freelancers (RIF) con tipos reducidos</td>
+          </tr>
+          <tr>
+            <td><strong>Georgia</strong></td>
+            <td>SÍ</td>
+            <td>Régimen "virtual zone person" con solo 1% impuesto para IT freelancers</td>
+          </tr>
+          <tr>
+            <td><strong>Emiratos Árabes</strong></td>
+            <td>SÍ</td>
+            <td>0% IRPF pero coste de vida alto. Visas de nómada digital disponibles</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="escenarios-practicos">Escenarios prácticos: ¿Dónde tributo?</h2>
+
+      <h3>Caso A: Nómada "perpetuo" (menos de 183 días en todos los países)</h3>
+      <p><strong>Perfil:</strong> Viajas constantemente, nunca pasas más de 3 meses en ningún sitio.</p>
+      <p><strong>Riesgo fiscal:</strong> Si España sigue siendo tu centro de intereses económicos (mayoría de clientes españoles, cuenta bancaria española principal), Hacienda puede considerarte residente fiscal aunque no estés físicamente.</p>
+      <p><strong>Solución recomendada:</strong> Establecer residencia fiscal clara en algún país (Portugal NHR, Georgia, Estonia e-Residency) para evitar conflictos.</p>
+
+      <h3>Caso B: Bases en varios países (3-4 meses en cada sitio)</h3>
+      <p><strong>Perfil:</strong> 4 meses en Barcelona, 4 en Lisboa, 4 en México DF.</p>
+      <p><strong>¿Dónde tributo?</strong> Depende de dónde estableces "vínculos principales":</p>
+      <ul>
+        <li>Si tu vivienda habitual está en Portugal → Probablemente residente fiscal portugués</li>
+        <li>Si tu familia vive en España → Presunción de residencia española</li>
+        <li>Si la mayor parte de tus clientes son mexicanos → Centro de intereses en México</li>
+      </ul>
+
+      <h3>Caso C: Trabajas para empresa extranjera desde España</h3>
+      <p><strong>Perfil:</strong> Eres desarrollador remoto para empresa USA, vives en Madrid 365 días/año.</p>
+      <p><strong>Resultado:</strong> Residente fiscal español. Debes:</p>
+      <ul>
+        <li>Declarar esos ingresos en tu IRPF español (tributación por renta mundial)</li>
+        <li>Posiblemente darte de alta como autónomo o constituir SL para facturar legalmente a la empresa USA</li>
+        <li>La empresa USA NO retendrá impuestos si no eres residente USA (gracias al CDI)</li>
+      </ul>
+
+      <h2 id="errores-comunes">Errores comunes que pueden costarte caro</h2>
+
+      <table>
+        <thead>
+          <tr><th>Error</th><th>Consecuencia</th><th>Sanción aprox.</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>No presentar modelo 720 (bienes >50k€ en extranjero)</td>
+            <td>Multa mínima 10.000€ por cada dato omitido</td>
+            <td><strong>10.000-100.000€</strong></td>
+          </tr>
+          <tr>
+            <td>Darte de baja en RETA pero seguir siendo residente fiscal</td>
+            <td>Cotizaciones impagadas + recargos + pérdida de cobertura sanitaria</td>
+            <td><strong>20% recargo + intereses</strong></td>
+          </tr>
+          <tr>
+            <td>No declarar ingresos obtenidos en el extranjero</td>
+            <td>Delito contra Hacienda si supera 120.000€ (pena de prisión)</td>
+            <td><strong>50-150% de la cuota defraudada</strong></td>
+          </tr>
+          <tr>
+            <td>Facturar sin IVA a clientes españoles estando en el extranjero</td>
+            <td>IVA impagado + sanciones por facturación incorrecta</td>
+            <td><strong>21% IVA + 50-150% sanción</strong></td>
+          </tr>
+          <tr>
+            <td>No comunicar cambio de residencia fiscal</td>
+            <td>Hacienda presume residencia española y reclama impuestos</td>
+            <td><strong>Todo el IRPF + recargos</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <p style="margin: 0; font-weight: 600; color: #92400e;">⚠️ Advertencia importante</p>
+        <p style="margin: 0.5rem 0 0 0; color: #92400e;">La fiscalidad internacional es compleja y cada caso es único. Si vas a pasar largos periodos fuera de España, consulta con un asesor fiscal especializado en movilidad internacional ANTES de moverte. Los errores pueden costar decenas de miles de euros en sanciones.</p>
+      </div>
+
+      <h3>Checklist antes de convertirte en nómada digital:</h3>
+      <ul>
+        <li>✓ Calcula cuántos días exactos pasarás en España este año</li>
+        <li>✓ Identifica dónde está tu "centro de intereses económicos" (¿de dónde vienen tus ingresos?)</li>
+        <li>✓ Investiga convenios de doble imposición con los países donde vivirás</li>
+        <li>✓ Si dejas de ser residente fiscal español: comunícalo oficialmente y obtén certificado en tu nuevo país</li>
+        <li>✓ Guarda pruebas de dónde estás (sellos pasaporte, facturas, fotos con metadatos de ubicación)</li>
+        <li>✓ Contrata seguro médico internacional si pierdes acceso a sanidad española</li>
+        <li>✓ Consulta asesor fiscal especializado en nomadismo digital</li>
+      </ul>
+    `,
+    sources: [
+      { title: 'Ley 35/2006 IRPF - Residencia fiscal (Art. 8 y 9)', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764' }
+    ]
   }
 ];
 
