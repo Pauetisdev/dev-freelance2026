@@ -1,192 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Página Principal -->
   <url>
     <loc>https://devfreelance.es/</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Blog Principal - Alta prioridad para AdSense -->
   <url>
     <loc>https://devfreelance.es/blog</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- Calculadora de Cuota Autónomo -->
   <url>
     <loc>https://devfreelance.es/calculadora</loc>
-    <lastmod>2026-01-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Roadmap Fiscal -->
-  <url>
-    <loc>https://devfreelance.es/roadmap</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Sobre el Proyecto -->
+  <url>
+    <loc>https://devfreelance.es/roadmap</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://devfreelance.es/sobre-mi</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
-
-  <!-- Contacto -->
   <url>
     <loc>https://devfreelance.es/contacto</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://devfreelance.es/aviso-legal</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://devfreelance.es/politica-privacidad</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://devfreelance.es/cookies</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://devfreelance.es/blog/iva-internacional-inversion-sujeto-pasivo-usa-uk-freelance</loc>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 1: IVA Internacional -->
-  <url>
-    <loc>https://devfreelance.es/blog/iva-internacional-inversion-sujeto-pasivo-usa-uk-freelance</loc>
-    <lastmod>2026-01-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Artículo 2: Gastos Deducibles -->
   <url>
     <loc>https://devfreelance.es/blog/gastos-deducibles-autonomos-desarrolladores-2026-guia-completa</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 3: Amortización -->
   <url>
     <loc>https://devfreelance.es/blog/amortizacion-ordenador-portatil-autonomo-2026-deduccion</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 4: Alta Autónomo -->
   <url>
     <loc>https://devfreelance.es/blog/alta-autonomo-desarrollador-iae-763-845-guia-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 5: Tramos Cotización -->
   <url>
     <loc>https://devfreelance.es/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 6: Autónomo vs SL -->
   <url>
     <loc>https://devfreelance.es/blog/autonomo-vs-sociedad-limitada-cuando-crear-empresa-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 7: Modelo 130 -->
   <url>
     <loc>https://devfreelance.es/blog/modelo-130-irpf-pagos-fraccionados-autonomos-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 8: Factura Legal -->
   <url>
     <loc>https://devfreelance.es/blog/factura-legal-elementos-obligatorios-retenciones-developers-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 9: Teletrabajo -->
   <url>
     <loc>https://devfreelance.es/blog/deduccion-gastos-teletrabajo-autonomos-luz-internet-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 10: VIES y ROI -->
   <url>
     <loc>https://devfreelance.es/blog/vies-roi-iva-intracomunitario-saas-servicios-digitales-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 11: Seguridad Social Estratégica -->
   <url>
     <loc>https://devfreelance.es/blog/seguridad-social-tramos-ahorro-cotizacion-estrategica-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 12: IA en Gestión Fiscal -->
   <url>
     <loc>https://devfreelance.es/blog/ia-gestion-fiscal-autonomos-herramientas-contabilidad-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 13: Factura Electrónica Obligatoria -->
   <url>
     <loc>https://devfreelance.es/blog/factura-electronica-obligatoria-ley-crea-crece-autonomos-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 14: Criptomonedas y Fiscalidad -->
   <url>
     <loc>https://devfreelance.es/blog/criptomonedas-fiscalidad-dev-declarar-pagos-stablecoins-usdc-usdt-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Artículo 15: Ley de Startups -->
   <url>
     <loc>https://devfreelance.es/blog/ley-startups-freelancers-tipo-reducido-15-irpf-requisitos-2026</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
-
-  <!-- Páginas Legales -->
   <url>
-    <loc>https://devfreelance.es/aviso-legal</loc>
-    <lastmod>2026-01-09</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
+    <loc>https://devfreelance.es/blog/pluriactividad-autonomo-empleado-compatibilizar-2026</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://devfreelance.es/politica-privacidad</loc>
-    <lastmod>2026-01-09</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
+    <loc>https://devfreelance.es/blog/baja-medica-autonomos-incapacidad-temporal-cuanto-cobras-2026</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://devfreelance.es/cookies</loc>
-    <lastmod>2026-01-09</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
+    <loc>https://devfreelance.es/blog/cese-actividad-paro-autonomos-prestacion-requisitos-2026</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://devfreelance.es/blog/planes-pensiones-autonomos-jubilacion-ahorro-fiscal-2026</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://devfreelance.es/blog/nomada-digital-autonomo-espana-fiscalidad-residencia-fiscal-2026</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

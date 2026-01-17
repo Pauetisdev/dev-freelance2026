@@ -13,12 +13,14 @@ const Blog = () => {
     ? posts 
     : posts.filter(post => post.category === activeFilter);
 
+  // Solo mostrar categorías que tengan al menos un post
+  const usedCategoryKeys = Array.from(new Set(posts.map(post => post.category)));
   const filters: { key: CategoryFilter; label: string }[] = [
     { key: 'all', label: 'Todos' },
-    { key: 'impuestos', label: 'Impuestos' },
-    { key: 'internacional', label: 'Internacional' },
-    { key: 'gastos', label: 'Gastos' },
-    { key: 'cotizacion', label: 'Cotización' },
+    ...usedCategoryKeys.map(key => ({
+      key: key as CategoryFilter,
+      label: categories[key]?.label || key
+    }))
   ];
 
   return (

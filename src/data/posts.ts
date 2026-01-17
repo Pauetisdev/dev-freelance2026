@@ -3,7 +3,7 @@ export interface BlogPost {
   slug: string;
   title: string;
   metaDescription: string;
-  category: 'impuestos' | 'internacional' | 'gastos' | 'cotizacion';
+  category: 'impuestos' | 'internacional' | 'gastos' | 'cotizacion' | 'seguridad-social';
   publishDate: string;
   updatedDate?: string;
   readTime: number;
@@ -5751,11 +5751,11 @@ Luego preguntas específicas como:
 ];
 
 export const categories = {
+  'seguridad-social': { label: 'Seguridad Social', color: 'bg-blue-100 text-blue-900 dark:bg-blue-500/20 dark:text-blue-400 font-semibold' },
   impuestos: { label: 'Impuestos', color: 'bg-amber-100 text-amber-900 dark:bg-amber-500/20 dark:text-amber-400 font-semibold' },
   internacional: { label: 'Internacional', color: 'bg-cyan-100 text-cyan-900 dark:bg-cyan-500/20 dark:text-cyan-400 font-semibold' },
   gastos: { label: 'Gastos', color: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-500/20 dark:text-emerald-400 font-semibold' },
   cotizacion: { label: 'Cotización', color: 'bg-violet-100 text-violet-900 dark:bg-violet-500/20 dark:text-violet-400 font-semibold' },
-  'seguridad-social': { label: 'Seguridad Social', color: 'bg-blue-100 text-blue-900 dark:bg-blue-500/20 dark:text-blue-400 font-semibold' },
   fiscalidad: { label: 'Fiscalidad', color: 'bg-purple-100 text-purple-900 dark:bg-purple-500/20 dark:text-purple-400 font-semibold' },
   gestion: { label: 'Gestión', color: 'bg-green-100 text-green-900 dark:bg-green-500/20 dark:text-green-400 font-semibold' }
 };
