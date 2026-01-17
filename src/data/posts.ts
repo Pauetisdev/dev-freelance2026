@@ -5202,9 +5202,14 @@ Luego preguntas específicas como:
     readTime: 10,
     featured: false,
     excerpt: 'La pensión pública de los autónomos suele ser baja. Descubre cómo los planes de pensiones te ayudan a complementar tu jubilación y reducir tu factura fiscal ahora.',
-    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop',
-    imageAlt: 'Persona mayor feliz disfrutando de la jubilación en la naturaleza',
-      sources: [],
+    image: 'https://images.unsplash.com/photo-1554224155-3a58914a828a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    imageAlt: 'Planificación financiera para la jubilación',
+    sources: [
+      {
+        title: 'Guía oficial de planes de pensiones - Seguridad Social',
+        url: 'https://www.seg-social.es/wps/portal/wss/internet/InformacionUtil/37815/38030/38031/38046/38050'
+      }
+    ],
     
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
