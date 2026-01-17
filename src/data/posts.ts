@@ -47,7 +47,7 @@ export const posts: BlogPost[] = [
       
       <p>La <strong>Ley 37/1992 del IVA</strong> establece en su artículo 69 las operaciones no sujetas al impuesto, mientras que la <strong>Directiva 2006/112/CE</strong> regula las operaciones intracomunitarias. Las sanciones por error en la aplicación del IVA pueden oscilar entre 150€ y el 15% de las cuotas dejadas de ingresar, según el artículo 191 de la Ley General Tributaria.</p>
 
-      <h2>Operaciones con países fuera de la UE: Artículo 69 LIVA</h2>
+      <h2 id="paises-fuera-ue">Operaciones con países fuera de la UE: Artículo 69 LIVA</h2>
       
       <h3>Estados Unidos, Reino Unido y terceros países</h3>
       <p>Los servicios de programación, desarrollo web, consultoría IT y diseño prestados a empresas de <strong>Estados Unidos, Reino Unido (tras el Brexit de 2020), Canadá, Australia, Suiza, Noruega y cualquier país fuera de la Unión Europea</strong> están <strong>no sujetos a IVA español</strong> según el artículo 69.Uno.1º de la Ley 37/1992.</p>
@@ -64,7 +64,7 @@ export const posts: BlogPost[] = [
       <h3>¿Qué pasa si el cliente es un particular (B2C)?</h3>
       <p>Si facturas a un consumidor final de Estados Unidos o Reino Unido, técnicamente deberías aplicar IVA español (21%). Sin embargo, la AEAT tiene una posición flexible para operaciones puntuales de bajo importe. Para operaciones recurrentes o superiores a 10.000€ anuales, consulta a un asesor fiscal.</p>
 
-      <h2>Operaciones intracomunitarias: Inversión del sujeto pasivo</h2>
+      <h2 id="intracomunitarias">Operaciones intracomunitarias: Inversión del sujeto pasivo</h2>
       
       <h3>Facturación a empresas de la Unión Europea</h3>
       <p>Cuando facturas servicios de desarrollo a empresas de <strong>los 26 Estados miembros de la UE</strong> (Alemania, Francia, Países Bajos, Irlanda, Italia, Portugal, etc.), se aplica el mecanismo de <strong>inversión del sujeto pasivo</strong> (reverse charge). Esto significa:</p>
@@ -75,7 +75,7 @@ export const posts: BlogPost[] = [
         <li>El IVA lo ingresa el cliente a su Hacienda, no a la española</li>
       </ul>
 
-      <h3>Sistema VIES: Verificación obligatoria del VAT</h3>
+      <h3 id="vies">Sistema VIES: Verificación obligatoria del VAT</h3>
       <p>Antes de emitir cualquier factura sin IVA a un cliente de la UE, es <strong>obligatorio verificar</strong> que su número de identificación fiscal intracomunitario (VAT) es válido. La no verificación puede acarrear que Hacienda te reclame el IVA español (21%) más recargos.</p>
 
       <p><strong>Proceso de verificación VIES:</strong></p>
@@ -87,7 +87,7 @@ export const posts: BlogPost[] = [
         <li>Conserva la captura durante 4 años (plazo de prescripción)</li>
       </ol>
 
-      <h3>Registro ROI: Requisito previo</h3>
+      <h3 id="roi-modelo-349">Registro ROI: Requisito previo</h3>
       <p>Para aplicar inversión del sujeto pasivo, debes estar registrado en el <strong>Registro de Operadores Intracomunitarios (ROI)</strong>. Se solicita en el modelo 036 (casilla 582) al darte de alta o mediante modificación censal.</p>
 
       <p><strong>Proceso de alta en el ROI:</strong></p>
@@ -154,7 +154,7 @@ export const posts: BlogPost[] = [
         <li><strong><a href="/blog/modelo-130-irpf-pagos-fraccionados-autonomos-2026">Modelo 130</a>:</strong> Pago fraccionado IRPF sobre rendimientos netos</li>
       </ul>
 
-      <h2>Errores comunes y sanciones</h2>
+      <h2 id="errores">Errores comunes y sanciones</h2>
       
       <table>
         <thead>
