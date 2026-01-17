@@ -3651,7 +3651,7 @@ Luego preguntas específicas como:
       </ul>
     `,
     sources: [
-      { title: 'Ley 35/2006 IRPF - BOE', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764' }
+      { title: 'n8n - Automatización workflows open source', url: 'https://n8n.io/' }
     ]
   },
   {
