@@ -30,7 +30,19 @@ export const posts: BlogPost[] = [
     image: 'https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=800&auto=format&fit=crop',
     imageAlt: 'Mapa mundial con conexiones digitales representando facturación internacional',
     content: `
-      <h2>¿Por qué es vital entender el IVA internacional en 2026?</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#por-que-vital" style="color: #3b82f6; text-decoration: none;">→ ¿Por qué es vital entender el IVA internacional?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#paises-fuera-ue" style="color: #3b82f6; text-decoration: none;">→ Operaciones con países fuera de la UE</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#intracomunitarias" style="color: #3b82f6; text-decoration: none;">→ Operaciones intracomunitarias</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#vies" style="color: #3b82f6; text-decoration: none;">→ Sistema VIES: Verificación del VAT</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#roi-modelo-349" style="color: #3b82f6; text-decoration: none;">→ Registro ROI y Modelo 349</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#errores" style="color: #3b82f6; text-decoration: none;">→ Errores comunes y sanciones</a></li>
+        </ul>
+      </div>
+
+      <h2 id="por-que-vital">¿Por qué es vital entender el IVA internacional en 2026?</h2>
       <p>Como desarrollador freelance en España, trabajar con clientes internacionales es cada vez más común. Según datos de la Agencia Tributaria de 2026, el <strong>47% de los desarrolladores autónomos</strong> facturan regularmente a clientes fuera de España. El tratamiento del IVA varía significativamente según la ubicación del cliente y requiere un conocimiento preciso de la normativa para evitar sanciones.</p>
       
       <p>La <strong>Ley 37/1992 del IVA</strong> establece en su artículo 69 las operaciones no sujetas al impuesto, mientras que la <strong>Directiva 2006/112/CE</strong> regula las operaciones intracomunitarias. Las sanciones por error en la aplicación del IVA pueden oscilar entre 150€ y el 15% de las cuotas dejadas de ingresar, según el artículo 191 de la Ley General Tributaria.</p>
@@ -197,6 +209,18 @@ export const posts: BlogPost[] = [
     image: 'https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=800&auto=format&fit=crop',
     imageAlt: 'Calculadora, facturas y ordenador representando gastos deducibles',
     content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos legales para deducibilidad</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#hardware" style="color: #3b82f6; text-decoration: none;">→ Hardware y equipamiento tecnológico</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#software" style="color: #3b82f6; text-decoration: none;">→ Software y servicios cloud</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#suministros" style="color: #3b82f6; text-decoration: none;">→ Suministros del hogar (30% deducible)</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#formacion" style="color: #3b82f6; text-decoration: none;">→ Formación profesional</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#caso-practico" style="color: #3b82f6; text-decoration: none;">→ Caso práctico con ahorro real</a></li>
+        </ul>
+      </div>
+
       <h2>Maximiza tu rentabilidad: Gastos que puedes deducir legalmente</h2>
       <p>Como desarrollador autónomo en España, <strong>deducir correctamente los gastos profesionales</strong> puede ahorrarte entre 3.000€ y 8.000€ anuales en impuestos. Sin embargo, según datos de 2025 de la AEAT, el <strong>68% de los autónomos</strong> no deduce todos los gastos permitidos por desconocimiento de la normativa vigente.</p>
       
@@ -1096,6 +1120,18 @@ TOTAL A PAGAR: 3.420€
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop',
     imageAlt: 'Gráfico de barras representando tramos de cotización',
     content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#sistema" style="color: #3b82f6; text-decoration: none;">→ Cómo funciona el sistema por ingresos reales</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#tabla-tramos" style="color: #3b82f6; text-decoration: none;">→ Tabla completa de 15 tramos</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#calculo" style="color: #3b82f6; text-decoration: none;">→ Cálculo del rendimiento neto</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#cambios" style="color: #3b82f6; text-decoration: none;">→ Cambios de tramo y estrategia</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#regularizacion" style="color: #3b82f6; text-decoration: none;">→ Regularización anual</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#estrategias" style="color: #3b82f6; text-decoration: none;">→ Estrategias avanzadas</a></li>
+        </ul>
+      </div>
+
       <h2>Cómo funciona el nuevo sistema de cotización por ingresos reales</h2>
       <p>Desde 2023, los autónomos en España cotizan en función de sus <strong>rendimientos netos reales</strong>, un cambio radical respecto al sistema anterior de base libre. En 2026, el sistema se ha estabilizado según lo establecido en el <strong>Real Decreto-ley 13/2022</strong>, y ahora es fundamental que como desarrollador freelance entiendas perfectamente cómo calcular tu cuota, cuándo cambiar de tramo y cómo evitar sorpresas en la regularización anual.</p>
 
@@ -3667,6 +3703,27 @@ Luego preguntas específicas como:
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop',
     imageAlt: 'Dashboard digital con facturación electrónica en pantalla',
     content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#que-es" style="color: #3b82f6; text-decoration: none;">→ Qué es y por qué es obligatoria</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos técnicos</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#software" style="color: #3b82f6; text-decoration: none;">→ Software compatible</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#certificado" style="color: #3b82f6; text-decoration: none;">→ Certificado digital</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#plazos" style="color: #3b82f6; text-decoration: none;">→ Plazos de implementación</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#transicion" style="color: #3b82f6; text-decoration: none;">→ Proceso de transición</a></li>
+        </ul>
+      </div>
+
+      <h2>¿Qué es la factura electrónica y por qué es obligatoria?</h2>
+          <li>Requisitos técnicos y formatos admitidos</li>
+          <li>Software compatible y soluciones técnicas</li>
+          <li>Certificado digital: Obtención y uso</li>
+          <li>Plazos de implementación obligatoria</li>
+          <li>Proceso paso a paso de transición</li>
+        </ul>
+      </div>
+
       <h2>¿Qué es la factura electrónica y por qué es obligatoria?</h2>
       <p>La <strong>Ley 18/2022 de Creación y Crecimiento de Empresas</strong> (Ley Crea y Crece) estableció en su artículo 12 la obligatoriedad de la facturación electrónica para <strong>todas las transacciones entre empresas y autónomos</strong> (B2B). Esta medida, que entró en vigor progresivamente desde 2023, busca combatir el fraude fiscal, reducir la economía sumergida y facilitar la digitalización del tejido empresarial español.</p>
 
@@ -4098,6 +4155,27 @@ Luego preguntas específicas como:
     image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&auto=format&fit=crop',
     imageAlt: 'Startup y emprendimiento digital representando innovación',
     content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#que-es" style="color: #3b82f6; text-decoration: none;">→ Qué es la Ley de Startups</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos para el 15%</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#comparativa" style="color: #3b82f6; text-decoration: none;">→ Comparativa fiscal</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#solicitar" style="color: #3b82f6; text-decoration: none;">→ Cómo solicitarlo</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#incompatibilidades" style="color: #3b82f6; text-decoration: none;">→ Incompatibilidades</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#casos" style="color: #3b82f6; text-decoration: none;">→ Casos prácticos</a></li>
+        </ul>
+      </div>
+
+      <h2>¿Qué es la Ley de Startups y cómo beneficia a freelancers?</h2>
+          <li>Requisitos para el tipo reducido del 15%</li>
+          <li>Comparativa fiscal: Tipo general vs Ley Startups</li>
+          <li>Cómo solicitar la aplicación del 15%</li>
+          <li>Incompatibilidades y limitaciones</li>
+          <li>Casos prácticos con ahorro real</li>
+        </ul>
+      </div>
+
       <h2>¿Qué es la Ley de Startups y cómo beneficia a freelancers?</h2>
       <p>La <strong>Ley 28/2022 de Fomento del Ecosistema de las Empresas Emergentes</strong> (Ley de Startups), aprobada en diciembre de 2022 y plenamente vigente en 2026, introdujo medidas fiscales muy favorables para emprendedores y autónomos que cumplan ciertos requisitos de innovación y nuevao creación de actividad.</p>
 
