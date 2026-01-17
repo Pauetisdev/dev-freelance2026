@@ -4471,7 +4471,7 @@ Luego preguntas específicas como:
     readTime: 9,
     featured: false,
     sources: [
-      { title: 'Ley General Seguridad Social - BOE', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724' }
+      { title: 'Nuevo sistema de cotización para autónomos – Seguridad Social', url: 'https://www.seg-social.es/wps/portal/wss/internet/FAQ?view=FAQs_detalle_tema&temaPregunta=Nuevo%20sistema%20de%20cotizaci%C3%B3n%20para%20aut%C3%B3nomos%202023' }
     ],
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
@@ -4689,7 +4689,12 @@ Luego preguntas específicas como:
     image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&h=630&fit=crop',
     readTime: 8,
     featured: false,
-    sources: [],
+    sources: [
+      {
+        title: 'Prestación pago directo incapacidad temporal – Seguridad Social',
+        url: 'https://prestaciones.seg-social.es/servicio/prestacion-pago-directo-incapacidad-temporal.html'
+      }
+    ],
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
         <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
@@ -4915,9 +4920,14 @@ Luego preguntas específicas como:
     readTime: 8,
     featured: false,
     excerpt: 'Los autónomos también tienen derecho a una prestación similar al paro. Descubre si cumples los requisitos, cuánto cobrarías y cómo solicitar la prestación por cese de actividad.',
-    image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1200&auto=format&fit=crop',
-    imageAlt: 'Persiana metálica bajada de un local comercial, símbolo de cierre de negocio y cese de actividad',
-    sources: [],
+    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=1200',
+    imageAlt: 'Cierre de oficina representado por una persiana metálica bajada',
+    sources: [
+      {
+        title: 'Guía sobre la prestación por cese de actividad - Seguridad Social',
+        url: 'https://www.seg-social.es/wps/portal/wss/internet/Autonomos/Prestaciones/41108'
+      }
+    ],
     content: `
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
         <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
@@ -5202,12 +5212,12 @@ Luego preguntas específicas como:
     readTime: 10,
     featured: false,
     excerpt: 'La pensión pública de los autónomos suele ser baja. Descubre cómo los planes de pensiones te ayudan a complementar tu jubilación y reducir tu factura fiscal ahora.',
-    image: 'https://images.unsplash.com/photo-1554224155-3a58914a828a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
-    imageAlt: 'Planificación financiera para la jubilación',
+    image: 'https://images.unsplash.com/photo-1567016520496-0cb37d8467a7?auto=format&fit=crop&q=80&w=1200',
+    imageAlt: 'Reloj de arena y monedas representando el ahorro para la jubilación',
     sources: [
       {
-        title: 'Guía oficial de planes de pensiones - Seguridad Social',
-        url: 'https://www.seg-social.es/wps/portal/wss/internet/InformacionUtil/37815/38030/38031/38046/38050'
+        title: 'Plan de pensiones para autónomos – BBVA',
+        url: 'https://www.bbva.es/empresas/productos/plan-pensiones-autonomos-empresas.html'
       }
     ],
     
