@@ -139,7 +139,7 @@ export const posts: BlogPost[] = [
       <ul>
         <li><strong>Modelo 303:</strong> Declarar 420€ IVA devengado (cliente español) y 3.913€ no sujeto</li>
         <li><strong>Modelo 349:</strong> Declarar 9.000€ servicios a Alemania (3.000€ × 3 meses)</li>
-        <li><strong>Modelo 130:</strong> Pago fraccionado IRPF sobre rendimientos netos</li>
+        <li><strong><a href="/blog/modelo-130-irpf-pagos-fraccionados-autonomos-2026">Modelo 130</a>:</strong> Pago fraccionado IRPF sobre rendimientos netos</li>
       </ul>
 
       <h2>Errores comunes y sanciones</h2>
@@ -305,7 +305,7 @@ export const posts: BlogPost[] = [
 
       <p><strong>Deducción anual:</strong> 7,06€ × 12 meses = <strong>84,72€/año</strong></p>
 
-      <p>Si Laura paga 15.000€ IRPF anual (tipo marginal 30%), esta deducción le ahorra: 84,72€ × 30% = <strong>25,42€ en impuestos</strong>. Parece poco, pero sumado a otros gastos...</p>
+      <p>Si Laura paga 15.000€ IRPF anual (tipo marginal 30%), esta deducción le ahorra: 84,72€ × 30% = <strong>25,42€ en impuestos</strong>. Parece poco, pero sumado a otros gastos como <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">la cuota de autónomo</a> y el resto, el ahorro total es significativo.</p>
 
       <h2>Categoría 4: Formación profesional (100% deducible)</h2>
       
@@ -1136,7 +1136,7 @@ TOTAL A PAGAR: 3.420€
       <h2>🧮 Cálculo del rendimiento neto: Fórmula paso a paso</h2>
       
       <h3>Paso 1: Calcula tu rendimiento neto anual</h3>
-      <p>El primer paso es restar tus gastos deducibles de tu facturación anual. Los gastos deducibles incluyen:</p>
+      <p>El primer paso es restar tus <a href="/blog/gastos-deducibles-autonomos-desarrolladores-2026-guia-completa">gastos deducibles</a> de tu facturación anual. Los gastos deducibles incluyen:</p>
       <ul>
         <li>Cuota de autónomo mensual (sí, es deducible)</li>
         <li>Alquiler de oficina o parte proporcional de tu vivienda</li>
@@ -1480,7 +1480,7 @@ TOTAL A PAGAR: 3.420€
       <p><strong>Como autónomo:</strong></p>
       <ul>
         <li>Rendimiento neto: 80.000€</li>
-        <li>Cuota SS anual: 6.360€ (530€/mes)</li>
+        <li>Cuota SS anual: 6.360€ (530€/mes según <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">tramos 2026</a>)</li>
         <li>Base IRPF: 73.640€</li>
         <li>IRPF estimado: ~22.000€ (tipo efectivo ~30%)</li>
         <li>Gestoría: 1.500€</li>
@@ -4193,6 +4193,8 @@ Luego preguntas específicas como:
         <li><strong>Ahorro anual con Ley de Startups:</strong> 31.450€ - 29.200€ = <strong>2.250€</strong></li>
         <li><strong>Ahorro acumulado 4 años:</strong> 2.250€ × 4 = <strong>9.000€</strong></li>
       </ul>
+
+      <p>Además, este ahorro fiscal te permite optimizar otros aspectos como los <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">tramos de cotización</a> o decidir si en el futuro te conviene <a href="/blog/autonomo-vs-sociedad-limitada-cuando-crear-empresa-2026">crear una sociedad limitada</a>.</p>
 
       <div class="tip-box">
         <h4>¿Y después de los 4 años?</h4>
