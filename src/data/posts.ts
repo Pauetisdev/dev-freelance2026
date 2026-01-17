@@ -522,12 +522,24 @@ export const posts: BlogPost[] = [
     image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&auto=format&fit=crop',
     imageAlt: 'MacBook Pro sobre escritorio de desarrollador',
     content: `
-      <h2>Gasto directo vs amortización: La clave para deducir tu equipamiento</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#gasto-vs-amortizacion" style="color: #3b82f6; text-decoration: none;">→ Gasto directo vs amortización</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#umbral-300" style="color: #3b82f6; text-decoration: none;">→ Umbral de los 300€</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#tablas-oficiales" style="color: #3b82f6; text-decoration: none;">→ Tablas oficiales de amortización</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#calculo-practico" style="color: #3b82f6; text-decoration: none;">→ Cálculo práctico de amortización</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#registro-contable" style="color: #3b82f6; text-decoration: none;">→ Registro contable y justificación</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#software-licencias" style="color: #3b82f6; text-decoration: none;">→ Software y licencias</a></li>
+        </ul>
+      </div>
+
+      <h2 id="gasto-vs-amortizacion">Gasto directo vs amortización: La clave para deducir tu equipamiento</h2>
       <p>Cuando compras un ordenador, monitor o cualquier equipo informático para tu actividad como desarrollador, la forma de deducirlo depende del precio de adquisición. La normativa fiscal española distingue entre <strong>bienes de escaso valor</strong> (gasto deducible directo) y <strong>bienes amortizables</strong> (deducción progresiva en varios ejercicios). Entender esta diferencia puede optimizar significativamente tu declaración de IRPF y evitar errores costosos en inspecciones.</p>
 
       <p>El <strong>Real Decreto 634/2015</strong> establece las tablas oficiales de amortización que todos los autónomos deben seguir. Para equipos informáticos, el coeficiente máximo de amortización lineal es del <strong>25% anual</strong>, lo que equivale a amortizar el bien en 4 años.</p>
 
-      <h2>Umbral de los 300€: La línea divisoria fiscal</h2>
+      <h2 id="umbral-300">Umbral de los 300€: La línea divisoria fiscal</h2>
       
       <h3>Regla general según normativa</h3>
       <p>Según la interpretación de la <strong>Agencia Tributaria</strong> y la jurisprudencia del Tribunal Económico-Administrativo Central:</p>
@@ -551,7 +563,7 @@ export const posts: BlogPost[] = [
         </tbody>
       </table>
 
-      <h2>Tablas oficiales de amortización (RD 634/2015)</h2>
+      <h2 id="tablas-oficiales">Tablas oficiales de amortización (RD 634/2015)</h2>
       
       <h3>Grupo 5: Equipos para procesos de información</h3>
       <p>Según el <strong>Anexo del Real Decreto 634/2015</strong>, los equipos informáticos se encuadran en:</p>
@@ -579,7 +591,7 @@ export const posts: BlogPost[] = [
         <li>Tablets y dispositivos híbridos (iPad Pro, Surface) si uso profesional</li>
       </ul>
 
-      <h2>Cálculo práctico de amortización lineal</h2>
+      <h2 id="calculo-practico">Cálculo práctico de amortización lineal</h2>
       
       <h3>Fórmula básica</h3>
       <pre><code>Amortización anual = Precio de adquisición (sin IVA) × Coeficiente amortización</code></pre>
@@ -653,7 +665,7 @@ export const posts: BlogPost[] = [
 
       <p><strong>Ventaja:</strong> Deduces mucho más los primeros años (útil si facturas alto al inicio). <strong>Desventaja:</strong> Mayor complejidad contable.</p>
 
-      <h2>Registro contable y justificación</h2>
+      <h2 id="registro-contable">Registro contable y justificación</h2>
       
       <h3>Documentación obligatoria</h3>
       <p>Para que Hacienda acepte la amortización, debes conservar:</p>
@@ -726,7 +738,7 @@ Uso: 100% profesional (desarrollo software)
         <p>Si planeas comprar equipamiento de alto valor (>2.000€), hazlo en <strong>enero</strong> para maximizar la deducción del primer año. Usa herramientas como <strong>Holded o Quipu</strong> que llevan automáticamente el libro de bienes de inversión y calculan amortizaciones. Además, considera comprar equipos modulares (monitor + ordenador separados) para aprovechar el umbral de 300€: un monitor de 280€ es gasto directo, otro de 280€ también. Si estás cerca de un tramo de cotización superior, la amortización reduce rendimiento neto y puede bajarte de tramo.</p>
       </div>
 
-      <h2>Software y licencias: Amortización diferente</h2>
+      <h2 id="software-licencias">Software y licencias: Amortización diferente</h2>
       
       <h3>Licencias perpetuas > 300€</h3>
       <p>Si compras una licencia perpetua (pago único, tuya para siempre) por más de 300€:</p>
@@ -776,7 +788,18 @@ Uso: 100% profesional (desarrollo software)
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&auto=format&fit=crop',
     imageAlt: 'Documentos oficiales y formularios de alta de autónomo',
     content: `
-      <h2>Tu primer paso como freelance: Guía completa para darte de alta</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#elegir-iae" style="color: #3b82f6; text-decoration: none;">→ Elegir el IAE correcto</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#alta-hacienda" style="color: #3b82f6; text-decoration: none;">→ Alta censal en Hacienda</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#alta-seguridad-social" style="color: #3b82f6; text-decoration: none;">→ Alta en la Seguridad Social</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#obligaciones-fiscales" style="color: #3b82f6; text-decoration: none;">→ Obligaciones fiscales tras el alta</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#caso-practico" style="color: #3b82f6; text-decoration: none;">→ Caso práctico completo</a></li>
+        </ul>
+      </div>
+
+      <h2 id="elegir-iae">Paso 1: Elegir el IAE correcto - 763 vs 845 vs 843</h2>
       <p>Darse de alta como autónomo puede parecer un proceso complejo, pero con la información correcta es más sencillo de lo que parece. Como desarrollador, debes tomar tres decisiones clave: <strong>elegir el epígrafe correcto del IAE</strong> (Impuesto de Actividades Económicas), <strong>decidir tu régimen fiscal</strong> (estimación directa simplificada suele ser lo más común) y <strong>calcular tu base de cotización inicial</strong> en la Seguridad Social según tus ingresos previstos. Esta guía te lleva paso a paso por todo el proceso actualizado a 2026.</p>
 
       <p>Según datos de la Seguridad Social de 2025, más de <strong>4,2 millones de autónomos</strong> están dados de alta en España, y el sector tecnológico representa el 8,5% del total. El proceso de alta se ha simplificado enormemente en los últimos años gracias a la digitalización, pudiendo completarse íntegramente online en menos de 30 minutos.</p>
@@ -828,7 +851,7 @@ Uso: 100% profesional (desarrollo software)
 
       <p><strong>Mi recomendación personal:</strong> El IAE <strong>763</strong> cubre el 90% de situaciones de developers. Es más flexible, no implica obligaciones colegiales y Hacienda lo acepta para toda la gama de servicios de programación. Solo considera el 845 si tus clientes específicamente requieren un perfil "consultor/ingeniero" por temas contractuales corporativos.</p>
 
-      <h2>Paso 2: Alta censal en Hacienda (Modelo 036/037)</h2>
+      <h2 id="alta-hacienda">Paso 2: Alta censal en Hacienda (Modelo 036/037)</h2>
       
       <h3>Modelo 036 vs 037: ¿Cuál usar?</h3>
       <table>
@@ -873,7 +896,7 @@ Uso: 100% profesional (desarrollo software)
         <li>Olvidar descargar justificante: Lo necesitas para la Seguridad Social</li>
       </ul>
 
-      <h2>Paso 3: Alta en la Seguridad Social (RETA)</h2>
+      <h2 id="alta-seguridad-social">Paso 3: Alta en la Seguridad Social (RETA)</h2>
       
       <h3>¿Qué es el RETA?</h3>
       <p>El <strong>Régimen Especial de Trabajadores Autónomos</strong> es el sistema de Seguridad Social para freelancers. Te proporciona:</p>
@@ -955,7 +978,7 @@ Uso: 100% profesional (desarrollo software)
         <li><strong>Plazo:</strong> Resolución en 24-72 horas</li>
       </ol>
 
-      <h2>Paso 4: Obligaciones fiscales tras el alta</h2>
+      <h2 id="obligaciones-fiscales">Paso 4: Obligaciones fiscales tras el alta</h2>
       
       <h3>Modelos trimestrales obligatorios</h3>
       <table>
@@ -986,7 +1009,7 @@ Uso: 100% profesional (desarrollo software)
         <li>Si cliente español empresa: Retención IRPF 15% (7% los 3 primeros años)</li>
       </ul>
 
-      <h2>Caso práctico completo: Carlos, developer junior</h2>
+      <h2 id="caso-practico">Caso práctico completo: Carlos, developer junior</h2>
       
       <h3>Situación inicial (enero 2026)</h3>
       <ul>
@@ -1378,12 +1401,18 @@ TOTAL A PAGAR: 3.420€
     image: 'https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&auto=format&fit=crop',
     imageAlt: 'Empresario analizando gráficos de decisión empresarial',
     content: `
-      <h2>La decisión más importante de tu negocio: ¿Autónomo o SL?</h2>
-      <p>"¿Cuándo me compensa crear una SL?" es probablemente la pregunta más frecuente entre desarrolladores freelance que empiezan a facturar cifras considerables. La respuesta no es un número mágico, sino el resultado de analizar múltiples factores: <strong>nivel de ingresos, gastos, reinversión, protección patrimonial, situación personal</strong> y objetivos a largo plazo.</p>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#comparativa" style="color: #3b82f6; text-decoration: none;">→ Comparativa exhaustiva</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#analisis-fiscal" style="color: #3b82f6; text-decoration: none;">→ Análisis fiscal detallado</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#tabla-decision" style="color: #3b82f6; text-decoration: none;">→ Tabla de decisión</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#otros-factores" style="color: #3b82f6; text-decoration: none;">→ Más allá de los impuestos</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#proceso-constitucion" style="color: #3b82f6; text-decoration: none;">→ Proceso de constitución de una SL</a></li>
+        </ul>
+      </div>
 
-      <p>En esta guía, vamos a desgranar con <strong>casos prácticos reales</strong> cuándo tiene sentido dar el salto a sociedad limitada, qué ventajas e inconvenientes tiene cada opción, y cómo tomar una decisión informada basada en números, no en intuiciones.</p>
-
-      <h2>Comparativa exhaustiva: Autónomo vs SL</h2>
+      <h2 id="comparativa">Comparativa exhaustiva: Autónomo vs SL</h2>
 
       <h3>Tabla comparativa completa</h3>
       <table>
@@ -1449,7 +1478,7 @@ TOTAL A PAGAR: 3.420€
         </tbody>
       </table>
 
-      <h2>Análisis fiscal detallado: ¿Cuándo compensa?</h2>
+      <h2 id="analisis-fiscal">Análisis fiscal detallado: ¿Cuándo compensa?</h2>
 
       <h3>El "doble peaje" fiscal de la SL</h3>
       <p>Una SL no elimina el IRPF, solo lo pospone. Cuando sacas dinero de la sociedad, pagas:</p>
@@ -1555,7 +1584,7 @@ TOTAL A PAGAR: 3.420€
 
       <p>📌 <strong>Conclusión:</strong> Aquí la SL es <strong>claramente más ventajosa</strong>, con un ahorro de ~4,8% en carga fiscal (5.760€ anuales). Además, tienes un colchón de 22.500€ en la empresa que paga solo 25% vs 45-47% como autónomo.</p>
 
-      <h2>Tabla de decisión: ¿Qué te conviene?</h2>
+      <h2 id="tabla-decision">Tabla de decisión: ¿Qué te conviene?</h2>
 
       <table>
         <thead>
@@ -1570,7 +1599,7 @@ TOTAL A PAGAR: 3.420€
         </tbody>
       </table>
 
-      <h2>Más allá de los impuestos: Otros factores críticos</h2>
+      <h2 id="otros-factores">Más allá de los impuestos: Otros factores críticos</h2>
 
       <h3>1. Protección patrimonial</h3>
       <p><strong>Escenario real:</strong> Imagina que un proyecto sale mal, el cliente te demanda por 50.000€ y pierdes el juicio. Como autónomo, pueden embargarte tu vivienda, coche y cuentas personales. Como SL, solo responde el patrimonio de la sociedad (salvo excepciones).</p>
@@ -1611,7 +1640,7 @@ TOTAL A PAGAR: 3.420€
         <li><strong>Como SL:</strong> Vendes participaciones de la sociedad (mucho más limpio fiscal y legalmente).</li>
       </ul>
 
-      <h2>Proceso completo de constitución de una SL</h2>
+      <h2 id="proceso-constitucion">Proceso completo de constitución de una SL</h2>
 
       <h3>Paso 1: Certificado de denominación social (3-5 días)</h3>
       <ul>
@@ -1735,12 +1764,23 @@ TOTAL A PAGAR: 3.420€
     image: 'https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=800&auto=format&fit=crop',
     imageAlt: 'Documentos fiscales y calculadora representando modelo 130',
     content: `
-      <h2>¿Qué es el Modelo 130?</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#que-es" style="color: #3b82f6; text-decoration: none;">→ ¿Qué es el Modelo 130?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#quien-debe" style="color: #3b82f6; text-decoration: none;">→ ¿Quién debe presentarlo?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#calculo" style="color: #3b82f6; text-decoration: none;">→ Cálculo del Modelo 130</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ejemplo-trimestral" style="color: #3b82f6; text-decoration: none;">→ Ejemplo trimestre a trimestre</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#sanciones" style="color: #3b82f6; text-decoration: none;">→ Sanciones por retraso</a></li>
+        </ul>
+      </div>
+
+      <h2 id="que-es">¿Qué es el Modelo 130?</h2>
       <p>El modelo 130 es la <strong>declaración trimestral de pago fraccionado del IRPF</strong> para autónomos en estimación directa. Es un adelanto del impuesto que pagarás en la Renta anual, evitando así un pago único muy elevado en junio.</p>
 
       <p>Piénsalo como "ahorro obligatorio" trimestral. En lugar de pagar 15.000€ de IRPF de golpe en junio, adelantas ~3.750€ cada trimestre. Hacienda cobra progresivamente y tú evitas sorpresas.</p>
 
-      <h2>¿Quién debe presentarlo?</h2>
+      <h2 id="quien-debe">¿Quién debe presentarlo?</h2>
 
       <h3>Obligados si cumples TODOS estos requisitos:</h3>
       <ul>
@@ -1758,7 +1798,7 @@ TOTAL A PAGAR: 3.420€
       <p><strong>Developer A:</strong> 50.000€ a empresas españolas + 10.000€ extranjeros = <strong>83% con retención</strong> → EXENTO</p>
       <p><strong>Developer B:</strong> 30.000€ empresas españolas + 50.000€ extranjeros = <strong>37,5% con retención</strong> → OBLIGADO</p>
 
-      <h2>Cálculo del Modelo 130</h2>
+      <h2 id="calculo">Cálculo del Modelo 130</h2>
 
       <h3>Fórmula</h3>
       <pre><code>Pago = (Rendimiento neto acumulado × 20%) - Retenciones - Pagos anteriores
@@ -1777,7 +1817,7 @@ Rendimiento neto = Ingresos acumulados - Gastos acumulados</code></pre>
         <li>Seguros y gastos financieros</li>
       </ul>
 
-      <h2>💻 Ejemplo trimestre a trimestre</h2>
+      <h2 id="ejemplo-trimestral">💻 Ejemplo trimestre a trimestre</h2>
 
       <p><strong>Developer freelance con clientes internacionales (sin retención):</strong></p>
 
@@ -1834,7 +1874,7 @@ Total pagado año: 10.500€</code></pre>
         <li>Se compensa automáticamente en el siguiente</li>
       </ul>
 
-      <h2>Sanciones por retraso</h2>
+      <h2 id="sanciones">Sanciones por retraso</h2>
       <ul>
         <li><strong>Retraso sin requerimiento:</strong> 1% + 1% por cada mes (máx. 12 meses)</li>
         <li><strong>Tras requerimiento:</strong> 50%-150%</li>
@@ -1949,7 +1989,18 @@ Resultado Renta:    1.500€ a pagar</code></pre>
     image: 'https://images.unsplash.com/photo-1568667256549-094345857637?w=800&auto=format&fit=crop',
     imageAlt: 'Factura profesional en ordenador portátil',
     content: `
-      <h2>¿Por qué es crucial emitir facturas correctas?</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#por-que-crucial" style="color: #3b82f6; text-decoration: none;">→ ¿Por qué es crucial?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#elementos-obligatorios" style="color: #3b82f6; text-decoration: none;">→ Elementos obligatorios</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#retencion-irpf" style="color: #3b82f6; text-decoration: none;">→ Retención de IRPF</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ejemplos-facturas" style="color: #3b82f6; text-decoration: none;">→ Ejemplos de facturas reales</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#software-facturacion" style="color: #3b82f6; text-decoration: none;">→ Software de facturación</a></li>
+        </ul>
+      </div>
+
+      <h2 id="por-que-crucial">¿Por qué es crucial emitir facturas correctas?</h2>
       <p>La factura es un <strong>documento mercantil con valor legal y fiscal</strong> (RD 1619/2012). Una factura incorrecta puede causar:</p>
       
       <ul>
@@ -1960,7 +2011,7 @@ Resultado Renta:    1.500€ a pagar</code></pre>
 
       <p>Como developer freelance, emitirás facturas constantemente. Hazlo bien desde el principio.</p>
 
-      <h2>Elementos obligatorios</h2>
+      <h2 id="elementos-obligatorios">Elementos obligatorios</h2>
 
       <table>
         <thead>
@@ -1981,7 +2032,7 @@ Resultado Renta:    1.500€ a pagar</code></pre>
         </tbody>
       </table>
 
-      <h2>Retención de IRPF: Cuándo aplicarla</h2>
+      <h2 id="retencion-irpf">Retención de IRPF: Cuándo aplicarla</h2>
 
       <h3>¿Cuándo DEBES aplicar retención?</h3>
       <p>Obligatorio cuando se cumplen <strong>TODOS</strong>:</p>
@@ -2023,7 +2074,7 @@ TOTAL A COBRAR:     1.590,00 €</code></pre>
         <li>Si sale a devolver, recuperas parte o todo</li>
       </ul>
 
-      <h2>Ejemplos de facturas reales</h2>
+      <h2 id="ejemplos-facturas">Ejemplos de facturas reales</h2>
 
       <h3>Ejemplo 1: Factura nacional con retención</h3>
       <pre><code>──────────────────────────────────────────
@@ -2092,7 +2143,7 @@ Due: 30 days (19/02/2026)
 
       <p><strong>⚠️ Importante UE:</strong> Verifica el VAT en <a href="https://ec.europa.eu/taxation_customs/vies/" target="_blank">VIES</a> antes de emitir sin IVA. Guarda captura.</p>
 
-      <h2>Software de facturación recomendado</h2>
+      <h2 id="software-facturacion">Software de facturación recomendado</h2>
 
       <table>
         <thead>
@@ -2219,10 +2270,22 @@ Due: 30 days (19/02/2026)
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&auto=format&fit=crop',
     imageAlt: 'Espacio de trabajo en casa con ordenador y buena iluminación',
     content: `
-      <h2>¿Por qué deducir gastos de suministros del hogar?</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#por-que-deducir" style="color: #3b82f6; text-decoration: none;">→ ¿Por qué deducir gastos del hogar?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#formula-30" style="color: #3b82f6; text-decoration: none;">→ La fórmula del 30%</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#que-deducir" style="color: #3b82f6; text-decoration: none;">→ Qué suministros puedes deducir</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#requisitos-legales" style="color: #3b82f6; text-decoration: none;">→ Requisitos legales obligatorios</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ejemplo-completo" style="color: #3b82f6; text-decoration: none;">→ Ejemplo completo de ahorro</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#estrategias-maximizar" style="color: #3b82f6; text-decoration: none;">→ Estrategias para maximizar</a></li>
+        </ul>
+      </div>
+
+      <h2 id="por-que-deducir">¿Por qué deducir gastos de suministros del hogar?</h2>
       <p>Desde la <strong>Ley 6/2017 de Reformas Urgentes del Trabajo Autónomo</strong>, los freelancers que trabajan desde casa pueden deducir una parte de los gastos de suministros. Para desarrolladores que trabajamos en remoto, esto puede suponer un <strong>ahorro fiscal de 400-800€ anuales</strong>. Sin embargo, el cálculo tiene reglas específicas que debes conocer.</p>
 
-      <h2>📐 La fórmula del 30%: Cómo se calcula</h2>
+      <h2 id="formula-30">📐 La fórmula del 30%: Cómo se calcula</h2>
 
       <h3>Paso 1: Determina los metros afectos a tu actividad</h3>
       <p>Primero, debes definir qué parte de tu vivienda usas exclusiva o principalmente para trabajar:</p>
@@ -2253,7 +2316,7 @@ Proporción = 10/85 = 11,76%
 Deducción = 11,76% × 30% × 110€ = 3,88€/mes
 Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
 
-      <h2>Qué suministros puedes deducir</h2>
+      <h2 id="que-deducir">Qué suministros puedes deducir</h2>
 
       <table>
         <thead>
@@ -2298,7 +2361,7 @@ Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
         </tbody>
       </table>
 
-      <h2>Requisitos legales obligatorios</h2>
+      <h2 id="requisitos-legales">Requisitos legales obligatorios</h2>
 
       <h3>1. Alta censal correcta</h3>
       <p>En el <strong>modelo 036 o 037</strong>, debes indicar:</p>
@@ -2405,7 +2468,7 @@ Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
       <p><strong>Mal:</strong> Deducir sin guardar facturas ni justificación<br>
       <strong>Bien:</strong> Conservar todas las facturas + fotos del espacio durante 4 años</p>
 
-      <h2>Estrategias para maximizar deducciones legalmente</h2>
+      <h2 id="estrategias-maximizar">Estrategias para maximizar deducciones legalmente</h2>
 
       <div class="tip-box">
         <h4>1. Contrata línea de internet profesional</h4>
@@ -2515,10 +2578,21 @@ Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop',
     imageAlt: 'Mapa de Europa con conexiones digitales representando comercio intracomunitario',
     content: `
-      <h2>Comercio digital en la UE: VIES y ROI explicados paso a paso</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#vies-roi-explicados" style="color: #3b82f6; text-decoration: none;">→ VIES y ROI explicados</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#puntos-clave" style="color: #3b82f6; text-decoration: none;">→ Puntos clave sobre VIES y ROI</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#flujo-trabajo" style="color: #3b82f6; text-decoration: none;">→ Flujo de trabajo: Venta B2B</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#alta-roi" style="color: #3b82f6; text-decoration: none;">→ Proceso de alta en el ROI</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#gestion-iva-saas" style="color: #3b82f6; text-decoration: none;">→ Gestión del IVA en SaaS</a></li>
+        </ul>
+      </div>
+
+      <h2 id="vies-roi-explicados">Comercio digital en la UE: VIES y ROI explicados paso a paso</h2>
       <p>Si desarrollas y vendes <strong>productos SaaS, plugins, templates o servicios digitales</strong> a clientes de otros países de la UE, necesitas entender dos conceptos clave: el <strong>sistema VIES</strong> para verificar el IVA de clientes empresariales, y el <strong>ROI (Registro de Operadores Intracomunitarios)</strong> para estar habilitado a operar sin IVA en transacciones B2B intracomunitarias.</p>
 
-      <h2>3 Puntos Clave sobre VIES y ROI</h2>
+      <h2 id="puntos-clave">Puntos Clave sobre VIES y ROI</h2>
 
       <h3>1. ¿Qué es el VIES y para qué sirve?</h3>
       <p><strong>VIES</strong> (VAT Information Exchange System) es la base de datos europea que permite verificar si un número de IVA intracomunitario es válido:</p>
@@ -2553,7 +2627,7 @@ Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
         <p>Si vendes SaaS con pagos recurrentes (Stripe, Paddle, etc.), necesitas un sistema que verifique automáticamente el VIES de clientes empresariales. Plataformas como <strong>Paddle o LemonSqueezy</strong> actúan como Merchant of Record y gestionan el IVA por ti, lo que simplifica enormemente la fiscalidad. Si usas Stripe directamente, integra <strong>Stripe Tax</strong> o usa servicios como Quaderno o Octobat para la gestión de IVA europeo. Recuerda: las ventas B2C (particulares) llevan IVA del país del cliente (OSS).</p>
       </div>
 
-      <h2>Flujo de trabajo: Venta B2B a empresa alemana</h2>
+      <h2 id="flujo-trabajo">Flujo de trabajo: Venta B2B a empresa alemana</h2>
       <ol>
         <li>Cliente alemán te contrata para desarrollo de API: 5.000€</li>
         <li>Te proporciona su VAT: DE123456789</li>
@@ -2576,7 +2650,7 @@ Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
         </tbody>
       </table>
 
-      <h2>Proceso completo de alta en el ROI</h2>
+      <h2 id="alta-roi">Proceso completo de alta en el ROI</h2>
       <p>El alta en el ROI es el primer paso para operar legalmente en el mercado intracomunitario. Aquí está el proceso detallado:</p>
 
       <h3>Documentación necesaria</h3>
@@ -2608,7 +2682,7 @@ Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
         <p><strong>1. Solicitar sin clientes reales:</strong> La AEAT puede denegar si no demuestras actividad real intracomunitaria. <strong>2. No actualizar el domicilio fiscal:</strong> Hacienda envía notificaciones por correo postal; si no las recibes, pierdes plazos. <strong>3. Olvidar marcar la casilla 582:</strong> El modelo 036 tiene muchas casillas; asegúrate de marcar la correcta. <strong>4. No conservar pruebas de verificación VIES:</strong> Guarda todas las consultas VIES con fecha visible durante 4 años.</p>
       </div>
 
-      <h2>Gestión del IVA en productos SaaS recurrentes</h2>
+      <h2 id="gestion-iva-saas">Gestión del IVA en productos SaaS recurrentes</h2>
       <p>Si vendes suscripciones mensuales o anuales, la gestión del IVA se complica. Aquí tienes opciones:</p>
 
       <h3>Opción 1: Merchant of Record (MoR)</h3>
@@ -2963,7 +3037,19 @@ async function verificarVAT(vatNumber, countryCode) {
       <h2>Claves para optimizar tu cotización en la Seguridad Social 2026</h2>
       <p>El sistema de cotización por tramos de 2026 ofrece <strong>oportunidades de ahorro</strong> que muchos autónomos desconocen. No todos los tramos son igual de "rentables" en términos de relación cuota/prestaciones. Entender esto puede ahorrarte cientos de euros al año sin afectar negativamente a tus derechos.</p>
 
-      <h2>3 Estrategias Clave de Ahorro</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#estrategias" style="color: #3b82f6; text-decoration: none;">→ 3 Estrategias Clave de Ahorro</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#prestaciones" style="color: #3b82f6; text-decoration: none;">→ Impacto en prestaciones</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#simulacion" style="color: #3b82f6; text-decoration: none;">→ Simulación con ingresos variables</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#cambiar-tramo" style="color: #3b82f6; text-decoration: none;">→ Cómo cambiar de tramo online</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#tabla-tramos" style="color: #3b82f6; text-decoration: none;">→ Tabla completa de tramos 2026</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#estrategias-avanzadas" style="color: #3b82f6; text-decoration: none;">→ Estrategias avanzadas de cotización</a></li>
+        </ul>
+      </div>
+
+      <h2 id="estrategias">3 Estrategias Clave de Ahorro</h2>
 
       <h3>1. Los "tramos dulces": Mejor relación cuota/prestaciones</h3>
       <p>Algunos tramos tienen <strong>saltos de cuota desproporcionados</strong>. Analicemos:</p>
@@ -3005,7 +3091,7 @@ Coste real neto: 3.528€ - 1.058€ = 2.470€/año (206€/mes)</code></pre>
         <p>Si facturas de forma <strong>irregular</strong> (meses con 0€, otros con 8.000€), no cotices siempre en el tramo más alto "por si acaso". Usa una estrategia dinámica: cotiza bajo cuando factures bajo y ajusta al alza cuando entren proyectos grandes. La <strong>regularización anual</strong> te protege: si al final del año resulta que cotizaste de menos, pagarás la diferencia; si cotizaste de más, te devuelven. Pero evitas pagar de más durante todo el año.</p>
       </div>
 
-      <h2>Impacto en prestaciones: ¿Vale la pena cotizar más?</h2>
+      <h2 id="prestaciones">Impacto en prestaciones: ¿Vale la pena cotizar más?</h2>
       <p>Cotizar en tramos superiores mejora tus prestaciones, pero el retorno no siempre es proporcional:</p>
       <table>
         <thead>
@@ -3020,7 +3106,7 @@ Coste real neto: 3.528€ - 1.058€ = 2.470€/año (206€/mes)</code></pre>
       </table>
       <p><strong>Recomendación:</strong> Si tienes 30-40 años y buena salud, prioriza ahorrar cuota y reinvertir. Si tienes +50 años o problemas de salud, considera cotizar en tramos superiores para mejorar prestaciones.</p>
 
-      <h2>Simulación: Developer con ingresos variables</h2>
+      <h2 id="simulacion">Simulación: Developer con ingresos variables</h2>
       <p><strong>Perfil:</strong> Developer freelance con ingresos mensuales entre 1.200€ y 3.000€</p>
       
       <h4>Estrategia conservadora (tramo fijo 6):</h4>
@@ -3040,7 +3126,7 @@ Coste real neto: 3.528€ - 1.058€ = 2.470€/año (206€/mes)</code></pre>
         <li>Ahorro vs estrategia fija: Mínimo, pero evitas sobrecotizar</li>
       </ul>
 
-      <h2>Cómo cambiar de tramo online</h2>
+      <h2 id="cambiar-tramo">Cómo cambiar de tramo online</h2>
       <ol>
         <li>Accede a <strong>Import@ss</strong>: <a href="https://portal.seg-social.gob.es" target="_blank">portal.seg-social.gob.es</a></li>
         <li>Certificado digital o Cl@ve</li>
@@ -3049,7 +3135,7 @@ Coste real neto: 3.528€ - 1.058€ = 2.470€/año (206€/mes)</code></pre>
         <li>Efectivo desde el primer día del mes siguiente</li>
       </ol>
 
-      <h2>Tabla completa de tramos 2026</h2>
+      <h2 id="tabla-tramos">Tabla completa de tramos 2026</h2>
       <p>Desglose completo de los 15 tramos con análisis de rentabilidad:</p>
 
       <table>
@@ -3074,7 +3160,7 @@ Coste real neto: 3.528€ - 1.058€ = 2.470€/año (206€/mes)</code></pre>
         </tbody>
       </table>
 
-      <h2>Estrategias avanzadas de cotización</h2>
+      <h2 id="estrategias-avanzadas">Estrategias avanzadas de cotización</h2>
 
       <h3>Estrategia 1: Cotización mínima + seguro privado</h3>
       <p>Algunos autónomos optan por cotizar bajo y complementar con seguros:</p>
@@ -3573,7 +3659,18 @@ A los 65 años:
       <h2>La IA revoluciona la gestión fiscal: Herramientas que debes conocer</h2>
       <p>En 2026, la <strong>inteligencia artificial</strong> ha dejado de ser ciencia ficción para convertirse en una herramienta cotidiana para autónomos. Desde chatbots que resuelven dudas fiscales hasta sistemas que categorizan gastos automáticamente, la IA está reduciendo dramáticamente el tiempo dedicado a tareas administrativas.</p>
 
-      <h2>3 Áreas Donde la IA Marca la Diferencia</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#areas-ia" style="color: #3b82f6; text-decoration: none;">→ 3 Áreas Donde la IA Marca la Diferencia</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#herramientas" style="color: #3b82f6; text-decoration: none;">→ Herramientas de IA gratuitas o económicas</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#casos-uso" style="color: #3b82f6; text-decoration: none;">→ Casos de uso prácticos en 2026</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#futuro" style="color: #3b82f6; text-decoration: none;">→ El futuro: ¿Gestorías automáticas?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#limitaciones" style="color: #3b82f6; text-decoration: none;">→ Limitaciones y precauciones</a></li>
+        </ul>
+      </div>
+
+      <h2 id="areas-ia">3 Áreas Donde la IA Marca la Diferencia</h2>
 
       <h3>1. Categorización automática de gastos</h3>
       <p>Las plataformas modernas de contabilidad usan <strong>machine learning</strong> para clasificar tus gastos automáticamente:</p>
@@ -3616,7 +3713,7 @@ Mi situación: facturación anual 45.000€, gastos 12.000€.
         <p>Como dev, puedes ir un paso más allá: <strong>automatiza tu contabilidad con APIs</strong>. Herramientas como Holded, Quipu o Freebie tienen APIs que permiten integración con tus propios scripts. Ejemplo: un script que lee tus facturas de Stripe/PayPal, las sube automáticamente a Holded y categoriza según reglas personalizadas. Con <strong>n8n (plataforma de automatización)</strong> puedes crear workflows sin código que conecten tus herramientas fiscales con Notion, Google Sheets, etc.</p>
       </div>
 
-      <h2>Herramientas de IA gratuitas o económicas</h2>
+      <h2 id="herramientas">Herramientas de IA gratuitas o económicas</h2>
       
       <h3>Para categorización de gastos:</h3>
       <ul>
@@ -3639,7 +3736,7 @@ Mi situación: facturación anual 45.000€, gastos 12.000€.
         <li><strong>Zapier:</strong> Automatizaciones simples (15 zaps gratis)</li>
       </ul>
 
-      <h2>Casos de uso prácticos en 2026</h2>
+      <h2 id="casos-uso">Casos de uso prácticos en 2026</h2>
 
       <h4>Caso 1: Automatización de facturación</h4>
       <p>Setup: Stripe → n8n → Holded → Google Drive</p>
@@ -3669,7 +3766,7 @@ clientes: 70% España, 30% UE."
 Luego preguntas específicas como:
 "¿Cuánto pagaré en el modelo 130 del Q2 si facturo 15k€ más?"</code></pre>
 
-      <h2>El futuro: ¿Gestorías automáticas?</h2>
+      <h2 id="futuro">El futuro: ¿Gestorías automáticas?</h2>
       <p>En 2026 ya existen <strong>gestorías semi-automatizadas</strong>:</p>
       <ul>
         <li><strong>Modelo híbrido:</strong> IA + supervisor humano para casos complejos</li>
@@ -3678,7 +3775,7 @@ Luego preguntas específicas como:
       </ul>
       <p>La IA no reemplaza completamente a gestores fiscales para casos complejos, pero <strong>reduce costes y tiempo</strong> en tareas rutinarias.</p>
 
-      <h2>Limitaciones y precauciones</h2>
+      <h2 id="limitaciones">Limitaciones y precauciones</h2>
       <ul>
         <li><strong>IA no es infalible:</strong> Siempre revisa sugerencias en casos críticos</li>
         <li><strong>Privacidad de datos:</strong> Asegúrate de que las herramientas cumplen RGPD</li>
@@ -3917,7 +4014,19 @@ Luego preguntas específicas como:
 
       <p>Sin embargo, la fiscalidad de las criptomonedas en España es un tema complejo y en constante evolución. La <strong>Agencia Tributaria</strong> ha establecido criterios claros: <strong>las criptomonedas son consideradas bienes patrimoniales</strong>, no dinero de curso legal, y cualquier operación con ellas tiene implicaciones fiscales que debes declarar correctamente para evitar sanciones.</p>
 
-      <h2>Marco legal: ¿Qué dice Hacienda sobre las criptomonedas?</h2>
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#marco-legal" style="color: #3b82f6; text-decoration: none;">→ Marco legal: ¿Qué dice Hacienda?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#caso-practico" style="color: #3b82f6; text-decoration: none;">→ Caso práctico: Cobras 5.000 USDC</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#stablecoins-vs-volatiles" style="color: #3b82f6; text-decoration: none;">→ Stablecoins vs. criptomonedas volátiles</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#modelo-721" style="color: #3b82f6; text-decoration: none;">→ Modelo 721: Declaración en el extranjero</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#herramientas" style="color: #3b82f6; text-decoration: none;">→ Herramientas para gestionar fiscalidad crypto</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#consejos" style="color: #3b82f6; text-decoration: none;">→ Consejos prácticos para desarrolladores</a></li>
+        </ul>
+      </div>
+
+      <h2 id="marco-legal">Marco legal: ¿Qué dice Hacienda sobre las criptomonedas?</h2>
 
       <h3>1. Consultas vinculantes de la AEAT</h3>
       <p>La Dirección General de Tributos (DGT) ha emitido varias <strong>consultas vinculantes</strong> que establecen criterios oficiales:</p>
@@ -3961,7 +4070,7 @@ Luego preguntas específicas como:
         </tbody>
       </table>
 
-      <h2>Caso práctico: Cobras 5.000 USDC por un proyecto</h2>
+      <h2 id="caso-practico">Caso práctico: Cobras 5.000 USDC por un proyecto</h2>
       
       <h3>Escenario completo paso a paso:</h3>
       <p><strong>Situación:</strong> El 15 de enero de 2026, completas un proyecto y cobras 5.000 USDC. En ese momento, el USDC cotiza a 1 USDC = 0,92€.</p>
@@ -4003,7 +4112,7 @@ Luego preguntas específicas como:
         <p>Muchos freelancers piensan: "Declaro cuando convierto a euros". <strong>INCORRECTO</strong>. Según la AEAT, el ingreso se produce en el momento del cobro del servicio, aunque lo cobres en crypto. La conversión posterior genera una ganancia/pérdida patrimonial adicional, pero el rendimiento de actividad ya se generó al cobrar.</p>
       </div>
 
-      <h2>Stablecoins vs. criptomonedas volátiles</h2>
+      <h2 id="stablecoins-vs-volatiles">Stablecoins vs. criptomonedas volátiles</h2>
 
       <h3>Ventajas fiscales de cobrar en stablecoins (USDC, USDT, DAI):</h3>
       <ul>
@@ -4021,7 +4130,7 @@ Luego preguntas específicas como:
       </ul>
       <p>Conclusión: Las stablecoins son más predecibles fiscalmente y evitan situaciones donde pagas impuestos sobre ingresos que luego pierden valor.</p>
 
-      <h2>Modelo 721: Declaración de criptomonedas en el extranjero</h2>
+      <h2 id="modelo-721">Modelo 721: Declaración de criptomonedas en el extranjero</h2>
 
       <h3>¿Qué es y cuándo es obligatorio?</h3>
       <p>El <strong>modelo 721</strong> es una declaración informativa anual que debes presentar si tienes criptomonedas en exchanges o wallets situados fuera de España (Binance, Coinbase, Kraken, etc.) y el saldo supera <strong>50.000€</strong>.</p>
@@ -4040,7 +4149,7 @@ Luego preguntas específicas como:
       </ul>
       <p><strong>Importante:</strong> Aunque no llegues a 50.000€, es recomendable llevar un registro detallado de tus operaciones. Hacienda puede solicitarlo en una inspección.</p>
 
-      <h2>Herramientas y software para gestionar la fiscalidad crypto</h2>
+      <h2 id="herramientas">Herramientas y software para gestionar la fiscalidad crypto</h2>
 
       <h3>Plataformas especializadas:</h3>
       <table>
@@ -4080,7 +4189,7 @@ Luego preguntas específicas como:
         <li><strong>Plataforma:</strong> Binance, Coinbase, wallet personal, etc.</li>
       </ul>
 
-      <h2>Consejos prácticos para desarrolladores</h2>
+      <h2 id="consejos">Consejos prácticos para desarrolladores</h2>
 
       <h3>1. Negocia precios en EUR aunque cobres en crypto</h3>
       <p>Acuerda con tu cliente: "El proyecto cuesta 5.000€, pagaderos en el equivalente en USDC al tipo de cambio del día del pago". Así evitas discusiones posteriores sobre el valor del servicio.</p>
