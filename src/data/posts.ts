@@ -226,7 +226,7 @@ export const posts: BlogPost[] = [
       
       <p>El <strong>artículo 30 de la Ley del IRPF</strong> (Ley 35/2006) establece que son deducibles todos los gastos necesarios para obtener los ingresos, siempre que estén debidamente justificados. Esta guía actualizada a 2026 te muestra exactamente qué puedes deducir, en qué porcentaje y cómo justificarlo ante Hacienda.</p>
 
-      <h2>Requisitos legales para que un gasto sea deducible (Art. 30 LIRPF)</h2>
+      <h2 id="requisitos">Requisitos legales para que un gasto sea deducible (Art. 30 LIRPF)</h2>
       
       <p>Antes de deducir cualquier gasto, debe cumplir estos <strong>4 requisitos obligatorios</strong>:</p>
       <ol>
@@ -238,7 +238,7 @@ export const posts: BlogPost[] = [
 
       <p>Si falta alguno de estos requisitos, Hacienda puede <strong>rechazar la deducción</strong> en una inspección y reclamar la diferencia con recargos del 15-20%.</p>
 
-      <h2>Categoría 1: Hardware y equipamiento tecnológico</h2>
+      <h2 id="hardware">Categoría 1: Hardware y equipamiento tecnológico</h2>
       
       <h3>Equipos informáticos: 100% deducible</h3>
       <p>Todo el equipamiento exclusivo para tu actividad profesional es <strong>100% deducible</strong> tanto en IRPF como en IVA (21%). Si el valor supera <strong>300€</strong>, debes amortizarlo según las tablas oficiales del Real Decreto 634/2015:</p>
@@ -267,7 +267,7 @@ export const posts: BlogPost[] = [
         <li>Ratón ergonómico: 95€ → Deducción completa</li>
       </ul>
 
-      <h2>Categoría 2: Software, licencias y servicios cloud</h2>
+      <h2 id="software">Categoría 2: Software, licencias y servicios cloud</h2>
       
       <h3>Suscripciones profesionales: 100% deducible</h3>
       <p>Todos los servicios digitales necesarios para tu actividad son <strong>gastos corrientes</strong> deducibles al 100% en el ejercicio:</p>
@@ -299,7 +299,7 @@ export const posts: BlogPost[] = [
         <li><strong>APIs externas:</strong> OpenAI API, Stripe fees, SendGrid → 100% deducible</li>
       </ul>
 
-      <h2>Categoría 3: Suministros del hogar para teletrabajo (30%)</h2>
+      <h2 id="suministros">Categoría 3: Suministros del hogar para teletrabajo (30%)</h2>
       
       <h3>Normativa actualizada: Consulta Vinculante V0673-18</h3>
       <p>Desde la <strong>Consulta Vinculante V0673-18 de la DGT</strong> (marzo 2018), los autónomos que teletrabajan desde casa pueden deducir el <strong>30% de los suministros</strong> proporcionalmente a los metros cuadrados destinados a la actividad:</p>
@@ -330,7 +330,7 @@ export const posts: BlogPost[] = [
 
       <p>Si Laura paga 15.000€ IRPF anual (tipo marginal 30%), esta deducción le ahorra: 84,72€ × 30% = <strong>25,42€ en impuestos</strong>. Parece poco, pero sumado a otros gastos como <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">la cuota de autónomo</a> y el resto, el ahorro total es significativo.</p>
 
-      <h2>Categoría 4: Formación profesional (100% deducible)</h2>
+      <h2 id="formacion">Categoría 4: Formación profesional (100% deducible)</h2>
       
       <h3>Cursos, certificaciones y conferencias</h3>
       <p>El <strong>artículo 30.2.3º LIRPF</strong> permite deducir íntegramente los gastos de formación directamente relacionados con tu actividad:</p>
@@ -435,7 +435,7 @@ export const posts: BlogPost[] = [
         </tbody>
       </table>
 
-      <h2>Caso práctico completo: Desarrollador con gastos optimizados</h2>
+      <h2 id="caso-practico">Caso práctico completo: Desarrollador con gastos optimizados</h2>
       
       <h3>Javier, Backend Developer en Málaga (ejercicio 2026)</h3>
       
@@ -1132,12 +1132,12 @@ TOTAL A PAGAR: 3.420€
         </ul>
       </div>
 
-      <h2>Cómo funciona el nuevo sistema de cotización por ingresos reales</h2>
+      <h2 id="sistema">Cómo funciona el nuevo sistema de cotización por ingresos reales</h2>
       <p>Desde 2023, los autónomos en España cotizan en función de sus <strong>rendimientos netos reales</strong>, un cambio radical respecto al sistema anterior de base libre. En 2026, el sistema se ha estabilizado según lo establecido en el <strong>Real Decreto-ley 13/2022</strong>, y ahora es fundamental que como desarrollador freelance entiendas perfectamente cómo calcular tu cuota, cuándo cambiar de tramo y cómo evitar sorpresas en la regularización anual.</p>
 
       <p>El objetivo de esta reforma es que <strong>los autónomos con menores ingresos paguen menos</strong> y aquellos con rentas altas contribuyan más, creando un sistema más justo y progresivo similar al IRPF. Además, se elimina la incertidumbre de la "cuota plana" temporal y se establece un mecanismo transparente basado en rendimientos objetivos.</p>
 
-      <h2>Tabla completa de tramos de cotización 2026</h2>
+      <h2 id="tabla-tramos">Tabla completa de tramos de cotización 2026</h2>
       <p>Estos son los <strong>15 tramos oficiales</strong> que establece la Seguridad Social para 2026. La cuota mensual que pagas depende de tu rendimiento neto mensual:</p>
       
       <table>
@@ -1165,7 +1165,7 @@ TOTAL A PAGAR: 3.420€
 
       <p><strong>Nota importante:</strong> Los tramos se ajustarán anualmente según la evolución del Salario Mínimo Interprofesional (SMI) y el IPC, por lo que estos valores pueden variar ligeramente en años posteriores.</p>
 
-      <h2>🧮 Cálculo del rendimiento neto: Fórmula paso a paso</h2>
+      <h2 id="calculo">🧮 Cálculo del rendimiento neto: Fórmula paso a paso</h2>
       
       <h3>Paso 1: Calcula tu rendimiento neto anual</h3>
       <p>El primer paso es restar tus <a href="/blog/gastos-deducibles-autonomos-desarrolladores-2026-guia-completa">gastos deducibles</a> de tu facturación anual. Los gastos deducibles incluyen:</p>
@@ -1219,7 +1219,7 @@ TOTAL A PAGAR: 3.420€
         <li>Cuota mensual: <strong>450€</strong></li>
       </ol>
 
-      <h2>Cambios de tramo: Flexibilidad y estrategia</h2>
+      <h2 id="cambios">Cambios de tramo: Flexibilidad y estrategia</h2>
       
       <h3>¿Cuántas veces puedo cambiar de tramo?</h3>
       <p>Puedes cambiar de tramo <strong>hasta 6 veces al año</strong> (cada dos meses) a través de la Sede Electrónica de la Seguridad Social. Los cambios tienen efecto el primer día del mes siguiente a la solicitud.</p>
@@ -1243,7 +1243,7 @@ TOTAL A PAGAR: 3.420€
       <h3>¿Qué pasa si me equivoco de tramo?</h3>
       <p>No te preocupes. El sistema de <strong>regularización anual</strong> (ver más abajo) corregirá automáticamente cualquier diferencia. Eso sí, si cotizas muy por debajo de lo que deberías, tendrás que pagar la diferencia de golpe, así que es mejor aproximarse al tramo correcto.</p>
 
-      <h2>Regularización anual: Cómo funciona realmente</h2>
+      <h2 id="regularizacion">Regularización anual: Cómo funciona realmente</h2>
       
       <h3>¿Qué es la regularización?</h3>
       <p>En el <strong>segundo semestre del año siguiente</strong> (normalmente julio-diciembre de 2027 para el ejercicio 2026), la Seguridad Social cruza datos con Hacienda y compara:</p>
@@ -1283,7 +1283,7 @@ TOTAL A PAGAR: 3.420€
       <h3>¿Puedo reclamar si no estoy de acuerdo?</h3>
       <p>Sí. Tienes <strong>30 días hábiles</strong> desde la notificación para presentar una reclamación previa ante la TGSS. Si persiste el desacuerdo, puedes acudir a los tribunales de lo social.</p>
 
-      <h2>Consejos prácticos para desarrolladores</h2>
+      <h2 id="estrategias">Consejos prácticos para desarrolladores</h2>
 
       <div class="tip-box">
         <h4>1. Lleva un control mensual</h4>
@@ -3715,7 +3715,7 @@ Luego preguntas específicas como:
         </ul>
       </div>
 
-      <h2>¿Qué es la factura electrónica y por qué es obligatoria?</h2>
+      <h2 id="que-es">¿Qué es la factura electrónica y por qué es obligatoria?</h2>
           <li>Requisitos técnicos y formatos admitidos</li>
           <li>Software compatible y soluciones técnicas</li>
           <li>Certificado digital: Obtención y uso</li>
@@ -3729,7 +3729,7 @@ Luego preguntas específicas como:
 
       <p>Como desarrollador freelance, esto te afecta directamente: <strong>todas las facturas que emitas a empresas deben ser electrónicas</strong>, cumplir con estándares técnicos específicos y estar firmadas digitalmente. Las facturas en PDF enviadas por email ya no son suficientes para cumplir con la normativa.</p>
 
-      <h2>Puntos Clave de la Normativa</h2>
+      <h2 id="requisitos">Puntos Clave de la Normativa</h2>
 
       <h3>1. ¿Qué es una factura electrónica legalmente válida?</h3>
       <p>Según el <strong>Real Decreto 1619/2012</strong> y la Ley Crea y Crece, una factura electrónica debe cumplir:</p>
@@ -3762,7 +3762,7 @@ Luego preguntas específicas como:
       </ul>
       <p>Ambos formatos son <strong>archivos XML estructurados</strong> que contienen todos los datos de la factura en campos específicos. No son "facturas en PDF", aunque pueden ir acompañados de una representación visual en PDF para facilitar la lectura.</p>
 
-      <h2>Software compatible y soluciones técnicas</h2>
+      <h2 id="software">Software compatible y soluciones técnicas</h2>
 
       <h3>Opciones para autónomos tech:</h3>
       <table>
@@ -3834,7 +3834,7 @@ Luego preguntas específicas como:
         <p>Evitas errores técnicos y te garantizas el cumplimiento normativo. El coste mensual (20-30€) se amortiza rápidamente comparado con el tiempo y riesgo de desarrollar una solución propia.</p>
       </div>
 
-      <h2>Certificado digital: Obtención y uso</h2>
+      <h2 id="certificado">Certificado digital: Obtención y uso</h2>
 
       <h3>Tipos de certificado válidos:</h3>
       <ul>
@@ -3852,7 +3852,7 @@ Luego preguntas específicas como:
       </ol>
       <p><strong>Importante:</strong> El certificado caduca cada 4 años. Debes renovarlo antes del vencimiento para seguir pudiendo firmar facturas electrónicas.</p>
 
-      <h2>Obligaciones y sanciones</h2>
+      <h2 id="plazos">Obligaciones y sanciones</h2>
 
       <h3>¿Qué pasa si no cumples?</h3>
       <p>Según la <strong>Ley General Tributaria</strong>, emitir facturas que no cumplan los requisitos legales puede conllevar:</p>
@@ -3872,7 +3872,7 @@ Luego preguntas específicas como:
       </ul>
       <p>La mayoría de software de facturación gestiona esto automáticamente con almacenamiento en la nube cifrado.</p>
 
-      <h2>Preguntas frecuentes</h2>
+      <h2 id="transicion">Preguntas frecuentes</h2>
 
       <h3>¿Puedo seguir enviando facturas en PDF por email?</h3>
       <p>No, si facturas a empresas (B2B). Desde julio 2025, <strong>solo son válidas las facturas electrónicas</strong> en formato Facturae o UBL con firma digital. El PDF puede ir como documento complementario para visualización, pero el archivo legalmente válido es el XML firmado.</p>
@@ -4167,7 +4167,7 @@ Luego preguntas específicas como:
         </ul>
       </div>
 
-      <h2>¿Qué es la Ley de Startups y cómo beneficia a freelancers?</h2>
+      <h2 id="que-es">¿Qué es la Ley de Startups y cómo beneficia a freelancers?</h2>
           <li>Requisitos para el tipo reducido del 15%</li>
           <li>Comparativa fiscal: Tipo general vs Ley Startups</li>
           <li>Cómo solicitar la aplicación del 15%</li>
@@ -4181,7 +4181,7 @@ Luego preguntas específicas como:
 
       <p>El incentivo más relevante para desarrolladores freelance es el <strong>tipo impositivo reducido del 15% en IRPF</strong> durante los primeros 4 años de actividad (en lugar del 15% solo el primer año que aplicaba la tarifa plana anterior). Este beneficio puede suponer un ahorro de <strong>hasta 10.000€ anuales</strong> para un freelancer con ingresos medios-altos.</p>
 
-      <h2>Requisitos para acogerse al tipo reducido del 15%</h2>
+      <h2 id="requisitos">Requisitos para acogerse al tipo reducido del 15%</h2>
 
       <h3>Requisitos básicos obligatorios:</h3>
       <ul>
@@ -4204,7 +4204,7 @@ Luego preguntas específicas como:
       </ul>
       <p><strong>No aplica a:</strong> Actividades tradicionales no innovadoras (comercio, hostelería, servicios básicos sin componente tecnológico).</p>
 
-      <h2>Comparativa fiscal: Tipo general vs. Ley de Startups</h2>
+      <h2 id="comparativa">Comparativa fiscal: Tipo general vs. Ley de Startups</h2>
 
       <h3>Ejemplo con 40.000€ de rendimiento neto anual:</h3>
       <table>
@@ -4259,7 +4259,7 @@ Luego preguntas específicas como:
         <p>Transcurrido el periodo de 4 años con el tipo del 15%, vuelves al régimen general progresivo del IRPF. Sin embargo, para entonces ya habrás ahorrado una cantidad significativa que puedes haber reinvertido en tu actividad, formación o ahorro personal.</p>
       </div>
 
-      <h2>Trámites y procedimiento para acogerse</h2>
+      <h2 id="solicitar">Trámites y procedimiento para acogerse</h2>
 
       <h3>1. Alta en Hacienda con mención específica</h3>
       <p>Al darte de alta como autónomo mediante el <strong>modelo 036/037</strong>, debes:</p>
@@ -4288,7 +4288,7 @@ Luego preguntas específicas como:
         <li><strong>No superar umbrales:</strong> Aunque la ley no especifica límite claro de facturación, se interpreta que es razonable para "startup" (generalmente &lt; 1M€)</li>
       </ul>
 
-      <h2>Otros beneficios de la Ley de Startups</h2>
+      <h2 id="incompatibilidades">Otros beneficios de la Ley de Startups</h2>
 
       <h3>1. Diferimiento del pago de IRPF en stock options</h3>
       <p>Si recibes stock options (opciones sobre acciones) de una startup como parte de tu remuneración, puedes diferir el pago del IRPF hasta el momento de la venta de las acciones (en lugar de pagar al ejercer la opción). Límite: 50.000€/año.</p>
@@ -4299,7 +4299,7 @@ Luego preguntas específicas como:
       <h3>3. Facilidades para constituir una SL</h3>
       <p>La ley también incluye medidas para facilitar la creación de sociedades limitadas (capital mínimo 1€, menos trámites). Si en algún momento decides crear una empresa, estas medidas siguen vigentes.</p>
 
-      <h2>Preguntas frecuentes</h2>
+      <h2 id="casos">Preguntas frecuentes</h2>
 
       <h3>¿Puedo acogerme si ya soy autónomo pero cambio de actividad?</h3>
       <p>Depende. Si inicias una <strong>actividad completamente nueva</strong> (distinto epígrafe IAE) y no la has desarrollado en los últimos 5 años, podrías argumentar que es un "inicio de actividad". Sin embargo, Hacienda puede interpretarlo de forma restrictiva. Recomendación: consultar con gestoría antes de hacer el cambio.</p>
