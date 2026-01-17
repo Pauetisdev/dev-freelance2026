@@ -1,4 +1,5 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { Calendar, Clock, ExternalLink } from 'lucide-react';
 import { Layout } from '@/components/Layout';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
@@ -9,7 +10,22 @@ import { Helmet } from 'react-helmet-async';
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
+  const location = useLocation();
   const post = slug ? getPostBySlug(slug) : undefined;
+
+  // Manejar scroll a secciones con anchor links
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace('#', '');
+      // Pequeño delay para asegurar que el contenido está renderizado
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    }
+  }, [location.hash]);
 
   if (!post) {
     return (
