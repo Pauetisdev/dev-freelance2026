@@ -1295,16 +1295,10 @@ TOTAL A PAGAR: 3.420€
 
       <p>Como se observa, los incrementos anuales se han ido moderando conforme el sistema se estabiliza. Para 2027 y siguientes, se espera que los aumentos sean solo por IPC (inflación).</p>
 
-      <h2>🔗 Recursos oficiales y herramientas útiles</h2>
-      
-      <h3>Sede Electrónica de la Seguridad Social</h3>
-      <p>Para cambiar de tramo o consultar tu situación: <a href="https://sede.seg-social.gob.es" target="_blank" rel="noopener">sede.seg-social.gob.es</a></p>
-
-      <h3>Calculadora oficial de tramos</h3>
-      <p>La Seguridad Social ofrece un simulador para calcular tu tramo según rendimientos: <a href="https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/CotizacionRecaudacionTrabajadores/36537" target="_blank" rel="noopener">simulador oficial</a></p>
-
-      <h3>Import@ss (App móvil)</h3>
-      <p>Descarga la app oficial para gestionar cambios de tramo desde tu móvil, disponible para iOS y Android.</p>
+      <div class="tip-box">
+        <h4>💡 Calcula tu cuota de autónomo con nuestra calculadora</h4>
+        <p>Usa nuestra <strong><a href="/calculadora">calculadora gratuita</a></strong> para simular tu rendimiento neto, conocer tu tramo exacto de cotización y calcular el neto que te quedará después de impuestos y cuotas. Incluye todos los tramos 2026 actualizados.</p>
+      </div>
 
       <h2>❓ Preguntas frecuentes</h2>
 
