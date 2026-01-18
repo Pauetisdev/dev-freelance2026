@@ -199,7 +199,7 @@ export const posts: BlogPost[] = [
   {
     id: '2',
     slug: 'gastos-deducibles-autonomos-desarrolladores-2026-guia-completa',
-    title: 'Gastos Deducibles para Desarrolladores Autónomos 2026: Guía Completa',
+
     metaDescription: 'Lista exhaustiva de gastos deducibles para programadores freelance en España: hardware, software, suministros, formación, dietas. Actualizado 2026 con límites oficiales.',
     category: 'gastos',
     publishDate: '2026-01-04',
@@ -4461,6 +4461,7 @@ Luego preguntas específicas como:
   
   // Blog 16: Pluriactividad
   {
+    id: '16',
     slug: 'pluriactividad-autonomo-empleado-compatibilizar-2026',
     title: 'Pluriactividad: Cómo Ser Autónomo y Empleado al Mismo Tiempo en 2026',
     excerpt: 'Compatibiliza tu trabajo por cuenta ajena con proyectos freelance: cuotas, devoluciones Seguridad Social y estrategias para maximizar tus ingresos.',
@@ -4468,6 +4469,7 @@ Luego preguntas específicas como:
     category: 'seguridad-social',
     publishDate: '2026-01-18',
     image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=630&fit=crop',
+    imageAlt: 'Persona trabajando con portátil y documentos, representando pluriactividad',
     readTime: 9,
     featured: false,
     sources: [
@@ -4687,6 +4689,7 @@ Luego preguntas específicas como:
     category: 'seguridad-social',
     publishDate: '2026-01-18',
     image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&h=630&fit=crop',
+    imageAlt: 'Autónomo enfermo trabajando desde casa con portátil y manta',
     readTime: 8,
     featured: false,
     sources: [
@@ -5747,7 +5750,120 @@ Luego preguntas específicas como:
     sources: [
       { title: 'Ley 35/2006 IRPF - Residencia fiscal (Art. 8 y 9)', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764' }
     ]
-  }
+  },
+
+  // Blog: Contratar primer empleado
+  {
+    id: '21',
+    slug: 'contratar-primer-empleado-autonomo-espana-2026',
+    title: 'Cómo Contratar a tu Primer Empleado como Autónomo en España: Guía 2026',
+    metaDescription: 'Guía paso a paso para autónomos que quieren contratar a su primer empleado en 2026: requisitos, trámites, costes, bonificaciones y errores a evitar.',
+    category: 'seguridad-social',
+    publishDate: '2026-01-18',
+    readTime: 10,
+    featured: false,
+    excerpt: '¿Eres autónomo y necesitas ayuda? Descubre cómo contratar a tu primer empleado en 2026: trámites, costes, bonificaciones y consejos prácticos.',
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&auto=format&fit=crop',
+    imageAlt: 'Apretón de manos entre autónomo y su primer empleado en una oficina moderna',
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#por-que-contratar" style="color: #3b82f6; text-decoration: none;">→ ¿Por qué contratar a un empleado?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos legales y documentación</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#pasos" style="color: #3b82f6; text-decoration: none;">→ Pasos para contratar: alta, contrato y Seguridad Social</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#costes" style="color: #3b82f6; text-decoration: none;">→ Costes y cotizaciones en 2026</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#bonificaciones" style="color: #3b82f6; text-decoration: none;">→ Bonificaciones y ayudas disponibles</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#errores" style="color: #3b82f6; text-decoration: none;">→ Errores comunes y cómo evitarlos</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ejemplo" style="color: #3b82f6; text-decoration: none;">→ Ejemplo real: coste mensual de un empleado</a></li>
+          <!-- Eliminado enlace duplicado a Fuentes Oficiales en el índice -->
+        </ul>
+      </div>
+
+
+      <h2 id="por-que-contratar">¿Por qué contratar a un empleado?</h2>
+      <p>Contratar a tu primer empleado es una decisión estratégica que puede transformar tu negocio. No solo te permite delegar tareas y centrarte en lo que realmente aporta valor, sino que también mejora la atención al cliente y la productividad. Además, contar con un equipo te ayuda a afrontar picos de trabajo, asumir proyectos más grandes y reducir el riesgo de burnout. En 2026, la tendencia de los autónomos que contratan empleados va en aumento, ya que permite crecer de forma sostenible y profesionalizar la actividad.</p>
+      <p>Recuerda que, al contratar, también proyectas una imagen más sólida ante clientes y proveedores, lo que puede abrirte nuevas oportunidades de negocio y colaboraciones.</p>
+
+
+      <h2 id="requisitos">Requisitos legales y documentación</h2>
+      <ul>
+        <li>Estar dado de alta como autónomo en la Seguridad Social y Hacienda. Es imprescindible estar al corriente de tus obligaciones fiscales y de cotización.</li>
+        <li>No tener deudas con Hacienda ni Seguridad Social. Si tienes alguna deuda, deberás regularizar tu situación antes de contratar.</li>
+        <li>Solicitar un <strong>código de cuenta de cotización (CCC)</strong> como empleador en la Seguridad Social. Este código te identifica como empresa a efectos de cotización y es obligatorio para poder dar de alta a trabajadores.</li>
+        <li>Registrar el contrato en el SEPE y dar de alta al trabajador en la Seguridad Social (Sistema RED o presencial) antes de que empiece a trabajar. El alta debe realizarse como máximo el día anterior al inicio de la actividad.</li>
+        <li>Elaborar un contrato laboral por escrito, ya sea utilizando un modelo oficial o adaptándolo a las necesidades del puesto. Es recomendable detallar funciones, jornada, salario y condiciones.</li>
+      </ul>
+      <p>Además, deberás cumplir con la normativa de prevención de riesgos laborales, entregar la información sobre protección de datos y registrar la jornada laboral desde el primer día.</p>
+
+
+      <h2 id="pasos">Pasos para contratar: alta, contrato y Seguridad Social</h2>
+      <ol>
+        <li><strong>Solicita el CCC</strong> en la Tesorería General de la Seguridad Social (TGSS). Puedes hacerlo online con certificado digital o presencialmente. Es un trámite rápido y gratuito.</li>
+        <li><strong>Firma el contrato</strong> con el empleado. Elige el tipo de contrato (indefinido, temporal, formación, etc.) y acuerda las condiciones. Recuerda que los contratos indefinidos suelen tener más bonificaciones.</li>
+        <li><strong>Da de alta al trabajador</strong> en la Seguridad Social a través del Sistema RED o en la oficina. El alta debe realizarse antes de que el empleado empiece a trabajar, y es fundamental para que esté cubierto desde el primer día.</li>
+        <li><strong>Comunica el contrato</strong> al SEPE en un plazo máximo de 10 días desde la firma. Puedes hacerlo online en la web del SEPE.</li>
+        <li><strong>Lleva registro horario</strong> y cumple con la normativa de prevención de riesgos laborales. El registro horario es obligatorio para todos los empleados, independientemente de la jornada.</li>
+      </ol>
+      <p>Si tienes dudas, puedes apoyarte en una gestoría laboral para evitar errores y sanciones.</p>
+
+
+      <h2 id="costes">Costes y cotizaciones en 2026</h2>
+      <p>El coste de contratar a un empleado no se limita al salario. Debes tener en cuenta:</p>
+      <ul>
+        <li><strong>Salario bruto:</strong> Lo que acuerdas pagar al empleado, según convenio o acuerdo individual.</li>
+        <li><strong>Seguridad Social a cargo del empleador:</strong> Aproximadamente un 30-32% adicional sobre el salario bruto. Incluye contingencias comunes, desempleo, formación profesional y FOGASA.</li>
+        <li><strong>Pagas extra, vacaciones, indemnizaciones y otros conceptos:</strong> Según convenio y tipo de contrato. Calcula bien estos importes para evitar sorpresas.</li>
+      </ul>
+      <p>Ejemplo práctico:</p>
+      <table>
+        <thead>
+          <tr><th>Concepto</th><th>Importe mensual</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Salario bruto (ejemplo)</td><td>1.400€</td></tr>
+          <tr><td>Seguridad Social (32%)</td><td>448€</td></tr>
+          <tr><td><strong>Total coste empresa</strong></td><td><strong>1.848€</strong></td></tr>
+        </tbody>
+      </table>
+      <p>Recuerda que existen costes indirectos (formación, material, adaptación del puesto) y que puedes deducir estos gastos en tu declaración de IRPF.</p>
+  <p>Recuerda que existen costes indirectos (formación, material, adaptación del puesto) y que puedes deducir estos gastos en tu declaración de IRPF.</p>
+  <p>¿Quieres saber cómo afectan los <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos" style="color: #3b82f6; text-decoration: underline;">tramos de cotización de autónomos en 2026</a> al coste de tu plantilla? Descúbrelo en nuestro blog.</p>
+
+
+      <h2 id="bonificaciones">Bonificaciones y ayudas disponibles</h2>
+      <ul>
+        <li><strong>Contrato indefinido:</strong> Bonificación de 1.500€/año durante 3 años para colectivos prioritarios (jóvenes, mayores de 45, parados de larga duración, etc.). Consulta los requisitos actualizados cada año.</li>
+        <li><strong>Primer empleado:</strong> Si nunca has tenido trabajadores, puedes acceder a bonificaciones especiales en la cuota de la Seguridad Social. Infórmate en la Seguridad Social y en el SEPE.</li>
+        <li><strong>Personas con discapacidad:</strong> Bonificaciones de hasta 6.000€/año y ayudas adicionales para la adaptación del puesto de trabajo.</li>
+      </ul>
+      <p>Estas ayudas pueden suponer un ahorro importante durante los primeros años. Es recomendable planificar la contratación para aprovecharlas al máximo.</p>
+
+
+      <h2 id="errores">Errores comunes y cómo evitarlos</h2>
+      <ul>
+        <li><strong>No dar de alta al empleado antes de empezar:</strong> Es una infracción grave y puede acarrear sanciones importantes. Haz siempre el alta antes del primer día de trabajo.</li>
+        <li><strong>No cumplir con el convenio colectivo:</strong> Infórmate de cuál aplica a tu sector y respétalo en salario, jornada y condiciones.</li>
+        <li><strong>No llevar registro horario ni cumplir con la prevención de riesgos laborales:</strong> Ambos son obligatorios y su incumplimiento puede suponer multas.</li>
+        <li><strong>No comunicar el contrato al SEPE en plazo:</strong> Recuerda que tienes 10 días para hacerlo desde la firma.</li>
+        <li><strong>No calcular bien el coste total:</strong> Ten Consulta todas las bonificaciones para contratar empleados como autónomo en 2026 en nuestro blog. cuenta todos los conceptos (salario, Seguridad Social, extras) para evitar problemas de liquidez.</li>
+      </ul>
+      <p>Evita estos errores apoyándote en asesoría profesional y revisando la normativa vigente antes de cada contratación.</p>
+
+
+      <h2 id="ejemplo">Ejemplo real: coste mensual de un empleado</h2>
+      <p>Imagina que contratas a un desarrollador junior con un salario bruto de 1.400€/mes. El coste para tu negocio será:</p>
+      <ul>
+        <li>Salario bruto: 1.400€</li>
+        <li>Seguridad Social (32%): 448€</li>
+        <li><strong>Total coste empresa: 1.848€/mes</strong></li>
+      </ul>
+      <p>Si accedes a bonificaciones, la cuota de Seguridad Social puede reducirse durante los primeros años, lo que supone un ahorro significativo. Recuerda que estos cálculos son orientativos y pueden variar según el convenio y la situación del trabajador.</p>
+    `,
+    sources: [
+      { title: 'Guía oficial Seguridad Social: Contratación de trabajadores', url: 'https://sede.seg-social.gob.es/wps/portal/sede/sede/EmpresasyProfesionales/afiliacion+e+inscripcion/03afiliacion+e+inscripcion' }
+    ]
+  },
 ];
 
 export const categories = {
