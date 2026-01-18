@@ -168,7 +168,7 @@ const Calculadora = () => {
             {/* Columna izquierda: Inputs + Resultado combinados */}
             <Card className="flex flex-col">
               <CardHeader className="pb-4">
-                <CardTitle className="text-lg md:text-xl">💰 Calculadora</CardTitle>
+                <CardTitle className="text-lg md:text-xl">Calculadora</CardTitle>
                 <p className="text-sm text-muted-foreground mt-2">Introduce tus datos y obtén tu neto al instante</p>
               </CardHeader>
               <CardContent className="flex-1 flex flex-col justify-between pb-6 space-y-6">

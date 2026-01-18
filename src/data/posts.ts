@@ -3020,12 +3020,12 @@ async function verificarVAT(vatNumber, countryCode) {
     ]
   },
 
-  // 11. Seguridad Social: Tramos de ahorro
+  // 11. Tramos de Ahorro y Cotización Estratégica
   {
     id: '11',
-    slug: 'seguridad-social-tramos-ahorro-cotizacion-estrategica-2026',
-    title: 'Seguridad Social: Tramos de Ahorro y Cotización Estratégica 2026',
-    metaDescription: 'Cómo optimizar tu cotización a la Seguridad Social en 2026: tramos con mejor relación cuota/prestaciones, estrategias para cambiar de tramo y ahorro fiscal.',
+    slug: 'tramos-ahorro-cotizacion-estrategica-2026',
+    title: 'Tramos de Ahorro y Cotización Estratégica 2026',
+    metaDescription: 'Cómo optimizar tu cotización en 2026: tramos con mejor relación cuota/prestaciones, estrategias para cambiar de tramo y ahorro fiscal.',
     category: 'cotizacion',
     publishDate: '2025-12-12',
     readTime: 19,
@@ -3034,7 +3034,7 @@ async function verificarVAT(vatNumber, countryCode) {
     image: 'https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=800&auto=format&fit=crop',
     imageAlt: 'Gráficos de ahorro y optimización financiera',
     content: `
-      <h2>Claves para optimizar tu cotización en la Seguridad Social 2026</h2>
+      <h2>Claves para optimizar tu cotización en 2026</h2>
       <p>El sistema de cotización por tramos de 2026 ofrece <strong>oportunidades de ahorro</strong> que muchos autónomos desconocen. No todos los tramos son igual de "rentables" en términos de relación cuota/prestaciones. Entender esto puede ahorrarte cientos de euros al año sin afectar negativamente a tus derechos.</p>
 
       <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
@@ -3787,6 +3787,7 @@ Luego preguntas específicas como:
       { title: 'n8n - Automatización workflows open source', url: 'https://n8n.io/' }
     ]
   },
+  // 13: factura electronica
   {
     id: '13',
     slug: 'factura-electronica-obligatoria-ley-crea-crece-autonomos-2026',
@@ -3987,6 +3988,7 @@ Luego preguntas específicas como:
       { title: 'Ley 18/2022 Crea y Crece - BOE', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2022-15817' }
     ]
   },
+  // 14: Cryptomondedas declarar
   {
     id: '14',
     slug: 'criptomonedas-fiscalidad-dev-declarar-pagos-stablecoins-usdc-usdt-2026',
@@ -4242,6 +4244,7 @@ Luego preguntas específicas como:
       { title: 'Real Decreto-ley 7/2021 - Modelo 721', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5495' }
     ]
   },
+  // 15: Ley startups
   {
     id: '15',
     slug: 'ley-startups-freelancers-tipo-reducido-15-irpf-requisitos-2026',
@@ -4913,6 +4916,262 @@ Luego preguntas específicas como:
       <p><strong>¿Merece la pena?</strong> Depende de tu actividad. Como desarrollador, el riesgo de accidente laboral es bajo (no trabajas en altura, maquinaria, etc.). Sin embargo, si trabajas muchas horas al día o tienes historial de lesiones (túnel carpiano, problemas posturales), puede ser útil.</p>
     `
   },
+  // 18. Nomada digital
+  {
+    id: '18',
+    slug: 'nomada-digital-autonomo-espana-fiscalidad-residencia-fiscal-2026',
+    title: 'Nómada Digital como Autónomo en España: Fiscalidad y Residencia Fiscal 2026',
+    metaDescription: 'Guía completa sobre fiscalidad para nómadas digitales autónomos españoles: residencia fiscal, regla 183 días, obligaciones tributarias y cómo tributar viviendo en el extranjero.',
+    category: 'internacional',
+    publishDate: '2026-01-17',
+    readTime: 9,
+    featured: false,
+    excerpt: 'Si eres autónomo y trabajas desde el extranjero como nómada digital, tu residencia fiscal determina dónde pagas impuestos. Descubre cómo funciona la regla de los 183 días y qué obligaciones tienes con Hacienda.',
+    image: 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200&auto=format&fit=crop',
+    imageAlt: 'Mapa del mundo con iconos de ubicación y conexiones globales',
+    sources: [],
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#residencia-fiscal" style="color: #3b82f6; text-decoration: none;">→ Qué es la residencia fiscal y por qué importa</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#regla-183-dias" style="color: #3b82f6; text-decoration: none;">→ Regla de los 183 días: Cómo se calcula</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#obligaciones-hacienda" style="color: #3b82f6; text-decoration: none;">→ Obligaciones con Hacienda española</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#convenios-doble-imposicion" style="color: #3b82f6; text-decoration: none;">→ Convenios de doble imposición</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#escenarios-practicos" style="color: #3b82f6; text-decoration: none;">→ Escenarios prácticos según destinos</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#errores-comunes" style="color: #3b82f6; text-decoration: none;">→ Errores comunes y sanciones</a></li>
+        </ul>
+      </div>
+
+      <h2 id="residencia-fiscal">¿Qué es la residencia fiscal y por qué importa?</h2>
+      
+      <p>Como autónomo español que trabaja desde el extranjero, tu <strong>residencia fiscal</strong> determina en qué país debes pagar impuestos (IRPF, IVA, cotizaciones). Muchos nómadas digitales creen erróneamente que pueden dejar de tributar en España simplemente viajando, pero Hacienda tiene reglas muy claras al respecto.</p>
+
+      <p><strong>Eres residente fiscal en España si cumples al menos uno de estos criterios:</strong></p>
+      <ul>
+        <li><strong>Permanencia:</strong> Pasas más de 183 días al año en territorio español (la famosa "regla de los 183 días")</li>
+        <li><strong>Centro de intereses económicos:</strong> La mayor parte de tus ingresos (directos o indirectos) provienen de España</li>
+        <li><strong>Residencia familiar:</strong> Tu cónyuge e hijos menores residen habitualmente en España</li>
+      </ul>
+
+      <p><strong>¿Qué implica ser residente fiscal español?</strong></p>
+      <ul>
+        <li>Debes tributar por tu <strong>renta mundial</strong> en España (todos tus ingresos, vengan de donde vengan)</li>
+        <li>Obligación de presentar declaración de IRPF, modelos trimestrales (130, 303), y seguir cotizando al RETA</li>
+        <li>Puedes deducir impuestos pagados en otros países (gracias a convenios de doble imposición)</li>
+      </ul>
+
+      <h2 id="regla-183-dias">Regla de los 183 días: Cómo se calcula correctamente</h2>
+
+      <h3>¿Cómo cuenta Hacienda los días?</h3>
+      <p>La AEAT usa un criterio estricto para calcular los 183 días:</p>
+
+      <table>
+        <thead>
+          <tr><th>Situación</th><th>¿Cuenta como día en España?</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Día completo en España (00:00 - 23:59)</td><td><strong>SÍ</strong></td></tr>
+          <tr><td>Vuelo internacional (sales de España por la mañana)</td><td><strong>SÍ</strong> (día completo)</td></tr>
+          <tr><td>Vuelo internacional (llegas a España por la noche)</td><td><strong>SÍ</strong> (día completo)</td></tr>
+          <tr><td>Ausencias esporádicas (conferencias, vacaciones cortas)</td><td><strong>SÍ</strong> (presunción de residencia)</td></tr>
+          <tr><td>Días en Canarias, Baleares, Ceuta, Melilla</td><td><strong>SÍ</strong> (territorio español)</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Importante:</strong> Hacienda presume que resides en España salvo que demuestres lo contrario. La <strong>carga de la prueba</strong> recae sobre ti. Necesitas evidencias sólidas:</p>
+      <ul>
+        <li>Sellos de pasaporte / registros de entrada-salida (sistema VES de inmigración)</li>
+        <li>Facturas de alojamiento en otros países (Airbnb, hoteles)</li>
+        <li>Extractos bancarios con transacciones en el extranjero</li>
+        <li>Certificados de residencia fiscal de otros países</li>
+        <li>Contratos de alquiler fuera de España</li>
+      </ul>
+
+      <h3>Caso práctico: Laura, desarrolladora nómada</h3>
+      <p><strong>Situación:</strong> Laura es freelance y viaja constantemente. En 2026 estuvo:</p>
+      <ul>
+        <li>Enero-Febrero: 60 días en Barcelona</li>
+        <li>Marzo-Junio: 120 días en Bali (Indonesia)</li>
+        <li>Julio-Agosto: 62 días en Barcelona</li>
+        <li>Septiembre-Diciembre: 123 días en Lisboa (Portugal)</li>
+      </ul>
+
+      <p><strong>Total días en España:</strong> 60 + 62 = <strong>122 días</strong></p>
+      <p><strong>Resultado:</strong> Laura NO es residente fiscal en España por permanencia. Sin embargo, debe revisar:</p>
+      <ul>
+        <li>¿Sus principales clientes son españoles? (centro de intereses económicos)</li>
+        <li>¿Tiene pareja/hijos en España? (residencia familiar)</li>
+      </ul>
+      <p>Si cualquiera de estos criterios se cumple, <strong>seguiría siendo residente fiscal española</strong> aunque pase menos de 183 días.</p>
+
+      <h2 id="obligaciones-hacienda">Obligaciones con Hacienda española según tu situación</h2>
+
+      <h3>Escenario 1: Sigues siendo residente fiscal español (más de 183 días o centro de intereses)</h3>
+      <p><strong>Obligaciones completas:</strong></p>
+      <ul>
+        <li>Alta en RETA y <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">cotización mensual</a> (cuota mínima ~230-300€/mes según tramo)</li>
+        <li>Modelo 130 (pago fraccionado IRPF) cada trimestre</li>
+        <li>Modelo 303 (IVA) cada trimestre si facturas a clientes españoles</li>
+        <li>Declaración de la Renta anual (modelo 100)</li>
+        <li>Modelo 720 si tienes bienes en el extranjero >50.000€ (cuentas bancarias, criptos, etc.)</li>
+      </ul>
+
+      <p><strong>Ventajas:</strong></p>
+      <ul>
+        <li>Acceso al sistema sanitario español</li>
+        <li>Cotizas para tu futura pensión</li>
+        <li>Puedes deducir gastos relacionados con tu actividad (equipamiento, viajes de trabajo, formación)</li>
+      </ul>
+
+      <h3>Escenario 2: Dejas de ser residente fiscal español</h3>
+      <p><strong>Pasos obligatorios:</strong></p>
+      <ol>
+        <li><strong>Baja en el RETA:</strong> Presentar baja censal (modelo 036/037) y comunicar cese de actividad</li>
+        <li><strong>Certificado de no residencia:</strong> Comunicar cambio de residencia fiscal a Hacienda</li>
+        <li><strong>Última declaración de IRPF:</strong> Declarar como no residente desde la fecha de salida</li>
+        <li><strong>Obtener residencia fiscal en otro país:</strong> Algunos países exigen esto para evitar la "residencia fiscal en ningún sitio"</li>
+      </ol>
+
+      <p><strong>Consecuencias:</strong></p>
+      <ul>
+        <li>Ya no cotizas al sistema español (no acumulas pensión)</li>
+        <li>Pierdes acceso a sanidad pública española (necesitarás seguro privado internacional)</li>
+        <li>Si facturas a clientes españoles, podrías tener que pagar retenciones del 24% (no residentes)</li>
+        <li>Debes cumplir con las obligaciones fiscales del país donde residas fiscalmente</li>
+      </ul>
+
+      <h2 id="convenios-doble-imposicion">Convenios de doble imposición: Cómo evitar pagar dos veces</h2>
+
+      <p>España tiene <strong>convenios para evitar la doble imposición (CDI)</strong> con más de 90 países. Estos tratados determinan:</p>
+      <ul>
+        <li>Qué país tiene derecho a gravar tus rentas</li>
+        <li>Cómo deducir impuestos pagados en un país de los debidos en otro</li>
+      </ul>
+
+      <h3>Países populares para nómadas y su tratamiento fiscal:</h3>
+
+      <table>
+        <thead>
+          <tr><th>País</th><th>¿CDI con España?</th><th>Observaciones</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Portugal</strong></td>
+            <td>SÍ</td>
+            <td>Régimen NHR (Non-Habitual Resident) permite 0% IRPF durante 10 años para freelancers extranjeros</td>
+          </tr>
+          <tr>
+            <td><strong>Países Bajos</strong></td>
+            <td>SÍ</td>
+            <td>Régimen 30% ruling para extranjeros cualificados (30% ingresos exentos)</td>
+          </tr>
+          <tr>
+            <td><strong>Tailandia</strong></td>
+            <td>SÍ</td>
+            <td>No grava rentas de servicios prestados desde el extranjero si no se transfieren a Tailandia el mismo año fiscal</td>
+          </tr>
+          <tr>
+            <td><strong>Indonesia (Bali)</strong></td>
+            <td>SÍ</td>
+            <td>Residencia fiscal desde 183 días. Gravamen ~30% pero muchos nómadas no se registran (zona gris)</td>
+          </tr>
+          <tr>
+            <td><strong>México</strong></td>
+            <td>SÍ</td>
+            <td>Residencia fiscal desde 183 días. Régimen simplificado para freelancers (RIF) con tipos reducidos</td>
+          </tr>
+          <tr>
+            <td><strong>Georgia</strong></td>
+            <td>SÍ</td>
+            <td>Régimen "virtual zone person" con solo 1% impuesto para IT freelancers</td>
+          </tr>
+          <tr>
+            <td><strong>Emiratos Árabes</strong></td>
+            <td>SÍ</td>
+            <td>0% IRPF pero coste de vida alto. Visas de nómada digital disponibles</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="escenarios-practicos">Escenarios prácticos: ¿Dónde tributo?</h2>
+
+      <h3>Caso A: Nómada "perpetuo" (menos de 183 días en todos los países)</h3>
+      <p><strong>Perfil:</strong> Viajas constantemente, nunca pasas más de 3 meses en ningún sitio.</p>
+      <p><strong>Riesgo fiscal:</strong> Si España sigue siendo tu centro de intereses económicos (mayoría de clientes españoles, cuenta bancaria española principal), Hacienda puede considerarte residente fiscal aunque no estés físicamente.</p>
+      <p><strong>Solución recomendada:</strong> Establecer residencia fiscal clara en algún país (Portugal NHR, Georgia, Estonia e-Residency) para evitar conflictos.</p>
+
+      <h3>Caso B: Bases en varios países (3-4 meses en cada sitio)</h3>
+      <p><strong>Perfil:</strong> 4 meses en Barcelona, 4 en Lisboa, 4 en México DF.</p>
+      <p><strong>¿Dónde tributo?</strong> Depende de dónde estableces "vínculos principales":</p>
+      <ul>
+        <li>Si tu vivienda habitual está en Portugal → Probablemente residente fiscal portugués</li>
+        <li>Si tu familia vive en España → Presunción de residencia española</li>
+        <li>Si la mayor parte de tus clientes son mexicanos → Centro de intereses en México</li>
+      </ul>
+
+      <h3>Caso C: Trabajas para empresa extranjera desde España</h3>
+      <p><strong>Perfil:</strong> Eres desarrollador remoto para empresa USA, vives en Madrid 365 días/año.</p>
+      <p><strong>Resultado:</strong> Residente fiscal español. Debes:</p>
+      <ul>
+        <li>Declarar esos ingresos en tu IRPF español (tributación por renta mundial)</li>
+        <li>Posiblemente darte de alta como autónomo o constituir SL para facturar legalmente a la empresa USA</li>
+        <li>La empresa USA NO retendrá impuestos si no eres residente USA (gracias al CDI)</li>
+      </ul>
+
+      <h2 id="errores-comunes">Errores comunes que pueden costarte caro</h2>
+
+      <table>
+        <thead>
+          <tr><th>Error</th><th>Consecuencia</th><th>Sanción aprox.</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>No presentar modelo 720 (bienes >50k€ en extranjero)</td>
+            <td>Multa mínima 10.000€ por cada dato omitido</td>
+            <td><strong>10.000-100.000€</strong></td>
+          </tr>
+          <tr>
+            <td>Darte de baja en RETA pero seguir siendo residente fiscal</td>
+            <td>Cotizaciones impagadas + recargos + pérdida de cobertura sanitaria</td>
+            <td><strong>20% recargo + intereses</strong></td>
+          </tr>
+          <tr>
+            <td>No declarar ingresos obtenidos en el extranjero</td>
+            <td>Delito contra Hacienda si supera 120.000€ (pena de prisión)</td>
+            <td><strong>50-150% de la cuota defraudada</strong></td>
+          </tr>
+          <tr>
+            <td>Facturar sin IVA a clientes españoles estando en el extranjero</td>
+            <td>IVA impagado + sanciones por facturación incorrecta</td>
+            <td><strong>21% IVA + 50-150% sanción</strong></td>
+          </tr>
+          <tr>
+            <td>No comunicar cambio de residencia fiscal</td>
+            <td>Hacienda presume residencia española y reclama impuestos</td>
+            <td><strong>Todo el IRPF + recargos</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <p style="margin: 0; font-weight: 600; color: #92400e;">⚠️ Advertencia importante</p>
+        <p style="margin: 0.5rem 0 0 0; color: #92400e;">La fiscalidad internacional es compleja y cada caso es único. Si vas a pasar largos periodos fuera de España, consulta con un asesor fiscal especializado en movilidad internacional ANTES de moverte. Los errores pueden costar decenas de miles de euros en sanciones.</p>
+      </div>
+
+      <h3>Checklist antes de convertirte en nómada digital:</h3>
+      <ul>
+        <li>✓ Calcula cuántos días exactos pasarás en España este año</li>
+        <li>✓ Identifica dónde está tu "centro de intereses económicos" (¿de dónde vienen tus ingresos?)</li>
+        <li>✓ Investiga convenios de doble imposición con los países donde vivirás</li>
+        <li>✓ Si dejas de ser residente fiscal español: comunícalo oficialmente y obtén certificado en tu nuevo país</li>
+        <li>✓ Guarda pruebas de dónde estás (sellos pasaporte, facturas, fotos con metadatos de ubicación)</li>
+        <li>✓ Contrata seguro médico internacional si pierdes acceso a sanidad española</li>
+        <li>✓ Consulta asesor fiscal especializado en nomadismo digital</li>
+      </ul>
+    `
+  },
+  // 19: paro autonomos
   {
     id: '19',
     slug: 'cese-actividad-paro-autonomos-prestacion-requisitos-2026',
@@ -5205,6 +5464,7 @@ Luego preguntas específicas como:
     `,
     
   },
+  //  20: pensiones para jubilacion
   {
     id: '20',
     slug: 'planes-pensiones-autonomos-jubilacion-ahorro-fiscal-2026',
@@ -5494,260 +5754,7 @@ Luego preguntas específicas como:
       </ul>
     `
   },
-  {
-    id: '18',
-    slug: 'nomada-digital-autonomo-espana-fiscalidad-residencia-fiscal-2026',
-    title: 'Nómada Digital como Autónomo en España: Fiscalidad y Residencia Fiscal 2026',
-    metaDescription: 'Guía completa sobre fiscalidad para nómadas digitales autónomos españoles: residencia fiscal, regla 183 días, obligaciones tributarias y cómo tributar viviendo en el extranjero.',
-    category: 'internacional',
-    publishDate: '2026-01-17',
-    readTime: 9,
-    featured: false,
-    excerpt: 'Si eres autónomo y trabajas desde el extranjero como nómada digital, tu residencia fiscal determina dónde pagas impuestos. Descubre cómo funciona la regla de los 183 días y qué obligaciones tienes con Hacienda.',
-    image: 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200&auto=format&fit=crop',
-    imageAlt: 'Mapa del mundo con iconos de ubicación y conexiones globales',
-    sources: [],
-    content: `
-      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
-        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
-        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
-          <li style="margin-bottom: 0.5rem;"><a href="#residencia-fiscal" style="color: #3b82f6; text-decoration: none;">→ Qué es la residencia fiscal y por qué importa</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#regla-183-dias" style="color: #3b82f6; text-decoration: none;">→ Regla de los 183 días: Cómo se calcula</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#obligaciones-hacienda" style="color: #3b82f6; text-decoration: none;">→ Obligaciones con Hacienda española</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#convenios-doble-imposicion" style="color: #3b82f6; text-decoration: none;">→ Convenios de doble imposición</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#escenarios-practicos" style="color: #3b82f6; text-decoration: none;">→ Escenarios prácticos según destinos</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#errores-comunes" style="color: #3b82f6; text-decoration: none;">→ Errores comunes y sanciones</a></li>
-        </ul>
-      </div>
-
-      <h2 id="residencia-fiscal">¿Qué es la residencia fiscal y por qué importa?</h2>
-      
-      <p>Como autónomo español que trabaja desde el extranjero, tu <strong>residencia fiscal</strong> determina en qué país debes pagar impuestos (IRPF, IVA, cotizaciones). Muchos nómadas digitales creen erróneamente que pueden dejar de tributar en España simplemente viajando, pero Hacienda tiene reglas muy claras al respecto.</p>
-
-      <p><strong>Eres residente fiscal en España si cumples al menos uno de estos criterios:</strong></p>
-      <ul>
-        <li><strong>Permanencia:</strong> Pasas más de 183 días al año en territorio español (la famosa "regla de los 183 días")</li>
-        <li><strong>Centro de intereses económicos:</strong> La mayor parte de tus ingresos (directos o indirectos) provienen de España</li>
-        <li><strong>Residencia familiar:</strong> Tu cónyuge e hijos menores residen habitualmente en España</li>
-      </ul>
-
-      <p><strong>¿Qué implica ser residente fiscal español?</strong></p>
-      <ul>
-        <li>Debes tributar por tu <strong>renta mundial</strong> en España (todos tus ingresos, vengan de donde vengan)</li>
-        <li>Obligación de presentar declaración de IRPF, modelos trimestrales (130, 303), y seguir cotizando al RETA</li>
-        <li>Puedes deducir impuestos pagados en otros países (gracias a convenios de doble imposición)</li>
-      </ul>
-
-      <h2 id="regla-183-dias">Regla de los 183 días: Cómo se calcula correctamente</h2>
-
-      <h3>¿Cómo cuenta Hacienda los días?</h3>
-      <p>La AEAT usa un criterio estricto para calcular los 183 días:</p>
-
-      <table>
-        <thead>
-          <tr><th>Situación</th><th>¿Cuenta como día en España?</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Día completo en España (00:00 - 23:59)</td><td><strong>SÍ</strong></td></tr>
-          <tr><td>Vuelo internacional (sales de España por la mañana)</td><td><strong>SÍ</strong> (día completo)</td></tr>
-          <tr><td>Vuelo internacional (llegas a España por la noche)</td><td><strong>SÍ</strong> (día completo)</td></tr>
-          <tr><td>Ausencias esporádicas (conferencias, vacaciones cortas)</td><td><strong>SÍ</strong> (presunción de residencia)</td></tr>
-          <tr><td>Días en Canarias, Baleares, Ceuta, Melilla</td><td><strong>SÍ</strong> (territorio español)</td></tr>
-        </tbody>
-      </table>
-
-      <p><strong>Importante:</strong> Hacienda presume que resides en España salvo que demuestres lo contrario. La <strong>carga de la prueba</strong> recae sobre ti. Necesitas evidencias sólidas:</p>
-      <ul>
-        <li>Sellos de pasaporte / registros de entrada-salida (sistema VES de inmigración)</li>
-        <li>Facturas de alojamiento en otros países (Airbnb, hoteles)</li>
-        <li>Extractos bancarios con transacciones en el extranjero</li>
-        <li>Certificados de residencia fiscal de otros países</li>
-        <li>Contratos de alquiler fuera de España</li>
-      </ul>
-
-      <h3>Caso práctico: Laura, desarrolladora nómada</h3>
-      <p><strong>Situación:</strong> Laura es freelance y viaja constantemente. En 2026 estuvo:</p>
-      <ul>
-        <li>Enero-Febrero: 60 días en Barcelona</li>
-        <li>Marzo-Junio: 120 días en Bali (Indonesia)</li>
-        <li>Julio-Agosto: 62 días en Barcelona</li>
-        <li>Septiembre-Diciembre: 123 días en Lisboa (Portugal)</li>
-      </ul>
-
-      <p><strong>Total días en España:</strong> 60 + 62 = <strong>122 días</strong></p>
-      <p><strong>Resultado:</strong> Laura NO es residente fiscal en España por permanencia. Sin embargo, debe revisar:</p>
-      <ul>
-        <li>¿Sus principales clientes son españoles? (centro de intereses económicos)</li>
-        <li>¿Tiene pareja/hijos en España? (residencia familiar)</li>
-      </ul>
-      <p>Si cualquiera de estos criterios se cumple, <strong>seguiría siendo residente fiscal española</strong> aunque pase menos de 183 días.</p>
-
-      <h2 id="obligaciones-hacienda">Obligaciones con Hacienda española según tu situación</h2>
-
-      <h3>Escenario 1: Sigues siendo residente fiscal español (más de 183 días o centro de intereses)</h3>
-      <p><strong>Obligaciones completas:</strong></p>
-      <ul>
-        <li>Alta en RETA y <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos">cotización mensual</a> (cuota mínima ~230-300€/mes según tramo)</li>
-        <li>Modelo 130 (pago fraccionado IRPF) cada trimestre</li>
-        <li>Modelo 303 (IVA) cada trimestre si facturas a clientes españoles</li>
-        <li>Declaración de la Renta anual (modelo 100)</li>
-        <li>Modelo 720 si tienes bienes en el extranjero >50.000€ (cuentas bancarias, criptos, etc.)</li>
-      </ul>
-
-      <p><strong>Ventajas:</strong></p>
-      <ul>
-        <li>Acceso al sistema sanitario español</li>
-        <li>Cotizas para tu futura pensión</li>
-        <li>Puedes deducir gastos relacionados con tu actividad (equipamiento, viajes de trabajo, formación)</li>
-      </ul>
-
-      <h3>Escenario 2: Dejas de ser residente fiscal español</h3>
-      <p><strong>Pasos obligatorios:</strong></p>
-      <ol>
-        <li><strong>Baja en el RETA:</strong> Presentar baja censal (modelo 036/037) y comunicar cese de actividad</li>
-        <li><strong>Certificado de no residencia:</strong> Comunicar cambio de residencia fiscal a Hacienda</li>
-        <li><strong>Última declaración de IRPF:</strong> Declarar como no residente desde la fecha de salida</li>
-        <li><strong>Obtener residencia fiscal en otro país:</strong> Algunos países exigen esto para evitar la "residencia fiscal en ningún sitio"</li>
-      </ol>
-
-      <p><strong>Consecuencias:</strong></p>
-      <ul>
-        <li>Ya no cotizas al sistema español (no acumulas pensión)</li>
-        <li>Pierdes acceso a sanidad pública española (necesitarás seguro privado internacional)</li>
-        <li>Si facturas a clientes españoles, podrías tener que pagar retenciones del 24% (no residentes)</li>
-        <li>Debes cumplir con las obligaciones fiscales del país donde residas fiscalmente</li>
-      </ul>
-
-      <h2 id="convenios-doble-imposicion">Convenios de doble imposición: Cómo evitar pagar dos veces</h2>
-
-      <p>España tiene <strong>convenios para evitar la doble imposición (CDI)</strong> con más de 90 países. Estos tratados determinan:</p>
-      <ul>
-        <li>Qué país tiene derecho a gravar tus rentas</li>
-        <li>Cómo deducir impuestos pagados en un país de los debidos en otro</li>
-      </ul>
-
-      <h3>Países populares para nómadas y su tratamiento fiscal:</h3>
-
-      <table>
-        <thead>
-          <tr><th>País</th><th>¿CDI con España?</th><th>Observaciones</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Portugal</strong></td>
-            <td>SÍ</td>
-            <td>Régimen NHR (Non-Habitual Resident) permite 0% IRPF durante 10 años para freelancers extranjeros</td>
-          </tr>
-          <tr>
-            <td><strong>Países Bajos</strong></td>
-            <td>SÍ</td>
-            <td>Régimen 30% ruling para extranjeros cualificados (30% ingresos exentos)</td>
-          </tr>
-          <tr>
-            <td><strong>Tailandia</strong></td>
-            <td>SÍ</td>
-            <td>No grava rentas de servicios prestados desde el extranjero si no se transfieren a Tailandia el mismo año fiscal</td>
-          </tr>
-          <tr>
-            <td><strong>Indonesia (Bali)</strong></td>
-            <td>SÍ</td>
-            <td>Residencia fiscal desde 183 días. Gravamen ~30% pero muchos nómadas no se registran (zona gris)</td>
-          </tr>
-          <tr>
-            <td><strong>México</strong></td>
-            <td>SÍ</td>
-            <td>Residencia fiscal desde 183 días. Régimen simplificado para freelancers (RIF) con tipos reducidos</td>
-          </tr>
-          <tr>
-            <td><strong>Georgia</strong></td>
-            <td>SÍ</td>
-            <td>Régimen "virtual zone person" con solo 1% impuesto para IT freelancers</td>
-          </tr>
-          <tr>
-            <td><strong>Emiratos Árabes</strong></td>
-            <td>SÍ</td>
-            <td>0% IRPF pero coste de vida alto. Visas de nómada digital disponibles</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h2 id="escenarios-practicos">Escenarios prácticos: ¿Dónde tributo?</h2>
-
-      <h3>Caso A: Nómada "perpetuo" (menos de 183 días en todos los países)</h3>
-      <p><strong>Perfil:</strong> Viajas constantemente, nunca pasas más de 3 meses en ningún sitio.</p>
-      <p><strong>Riesgo fiscal:</strong> Si España sigue siendo tu centro de intereses económicos (mayoría de clientes españoles, cuenta bancaria española principal), Hacienda puede considerarte residente fiscal aunque no estés físicamente.</p>
-      <p><strong>Solución recomendada:</strong> Establecer residencia fiscal clara en algún país (Portugal NHR, Georgia, Estonia e-Residency) para evitar conflictos.</p>
-
-      <h3>Caso B: Bases en varios países (3-4 meses en cada sitio)</h3>
-      <p><strong>Perfil:</strong> 4 meses en Barcelona, 4 en Lisboa, 4 en México DF.</p>
-      <p><strong>¿Dónde tributo?</strong> Depende de dónde estableces "vínculos principales":</p>
-      <ul>
-        <li>Si tu vivienda habitual está en Portugal → Probablemente residente fiscal portugués</li>
-        <li>Si tu familia vive en España → Presunción de residencia española</li>
-        <li>Si la mayor parte de tus clientes son mexicanos → Centro de intereses en México</li>
-      </ul>
-
-      <h3>Caso C: Trabajas para empresa extranjera desde España</h3>
-      <p><strong>Perfil:</strong> Eres desarrollador remoto para empresa USA, vives en Madrid 365 días/año.</p>
-      <p><strong>Resultado:</strong> Residente fiscal español. Debes:</p>
-      <ul>
-        <li>Declarar esos ingresos en tu IRPF español (tributación por renta mundial)</li>
-        <li>Posiblemente darte de alta como autónomo o constituir SL para facturar legalmente a la empresa USA</li>
-        <li>La empresa USA NO retendrá impuestos si no eres residente USA (gracias al CDI)</li>
-      </ul>
-
-      <h2 id="errores-comunes">Errores comunes que pueden costarte caro</h2>
-
-      <table>
-        <thead>
-          <tr><th>Error</th><th>Consecuencia</th><th>Sanción aprox.</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>No presentar modelo 720 (bienes >50k€ en extranjero)</td>
-            <td>Multa mínima 10.000€ por cada dato omitido</td>
-            <td><strong>10.000-100.000€</strong></td>
-          </tr>
-          <tr>
-            <td>Darte de baja en RETA pero seguir siendo residente fiscal</td>
-            <td>Cotizaciones impagadas + recargos + pérdida de cobertura sanitaria</td>
-            <td><strong>20% recargo + intereses</strong></td>
-          </tr>
-          <tr>
-            <td>No declarar ingresos obtenidos en el extranjero</td>
-            <td>Delito contra Hacienda si supera 120.000€ (pena de prisión)</td>
-            <td><strong>50-150% de la cuota defraudada</strong></td>
-          </tr>
-          <tr>
-            <td>Facturar sin IVA a clientes españoles estando en el extranjero</td>
-            <td>IVA impagado + sanciones por facturación incorrecta</td>
-            <td><strong>21% IVA + 50-150% sanción</strong></td>
-          </tr>
-          <tr>
-            <td>No comunicar cambio de residencia fiscal</td>
-            <td>Hacienda presume residencia española y reclama impuestos</td>
-            <td><strong>Todo el IRPF + recargos</strong></td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1rem; margin: 1.5rem 0; border-radius: 0.5rem;">
-        <p style="margin: 0; font-weight: 600; color: #92400e;">⚠️ Advertencia importante</p>
-        <p style="margin: 0.5rem 0 0 0; color: #92400e;">La fiscalidad internacional es compleja y cada caso es único. Si vas a pasar largos periodos fuera de España, consulta con un asesor fiscal especializado en movilidad internacional ANTES de moverte. Los errores pueden costar decenas de miles de euros en sanciones.</p>
-      </div>
-
-      <h3>Checklist antes de convertirte en nómada digital:</h3>
-      <ul>
-        <li>✓ Calcula cuántos días exactos pasarás en España este año</li>
-        <li>✓ Identifica dónde está tu "centro de intereses económicos" (¿de dónde vienen tus ingresos?)</li>
-        <li>✓ Investiga convenios de doble imposición con los países donde vivirás</li>
-        <li>✓ Si dejas de ser residente fiscal español: comunícalo oficialmente y obtén certificado en tu nuevo país</li>
-        <li>✓ Guarda pruebas de dónde estás (sellos pasaporte, facturas, fotos con metadatos de ubicación)</li>
-        <li>✓ Contrata seguro médico internacional si pierdes acceso a sanidad española</li>
-        <li>✓ Consulta asesor fiscal especializado en nomadismo digital</li>
-      </ul>
-    `
-  },
+  // 21:Contractar primer empleado
   {
     id: '21',
     slug: 'contratar-primer-empleado-autonomo-espana-2026',
@@ -5859,6 +5866,350 @@ Luego preguntas específicas como:
       { title: 'Guía oficial Seguridad Social: Contratación de trabajadores', url: 'https://sede.seg-social.gob.es/wps/portal/sede/sede/EmpresasyProfesionales/afiliacion+e+inscripcion/03afiliacion+e+inscripcion' }
     ]
   },
+  // 22: Cliente no te paga
+  {
+    id: '22',
+    slug: 'que-hacer-si-un-cliente-no-te-paga-pasos-legales-autonomos-2026',
+    title: 'Qué hacer si un cliente no te paga: Guía legal definitiva para autónomos en España (Edición 2026)',
+    metaDescription: 'Guía exhaustiva para reclamar impagos en 2026. Analizamos el Proceso Monitorio, cómo recuperar el IVA de facturas incobrables y la Ley de Morosidad para freelancers.',
+    category: 'seguridad-social',
+    publishDate: '2026-01-18',
+    readTime: 9,
+    featured: true,
+    excerpt: 'El impago es el mayor riesgo del freelance. Aprende a ejecutar un requerimiento formal, usar el Juicio Monitorio sin costes legales y aplicar la normativa de 2026 para proteger tu tesorería.',
+    image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&auto=format&fit=crop',
+    imageAlt: 'Mazo de juez y documentos legales representando reclamación de impagos',
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Índice de la guía de reclamación</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#marco-legal" style="color: #3b82f6; text-decoration: none;">→ 1. Marco Legal: Ley 3/2004 y plazos máximos</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#fase-prejudicial" style="color: #3b82f6; text-decoration: none;">→ 2. Fase Prejudicial: El Burofax como prueba técnica</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#monitorio-detalle" style="color: #3b82f6; text-decoration: none;">→ 3. El Proceso Monitorio: Guía técnica paso a paso</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#recuperar-iva" style="color: #3b82f6; text-decoration: none;">→ 4. Ingeniería Fiscal: Recuperar el IVA de impagados</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#intereses" style="color: #3b82f6; text-decoration: none;">→ 5. Cálculo de intereses de demora en 2026</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#contratos" style="color: #3b82f6; text-decoration: none;">→ 6. Blindaje de contratos para programadores</a></li>
+        </ul>
+      </div>
+
+      <h2 id="marco-legal">1. El Marco Legal en 2026: La Ley de Lucha contra la Morosidad</h2>
+      <p>La base de cualquier reclamación es la <strong>Ley 3/2004</strong>. Esta normativa establece que el plazo de pago que debe cumplir la empresa deudora no podrá exceder en ningún caso los <strong>60 días naturales</strong> a partir de la fecha de recepción de las mercancías o prestación de los servicios.</p>
+      
+      <p>Como desarrollador autónomo, es vital entender que cualquier cláusula en un contrato que establezca un plazo superior a 60 días es <strong>nula de pleno derecho</strong>. En 2026, las inspecciones de trabajo han endurecido el control sobre las empresas que utilizan a los freelancers como vía de financiación gratuita.</p>
+
+      <h2 id="fase-prejudicial">2. Fase Prejudicial: La importancia del Requerimiento Fehaciente</h2>
+      <p>Antes de acudir a los tribunales, la ley exige demostrar que se ha intentado el cobro. El método estándar es el <strong>Burofax con certificación de texto y acuse de recibo</strong>. No envíes un simple email; ante un juez, un email puede ser impugnado si no cuenta con una firma digital cualificada.</p>
+      
+      <h3>¿Cómo redactar el requerimiento perfecto?</h3>
+      <p>El texto debe ser aséptico y técnico. Debe incluir:</p>
+      <ul>
+        <li><strong>Referencia a la factura:</strong> Número, fecha de emisión y fecha de vencimiento original.</li>
+        <li><strong>Concepto:</strong> Breve descripción del servicio prestado (ej. "Desarrollo de API Rest y migración de base de datos").</li>
+        <li><strong>Importe total:</strong> Desglosando Base Imponible e IVA.</li>
+        <li><strong>Plazo de gracia:</strong> Se recomienda dar un plazo de 7 días naturales para el ingreso en una cuenta específica.</li>
+      </ul>
+
+      <h2 id="monitorio-detalle">3. El Proceso Monitorio: Guía técnica y procesal paso a paso</h2>
+      <p>El <strong>Proceso Monitorio</strong> es, sin duda, la herramienta jurídica más potente de la que disponemos los autónomos en España. Su diseño permite que deudas líquidas, determinadas, vencidas y exigibles puedan ser reclamadas sin necesidad de iniciar un juicio ordinario largo y costoso. En 2026, la digitalización de los juzgados permite presentar estos escritos de forma telemática a través de la Sede Judicial Electrónica.</p>
+
+      <h3>A. Requisitos de la deuda para ser admitida</h3>
+      <p>No cualquier deuda sirve para un monitorio. Para que el Letrado de la Administración de Justicia admita tu petición, la deuda debe ser:</p>
+      <ul>
+        <li><strong>Dineraria:</strong> Debe expresarse en moneda de curso legal (Euros).</li>
+        <li><strong>Vencida:</strong> El plazo de pago debe haber pasado (mínimo 60 días según la Ley de Morosidad).</li>
+        <li><strong>Exigible:</strong> No puede estar sujeta a condiciones futuras.</li>
+        <li><strong>Documentada:</strong> Necesitas facturas, albaranes, correos electrónicos de confirmación o registros de logs de entrega de software.</li>
+      </ul>
+
+      <h3>B. El procedimiento sin Abogado (Hasta 2.000€)</h3>
+      <p>Si tu factura pendiente es de, por ejemplo, 1.500€, el beneficio es total. La Ley de Enjuiciamiento Civil permite que el autónomo actúe <strong>en nombre propio</strong>. Esto significa que el 100% de lo que recuperes será para ti, sin comisiones legales. Solo necesitas descargar el impreso normalizado, adjuntar las facturas y el Burofax previo, y entregarlo en el juzgado de primera instancia del domicilio del cliente.</p>
+
+      <div style="background: #f1f5f9; padding: 1.5rem; border-radius: 0.5rem; border: 1px solid #cbd5e1; margin: 1.5rem 0;">
+        <h4 style="margin-top: 0; color: #0f172a;">⏱ Cronograma del Proceso Monitorio en 2026:</h4>
+        <ol>
+          <li><strong>Presentación (Día 0):</strong> Entrega de la petición y documentos.</li>
+          <li><strong>Admisión (Día 15-30):</strong> El juzgado revisa la documentación y, si es correcta, emite el requerimiento de pago.</li>
+          <li><strong>Notificación:</strong> Un funcionario del juzgado acude al domicilio del deudor para entregarle el requerimiento en mano.</li>
+          <li><strong>El plazo de 20 días:</strong> A partir de la notificación, el deudor tiene exactamente 20 días hábiles para pagar o presentar un escrito de oposición.</li>
+        </ol>
+      </div>
+
+      <h3>C. ¿Qué ocurre si el cliente no paga ni responde? (La Ejecución)</h3>
+      <p>Este es el punto más satisfactorio del proceso. Si pasan los 20 días y el cliente ignora el requerimiento, se produce el <strong>despacho de ejecución</strong> automático. Como el cliente no se ha opuesto en plazo, la ley asume que la deuda es real y definitiva.</p>
+      <p>En este momento, puedes solicitar al juzgado el <strong>embargo preventivo de bienes</strong>. Gracias al Punto Neutro Judicial, el juzgado puede localizar:</p>
+      <ul>
+        <li>Saldos en cuentas corrientes (barrido de cuentas).</li>
+        <li>Devoluciones pendientes de Hacienda (IVA o IRPF del deudor).</li>
+        <li>Facturas que el deudor tenga pendientes de cobrar de otros clientes (embargo de créditos).</li>
+        <li>Vehículos o propiedades inmobiliarias si la deuda es elevada.</li>
+      </ul>
+
+      <h3>D. La oposición del deudor: El único riesgo</h3>
+      <p>El cliente puede presentar un escrito de oposición alegando que el software no funciona o que el servicio no se prestó correctamente. Si esto ocurre, el monitorio se "rompe" y se convierte en un juicio normal. Si la cuantía es menor de 6.000€, iréis a un <strong>Juicio Verbal</strong>, donde se celebrará una vista y un juez decidirá quién tiene razón basándose en las pruebas técnicas aportadas (aquí es donde tus contratos y correos son tu salvavidas).</p>
+
+      <h2 id="recuperar-iva">4. Recuperar el IVA de facturas impagadas (Art. 80 LIVA)</h2>
+      <p>Como autónomo, ya has adelantado a Hacienda el 21% de una factura que no has cobrado. Esto drena tu liquidez. Para recuperar ese dinero, debemos realizar una <strong>modificación de la base imponible</strong>.</p>
+      
+      <p>En 2026, los requisitos para considerar una deuda como "incobrable" son:</p>
+      <ol>
+        <li>Que haya transcurrido <strong>seis meses</strong> desde el devengo del impuesto (para facturas emitidas a otras empresas o autónomos).</li>
+        <li>Que la circunstancia de impago haya sido reflejada en los libros registro.</li>
+        <li>Haber instado el cobro mediante reclamación judicial o requerimiento notarial/burofax.</li>
+      </ol>
+      <p><strong>El procedimiento:</strong> Tienes 3 meses para emitir una factura rectificativa (con IVA negativo) y enviársela al deudor. Luego, tienes 1 mes para informar a la AEAT a través del formulario 952 en su sede electrónica.</p>
+
+      <h2 id="intereses">5. Cálculo de intereses de demora en 2026</h2>
+      <p>No solo tienes derecho al principal de la deuda. La ley te permite cobrar el <strong>interés de demora comercial</strong>. Este interés se publica semestralmente en el BOE.</p>
+      <p>El cálculo es: <strong>Tipo aplicado por el BCE + 8 puntos porcentuales</strong>.</p>
+      <p>Si el tipo del BCE está al 4%, el interés de demora que puedes exigir a tu cliente es del <strong>12% anual</strong>. Además, puedes reclamar una <strong>indemnización fija de 40 euros</strong> por costes de cobro por cada factura impagada, sin necesidad de justificar gastos adicionales.</p>
+
+      <h2 id="contratos">6. Prevención: Cómo blindar tus proyectos de software</h2>
+      <p>Como desarrolladores, tenemos una ventaja: el control sobre el despliegue. Aquí algunas cláusulas de "oro" para tus contratos en 2026:</p>
+      <ul>
+        <li><strong>Reserva de dominio:</strong> El cliente no ostenta la propiedad intelectual ni los derechos de uso del código hasta que la última factura sea abonada íntegramente.</li>
+        <li><strong>Suspensión de servicio:</strong> Cláusula que permite suspender el mantenimiento o el acceso al entorno de staging si hay un retraso superior a 10 días en los pagos por hitos.</li>
+        <li><strong>Sumisión expresa:</strong> Acordar que cualquier conflicto se resuelva en los juzgados de tu ciudad para evitar desplazamientos costosos.</li>
+      </ul>
+
+      <div style="background: #fffbeb; border-left: 4px solid #f59e0b; padding: 1.5rem; margin-top: 2rem;">
+        <h4 style="margin-top: 0; color: #92400e;">⚠️ Error crítico a evitar</h4>
+        <p style="margin-bottom: 0;">Nunca hackees o borres el código de un cliente que no te paga de forma remota ("logic bombs"). Esto podría considerarse un delito de daños informáticos o coacciones. Usa siempre la vía legal del <strong>Proceso Monitorio</strong> o la suspensión de servicios bajo contrato.</p>
+      </div>
+    `,
+    sources: [
+      { title: 'Ley de Enjuiciamiento Civil - Proceso Monitorio', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2000-323'}
+    ]
+  },
+  // 23: Seguro resp. civil
+  {
+    id: '23',
+    slug: 'seguro-responsabilidad-civil-desarrolladores-autonomos-2026',
+    title: '¿Es obligatorio el Seguro de Responsabilidad Civil para desarrolladores autónomos en 2026?',
+    metaDescription: 'Guía técnica definitiva sobre el Seguro de RC para programadores. Análisis de riesgos, cláusulas de IA, ciberseguridad y protección ante negligencia técnica en 2026.',
+    category: 'gastos',
+    publishDate: '2026-01-18',
+    readTime: 9,
+    featured: true,
+    excerpt: '¿Tu código podría arruinarte? Analizamos por qué el Seguro de RC Profesional es el blindaje definitivo para freelancers en 2026, las nuevas cláusulas de IA y cómo proteger tu patrimonio ante reclamaciones.',
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop',
+    imageAlt: 'Seguridad digital y protección de datos avanzada',
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#obligatoriedad" style="color: #3b82f6; text-decoration: none;">→ Requisitos legales y contractuales en 2026</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#analisis-riesgos" style="color: #3b82f6; text-decoration: none;">→ Análisis de riesgos: ¿Qué puede fallar en tu código?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ia-responsabilidad" style="color: #3b82f6; text-decoration: none;">→ El impacto de la IA: ¿Quién es responsable del código generado?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#rc-profesional" style="color: #3b82f6; text-decoration: none;">→ RC Profesional vs. RC General: Diferencias clave</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ciberriesgos" style="color: #3b82f6; text-decoration: none;">→ Ciberriesgos y Protección de Datos (RGPD)</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#coberturas" style="color: #3b82f6; text-decoration: none;">→ Coberturas indispensables: Retroactividad e Inhabilitación</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#costes" style="color: #3b82f6; text-decoration: none;">→ Costes medios y límites de indemnización 2026</a></li>
+        </ul>
+      </div>
+
+      <h2 id="obligatoriedad">Requisitos legales y contractuales en 2026</h2>
+      <p>A diferencia de profesiones como la medicina o la arquitectura, el desarrollo de software no tiene una colegiación obligatoria que exija un seguro por ley estatal directa para ejercer. Sin embargo, el mercado tecnológico en 2026 ha impuesto su propia "ley no escrita": la <strong>Responsabilidad Civil Profesional</strong> es hoy un estándar de facto exigido por el 95% de los clientes corporativos.</p>
+      
+      <p>En el entorno actual, marcado por la <strong>AI Act</strong> de la Unión Europea y las nuevas normativas de ciberresiliencia, cualquier contrato con empresas de tamaño medio o corporaciones internacionales incluirá una cláusula de seguro de RC con coberturas mínimas de 300.000€. Ignorar este punto no solo te expone legalmente a responder con tus bienes presentes y futuros, sino que limita drásticamente tu capacidad de captar clientes de alto valor que exigen transferir el riesgo operacional a una aseguradora solvente.</p>
+
+      <h2 id="analisis-riesgos">Análisis de riesgos: ¿A qué se enfrenta un desarrollador?</h2>
+      <p>Como programador freelance, tus errores no causan grietas físicas en una pared, pero pueden causar "grietas financieras" devastadoras en la facturación de tus clientes. Estos son los riesgos reales que gestionas a diario:</p>
+
+      <h3>1. Negligencia Profesional o Errores de Lógica (E&O)</h3>
+      <p>Imagina que desarrollas un sistema de gestión de precios para un e-commerce. Un error en la lógica del cálculo de descuentos provoca que la empresa venda 2.000 productos a un precio inferior al coste durante un fin de semana. El perjuicio económico es directo. Sin seguro, el cliente te demandará por el <strong>lucro cesante</strong> (lo que dejó de ganar) y el daño emergente (la pérdida directa).</p>
+
+      <h3>2. Incumplimiento de Plazos Críticos</h3>
+      <p>Si tu contrato estipula una entrega para una campaña de Navidad y un error técnico impide el lanzamiento, los costes de marketing perdidos y la pérdida de oportunidad de venta recaen legalmente sobre ti. Las pólizas de RC Profesional de 2026 ya cubren la defensa y las compensaciones por retrasos no dolosos.</p>
+
+      <h2 id="ia-responsabilidad">El impacto de la IA: ¿Quién es responsable del código generado?</h2>
+      <p>Con la consolidación de herramientas de IA generativa (GitHub Copilot, Cursor, etc.), en 2026 ha surgido una nueva duda legal: <strong>¿De quién es la culpa si una IA introduce una vulnerabilidad?</strong></p>
+      
+      <p>La jurisprudencia actual es clara: la responsabilidad final recae en el <strong>profesional humano</strong> que valida y despliega el código. Las pólizas de RC especializadas ahora incluyen cláusulas específicas que cubren errores derivados del uso de asistentes de IA, siempre que exista una supervisión humana documentada. Si usas IA para programar, tu seguro DEBE mencionar explícitamente la cobertura por errores técnicos asistidos.</p>
+
+      <h2 id="rc-profesional">RC Profesional vs. RC General: Diferencias que debes conocer</h2>
+      <p>Es el error más común al contratar. La mayoría de seguros de hogar o de comercio incluyen una "RC General", pero para un programador es prácticamente inútil ante un error de software:</p>
+
+      <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem;">
+          <thead>
+            <tr style="background-color: #f1f5f9;">
+              <th style="padding: 12px; border: 1px solid #e2e8f0; text-align: left;">Concepto</th>
+              <th style="padding: 12px; border: 1px solid #e2e8f0; text-align: center;">RC General (Explotación)</th>
+              <th style="padding: 12px; border: 1px solid #e2e8f0; text-align: center;">RC Profesional (E&O)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 12px; border: 1px solid #e2e8f0;">Daños materiales (romper un monitor en la oficina del cliente)</td>
+              <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center;">Sí</td>
+              <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center;">No</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid #e2e8f0;">Perjuicios económicos (caída de servidor por bug)</td>
+              <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center;">No</td>
+              <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center;">Sí</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid #e2e8f0;">Errores en API o lógica de negocio</td>
+              <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center;">No</td>
+              <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center;">Sí</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid #e2e8f0;">Defensa jurídica especializada en tecnología</td>
+              <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center;">Básica</td>
+              <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold;">Avanzada (IT)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="ciberriesgos">Ciberriesgos y Protección de Datos (RGPD)</h2>
+      <p>En 2026, la seguridad de la información es inseparable de la responsabilidad profesional. Si desarrollas una plataforma que sufre una brecha de seguridad debido a una inyección SQL o un mal manejo de tokens JWT, tu cliente puede ser sancionado por la AEPD con multas de hasta el 4% de su facturación.</p>
+      
+      <p>Una póliza de calidad debe incluir un anexo de <strong>Ciberriesgo</strong> que cubra:</p>
+      <ul>
+        <li>Gastos de notificación a los usuarios afectados.</li>
+        <li>Gastos de restauración de datos digitales.</li>
+        <li>Defensa legal ante procedimientos sancionadores de Protección de Datos.</li>
+        <li>Extorsión cibernética (Ransomware) específica para el autónomo.</li>
+      </ul>
+
+      <h2 id="coberturas">Coberturas indispensables en una póliza de IT en 2026</h2>
+      <p>Al auditar tu póliza, asegúrate de que estos términos aparecen explícitamente en el condicionado:</p>
+      <ul>
+        <li><strong>Inhabilitación profesional:</strong> Cubre tus ingresos si un juez te prohíbe ejercer como desarrollador temporalmente por una sentencia de negligencia.</li>
+        <li><strong>Propiedad Intelectual y Confidencialidad:</strong> Protege ante demandas por revelación involuntaria de secretos comerciales o infracción de copyright de software (uso de librerías sin licencia).</li>
+        <li><strong>Retroactividad Ilimitada:</strong> Vital. Cubre reclamaciones presentadas hoy por trabajos realizados hace años. Sin esto, si dejas de pagar el seguro, los trabajos pasados quedan desprotegidos.</li>
+      </ul>
+
+      <h2 id="costes">Costes medios y límites de indemnización</h2>
+      <p>La competencia en el sector de las <em>insurtech</em> ha estabilizado los precios. Para un desarrollador autónomo en España, estas son las referencias actuales:</p>
+
+      <div style="background: #fffbeb; border-left: 4px solid #f59e0b; padding: 1.5rem; margin-top: 2rem;">
+        <h4 style="margin-top: 0; color: #92400e;">📊 Precios y Capitales de Referencia (Estimados 2026):</h4>
+        <ul style="margin-bottom: 0;">
+          <li><strong>Capital de 150.000€:</strong> Desde 160€ - 190€/año. Recomendado para perfiles Junior o soporte web básico.</li>
+          <li><strong>Capital de 300.000€:</strong> Desde 240€ - 280€/año. El estándar para Senior Freelance y consultoría IT.</li>
+          <li><strong>Capital de 600.000€ o superior:</strong> Desde 450€/año. Obligatorio en contratos con Banca, Sector Salud o Infraestructuras.</li>
+        </ul>
+      </div>
+
+      <h2>Conclusión</h2>
+      <p>El seguro de Responsabilidad Civil no es un gasto, es un <strong>componente de tu stack de infraestructura</strong>, igual que tu hosting o tu entorno de CI/CD. En un mundo donde el código gestiona la vida económica de las empresas, trabajar sin red de seguridad es una temeridad que puede truncar tu carrera profesional ante el primer fallo crítico en producción.</p>
+    `,
+    sources: [
+      { title: 'Guía técnica de la AEPD: Responsabilidad proactiva para desarrolladores', url: 'https://www.aepd.es/' }
+    ]
+  },
+  // 24: Modelo 303
+  {
+    id: '24',
+    slug: 'guia-rellenar-modelo-303-iva-autonomos-sin-gestoria-paso-a-paso',
+    title: 'Guía para rellenar el Modelo 303 de IVA sin gestoría: Paso a paso 2026',
+    metaDescription: 'Guía técnica exhaustiva para cumplimentar el Modelo 303. Análisis de inversión de sujeto pasivo para AWS/Google, operaciones intracomunitarias y liquidación de IVA para desarrolladores.',
+    category: 'impuestos',
+    publishDate: '2026-01-19',
+    readTime: 11,
+    featured: true,
+    excerpt: '¿Quieres gestionar tu IVA como un profesional y ahorrar en gestoría? Desglosamos cada casilla del Modelo 303, desde las operaciones nacionales hasta el "hack" contable para facturas de AWS, Google y OpenAI.',
+    image: 'https://images.unsplash.com/photo-1586486855514-8c633cc6fd38?w=800&auto=format&fit=crop',
+    imageAlt: 'Formulario de impuestos y calculadora financiera avanzada sobre escritorio de oficina',
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Índice de la Guía Maestra de IVA</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#calendario" style="color: #3b82f6; text-decoration: none;">→ 1. Calendario Fiscal y Plazos de Presentación</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#iva-devengado" style="color: #3b82f6; text-decoration: none;">→ 2. IVA Devengado: Casillas de Ingresos Nacionales</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#intracomunitarias" style="color: #3b82f6; text-decoration: none;">→ 3. Operaciones Intracomunitarias y el ROI</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#iva-deducible" style="color: #3b82f6; text-decoration: none;">→ 4. IVA Deducible: Gastos y Bienes de Inversión</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#sujeto-pasivo" style="color: #3b82f6; text-decoration: none;">→ 5. Inversión del Sujeto Pasivo: Facturas de AWS, Google y USA</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#resultado" style="color: #3b82f6; text-decoration: none;">→ 6. Liquidación: Compensar vs. Devolver</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#sanciones" style="color: #3b82f6; text-decoration: none;">→ 7. Régimen Sancionador: Errores que no debes cometer</a></li>
+        </ul>
+      </div>
+
+      <h2 id="calendario">1. Calendario Fiscal y Plazos de Presentación</h2>
+      <p>El Modelo 303 no es opcional. Incluso si no has facturado nada en el trimestre, estás obligado a presentar una declaración "sin actividad" (marcando la casilla correspondiente). En 2026, el sistema se ha vuelto más estricto con la puntualidad. Los plazos son:</p>
+      <ul>
+        <li><strong>Trimestres 1, 2 y 3:</strong> Se presentan los primeros 20 días de abril, julio y octubre.</li>
+        <li><strong>Trimestre 4 (Resumen Anual):</strong> Tienes hasta el 30 de enero del año siguiente. Este trimestre es vital porque se presenta junto al Modelo 390 (resumen anual informativo).</li>
+      </ul>
+      <p><strong>Truco para la domiciliación:</strong> Si quieres que Hacienda te lo cobre automáticamente de tu cuenta el día 20, debes presentar el modelo antes del día 15 de cada mes de presentación. Si vas tarde, tendrás que obtener un NRC bancario manualmente.</p>
+
+      <h2 id="iva-devengado">2. IVA Devengado: Las facturas que has emitido en España</h2>
+      <p>Aquí declaras el IVA que has cobrado. La mayoría de desarrolladores freelance aplican el tipo general del 21%. Debes sumar todas las bases imponibles de tus facturas nacionales (clientes en España).</p>
+      <p><strong>Importante:</strong> Se declara por la <strong>fecha de emisión de la factura</strong>, no por la fecha de cobro (salvo que estés acogido al Régimen Especial de Criterio de Caja). Si emitiste una factura de 2.000€ el 30 de marzo y la cobras en mayo, ese IVA de 420€ debes pagarlo en la declaración de abril.</p>
+
+      <h2 id="intracomunitarias">3. Operaciones Intracomunitarias y el ROI</h2>
+      <p>Si eres desarrollador, es muy común trabajar para empresas en otros países de la UE (Alemania, Irlanda, Francia). Para no cobrarles IVA, ambos debéis estar inscritos en el <strong>ROI (Registro de Operadores Intracomunitarios)</strong>.</p>
+      <ul>
+        <li><strong>Si estás en el ROI:</strong> Emites la factura sin IVA. Esta operación no va en las casillas de "IVA Devengado", sino en la casilla 59 (Entregas intracomunitarias de bienes y servicios).</li>
+        <li><strong>Si NO estás en el ROI:</strong> Debes cobrarles el 21% de IVA español como si fueran un cliente de Madrid, y declararlo en la casilla 01.</li>
+      </ul>
+
+      <h2 id="iva-deducible">4. IVA Deducible: Optimizando tus gastos profesionales</h2>
+      <p>No todo lo que pagas es deducible. Para Hacienda, un gasto es deducible en el Modelo 303 solo si es <strong>imprescindible</strong> para tu actividad y tienes una factura completa. No sirven los recibos si no tienen tu NIF y dirección de autónomo.</p>
+      
+      <h3>Gastos Corrientes (Casillas 28 y 29)</h3>
+      <p>Aquí incluyes los suministros, hosting, dominios y herramientas SaaS. Recuerda: si el gasto es compartido (como el internet de casa), solo puedes deducir la parte proporcional afecta a la actividad (generalmente el 30% del IVA si tienes despacho declarado).</p>
+
+      <h2 id="sujeto-pasivo">5. Inversión del Sujeto Pasivo: El "hack" para servicios como AWS, Google o Apple</h2>
+      <p>Como desarrollador, es prácticamente imposible no trabajar con proveedores extranjeros. Si pagas servicios a <strong>Google Cloud, Amazon Web Services (AWS), GitHub, Slack o Adobe</strong>, estarás recibiendo facturas sin IVA porque estas empresas facturan desde sedes como Irlanda o Luxemburgo.</p>
+      
+      <p>Aquí es donde entra la <strong>Inversión del Sujeto Pasivo</strong>. Es un mecanismo por el cual el "sujeto pasivo" (el que paga el IVA) dejas de ser el vendedor para pasar a serlo el comprador (tú). Técnicamente es una operación de "suma cero" que debes reflejar así:</p>
+
+      <h3>A. El proceso de autorrepercusión (Casillas 10 y 11)</h3>
+      <p>Debes decirle a Hacienda que has comprado un servicio en el extranjero y que tú eres el responsable de ese IVA. 
+      <ul>
+        <li><strong>Casilla 10:</strong> Suma la base imponible de todas esas facturas de Google, AWS, etc.</li>
+        <li><strong>Casilla 11:</strong> Escribe el 21% de esa suma.</li>
+      </ul>
+
+      <h3>B. El proceso de deducción (Casillas 36 y 37)</h3>
+      <p>Para que la operación sea neutra y no pierdas dinero, ahora debes deducirte ese mismo importe como gasto profesional:
+      <ul>
+        <li><strong>Casilla 36:</strong> Repite la base imponible que pusiste en la casilla 10.</li>
+        <li><strong>Casilla 37:</strong> Repite el importe de IVA que calculaste en la casilla 11.</li>
+      </ul>
+
+      <div style="background: #f1f5f9; padding: 1.5rem; border-radius: 0.5rem; margin: 1.5rem 0; border-left: 4px solid #0f172a;">
+        <h4 style="margin-top: 0;">💻 Ejemplo real para un Desarrollador:</h4>
+        <p>Has pagado 100€ a AWS y 50€ a GitHub. Total: 150€.</p>
+        <ol>
+          <li>En la <strong>casilla 10</strong> pones 150€ y en la <strong>11</strong> pones 31,50€.</li>
+          <li>En la <strong>casilla 36</strong> pones 150€ y en la <strong>37</strong> pones 31,50€.</li>
+          <li><strong>Resultado:</strong> 31,50€ - 31,50€ = <strong>0€</strong>.</li>
+        </ol>
+      </div>
+
+      <h3>C. ¿Qué pasa si el proveedor es de fuera de la UE (USA)?</h3>
+      <p>Si usas servicios como <strong>OpenAI (ChatGPT)</strong> con sede en Estados Unidos, la operación se trata como una <strong>importación de servicios</strong>. El mecanismo en el Modelo 303 es idéntico: debes autorrepercuitir y deducir simultáneamente para que el efecto sea nulo. Es vital que estas facturas estén bien registradas en tu libro de gastos para justificar por qué no pagaste IVA en su momento.</p>
+
+      <h2 id="resultado">6. Liquidación: Compensar vs. Devolver</h2>
+      <p>Al llegar al final del modelo, verás el resultado en la casilla 71:</p>
+      <ul>
+        <li><strong>Resultado Positivo:</strong> Es dinero que le debes a la AEAT. Puedes pagarlo mediante domiciliación bancaria o mediante pago con tarjeta en la misma sede.</li>
+        <li><strong>Resultado Negativo (A Compensar):</strong> Si has pagado más IVA del que has cobrado, Hacienda se guarda ese dinero para restarlo de futuras deudas en los siguientes trimestres.</li>
+        <li><strong>Solicitud de Devolución:</strong> Solo se puede pedir el ingreso del dinero en tu cuenta bancaria en la declaración del 4º Trimestre (enero).</li>
+      </ul>
+
+      <h2 id="sanciones">7. Régimen Sancionador: Errores que no debes cometer</h2>
+      <p>Hacienda tiene potentes algoritmos para detectar incoherencias. Los errores más graves son:</p>
+      <ol>
+        <li><strong>Presentación fuera de plazo:</strong> La sanción mínima es de 200€, incluso si el resultado era negativo.</li>
+        <li><strong>Deducción indebida:</strong> Meter gastos personales se considera infracción grave. Hacienda puede reclamarte el IVA devuelto más una sanción del 50% al 150% del importe.</li>
+        <li><strong>No presentar el Modelo 349:</strong> Si haces operaciones intracomunitarias (casilla 59), estás obligado a presentar el Modelo 349.</li>
+      </ol>
+
+      <div style="background: #eff6ff; border-left: 4px solid #1d4ed8; padding: 1.5rem; margin-top: 2rem;">
+        <h4 style="margin-top: 0; color: #1e3a8a;">💡 Conclusión para el desarrollador "DIY"</h4>
+        <p style="margin-bottom: 0;">Llevar tú mismo el IVA te da una visión real de la salud de tu negocio. Si eres ordenado con tus facturas, rellenar el Modelo 303 no te llevará más de 30 minutos al trimestre, ahorrándote costes significativos de gestoría.</p>
+      </div>
+    `,
+    sources: [
+      { title: 'BOE: Reglamento del Impuesto sobre el Valor Añadido', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741' }
+    ]
+}
 ];
 
 export const categories = {

@@ -15,7 +15,13 @@ const Roadmap = () => {
       borderColor: 'border-cyan-500',
       bgColor: 'bg-cyan-50 dark:bg-cyan-950/20',
       icon: Rocket,
-      posts: posts.filter(p => ['4', '5', '7'].includes(p.id)), // Alta freelance, Tramos 2026, Modelo 130
+        posts: posts.filter(p => [
+          '4', // Alta freelance
+          '5', // Tramos 2026
+          '7', // Modelo 130
+          '18', // Nómada digital (setup fiscal internacional)
+          '22', // Nuevo post relevante para setup inicial
+        ].includes(p.id)),
     },
     {
       level: 2,
@@ -25,7 +31,14 @@ const Roadmap = () => {
       borderColor: 'border-emerald-500',
       bgColor: 'bg-emerald-50 dark:bg-emerald-950/20',
       icon: Target,
-      posts: posts.filter(p => ['1', '8', '10', '13'].includes(p.id)), // IVA internacional, Factura legal, VIES/ROI, Factura Electrónica
+        posts: posts.filter(p => [
+          '1', // IVA internacional
+          '8', // Factura legal
+          '10', // VIES/ROI
+          '13', // Factura Electrónica
+          '21', // Contratar primer empleado
+          '23', // Nuevo post relevante para facturación
+        ].includes(p.id)),
     },
     {
       level: 3,
@@ -35,7 +48,16 @@ const Roadmap = () => {
       borderColor: 'border-amber-500',
       bgColor: 'bg-amber-50 dark:bg-amber-950/20',
       icon: TrendingUp,
-      posts: posts.filter(p => ['2', '3', '9', '11'].includes(p.id)), // Gastos deducibles, Amortización, Teletrabajo, Tramos ahorro SS
+        posts: posts.filter(p => [
+          '2', // Gastos deducibles
+          '3', // Amortización
+          '9', // Teletrabajo
+          '11', // Tramos ahorro SS
+          '12', // IA en gestión fiscal
+          '15', // Ley Startups
+          '20', // Planes de pensiones
+          '24', // Nuevo post relevante para optimización fiscal
+        ].includes(p.id)),
     },
     {
       level: 4,
@@ -45,7 +67,14 @@ const Roadmap = () => {
       borderColor: 'border-violet-500',
       bgColor: 'bg-violet-50 dark:bg-violet-950/20',
       icon: Sparkles,
-      posts: posts.filter(p => ['6', '12', '14', '15'].includes(p.id)), // Autónomo vs SL, IA, Criptomonedas, Ley Startups
+        posts: posts.filter(p => [
+          '6', // Autónomo vs SL
+          '14', // Criptomonedas
+          '16', // Pluriactividad
+          '17', // Baja médica autónomos
+          '19', // Cese de actividad (paro autónomos)
+          '25', // Nuevo post relevante para estrategia y escalado
+        ].includes(p.id)),
     },
   ];
 

@@ -121,7 +121,7 @@ const SobreElProyecto = () => {
               <div className="bg-card border border-border rounded-lg p-4">
                 <h3 className="font-semibold text-accent mb-2">📚 Blog</h3>
                 <p className="text-sm text-muted-foreground">
-                  18 artículos extensos y actualizados sobre IVA internacional, gastos deducibles, 
+                  24 artículos extensos y actualizados sobre IVA internacional, gastos deducibles, 
                   amortizaciones, criptomonedas, factura electrónica, Ley de Startups y más temas clave.
                 </p>
               </div>
