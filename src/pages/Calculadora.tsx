@@ -423,7 +423,7 @@ const Calculadora = () => {
                 <CardHeader>
                   <CardTitle className="text-base md:text-lg flex items-center gap-2">
                     <HelpCircle className="w-5 h-5 md:w-4 md:h-4" />
-                    ❓ ¿Cómo calculamos tus impuestos?
+                    ¿Cómo calculamos tus impuestos?
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
