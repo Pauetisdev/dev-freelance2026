@@ -199,7 +199,7 @@ export const posts: BlogPost[] = [
   {
     id: '2',
     slug: 'gastos-deducibles-autonomos-desarrolladores-2026-guia-completa',
-
+    title: 'Gastos Deducibles para Autónomos Desarrolladores en España 2026: Guía Completa',
     metaDescription: 'Lista exhaustiva de gastos deducibles para programadores freelance en España: hardware, software, suministros, formación, dietas. Actualizado 2026 con límites oficiales.',
     category: 'gastos',
     publishDate: '2026-01-04',
@@ -5746,13 +5746,8 @@ Luego preguntas específicas como:
         <li>✓ Contrata seguro médico internacional si pierdes acceso a sanidad española</li>
         <li>✓ Consulta asesor fiscal especializado en nomadismo digital</li>
       </ul>
-    `,
-    sources: [
-      { title: 'Ley 35/2006 IRPF - Residencia fiscal (Art. 8 y 9)', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764' }
-    ]
+    `
   },
-
-  // Blog: Contratar primer empleado
   {
     id: '21',
     slug: 'contratar-primer-empleado-autonomo-espana-2026',
@@ -5776,7 +5771,7 @@ Luego preguntas específicas como:
           <li style="margin-bottom: 0.5rem;"><a href="#bonificaciones" style="color: #3b82f6; text-decoration: none;">→ Bonificaciones y ayudas disponibles</a></li>
           <li style="margin-bottom: 0.5rem;"><a href="#errores" style="color: #3b82f6; text-decoration: none;">→ Errores comunes y cómo evitarlos</a></li>
           <li style="margin-bottom: 0.5rem;"><a href="#ejemplo" style="color: #3b82f6; text-decoration: none;">→ Ejemplo real: coste mensual de un empleado</a></li>
-          <!-- Eliminado enlace duplicado a Fuentes Oficiales en el índice -->
+          
         </ul>
       </div>
 
