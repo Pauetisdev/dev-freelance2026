@@ -1,5 +1,1 @@
-# ads.txt for Google AdSense
-# Este archivo será actualizado con el Publisher ID real una vez la cuenta de AdSense esté activada
-# Formato: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-8230661290313646, DIRECT, f08c47fec0942fa0
