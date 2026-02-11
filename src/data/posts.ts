@@ -2305,16 +2305,16 @@ Due: 30 days (19/02/2026)
       <p><strong>Recomendación:</strong> Sé conservador. Para un piso de 80 m², declarar 10-12 m² (12-15%) es razonable y pasa desapercibido. Declarar 40 m² (50%) puede llamar la atención de Hacienda.</p>
 
       <h3>Paso 2: Aplica la fórmula oficial</h3>
-      <pre><code>Deducción = (m² trabajo / m² totales) × 30% × Gasto total
+      <pre><code>Deducción = (m2 trabajo / m2 totales) x 30% x Gasto total
 
 Ejemplo real:
-- Vivienda: 85 m²
-- Despacho: 10 m²
-- Factura luz mensual: 110€
+- Vivienda: 85 m2
+- Despacho: 10 m2
+- Factura luz mensual: 110 euros
 
 Proporción = 10/85 = 11,76%
-Deducción = 11,76% × 30% × 110€ = 3,88€/mes
-Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
+Deducción = 11,76% x 30% x 110 euros = 3,88 euros/mes
+Deducción anual = 3,88 euros x 12 = 46,56 euros/año</code></pre>
 
       <h2 id="que-deducir">Qué suministros puedes deducir</h2>
 
@@ -2325,23 +2325,23 @@ Deducción anual = 3,88€ × 12 = 46,56€/año</code></pre>
         <tbody>
           <tr>
             <td><strong>Luz</strong></td>
-            <td>Proporción × 30%</td>
+            <td>Proporción x 30%</td>
             <td>Usa la fórmula estándar. Suma todas las facturas del año.</td>
           </tr>
           <tr>
             <td><strong>Gas/Calefacción</strong></td>
-            <td>Proporción × 30%</td>
+            <td>Proporción x 30%</td>
             <td>Solo si tienes calefacción de gas individual.</td>
           </tr>
           <tr>
             <td><strong>Agua</strong></td>
-            <td>Proporción × 30%</td>
+            <td>Proporción x 30%</td>
             <td>Deducción pequeña pero legítima.</td>
           </tr>
           <tr>
             <td><strong>Internet fibra</strong></td>
             <td>30-100%</td>
-            <td><strong>Línea exclusiva trabajo:</strong> 100%<br><strong>Línea mixta:</strong> Proporción × 30% o 50% razonable</td>
+            <td><strong>Línea exclusiva trabajo:</strong> 100%<br><strong>Línea mixta:</strong> Proporción x 30% o 50% razonable</td>
           </tr>
           <tr>
             <td><strong>Teléfono móvil</strong></td>
@@ -6082,7 +6082,445 @@ Luego preguntas específicas como:
     sources: [
       { title: 'BOE: Reglamento del Impuesto sobre el Valor Añadido', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741' }
     ]
-}
+  },
+
+  // 22. Nómada Digital en España - Visa 2026
+  {
+  id: '22',
+  slug: 'nomada-digital-espana-visa-residencia-teletrabajadores-2026',
+  category: 'internacional',
+  featured: true,
+  publishDate: '2026-02-11',
+  readTime: 12,
+  title: 'Nómada Digital en España: Visa de Residencia para Teletrabajadores 2026 - Requisitos, Impuestos y Ventajas Fiscales',
+  metaDescription: 'Guía completa sobre la visa para nómadas digitales en España 2026: requisitos, proceso de solicitud, beneficios fiscales del 24% IRPF y comparativa con Beckham Law.',
+  excerpt: 'Todo sobre la visa de nómada digital en España: cómo obtenerla, beneficios fiscales del 24% IRPF, requisitos de ingresos mínimos y comparativa con otros regímenes especiales.',
+  image: 'https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?w=800&auto=format&fit=crop',
+  imageAlt: 'Nómada digital trabajando con laptop en España',
+  content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#que-es" style="color: #3b82f6; text-decoration: none;">→ ¿Qué es la visa de nómada digital?</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ventajas-fiscales" style="color: #3b82f6; text-decoration: none;">→ Ventajas fiscales: 24% IRPF</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#requisitos" style="color: #3b82f6; text-decoration: none;">→ Requisitos para obtener la visa</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#proceso-solicitud" style="color: #3b82f6; text-decoration: none;">→ Proceso de solicitud paso a paso</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#regimen-fiscal" style="color: #3b82f6; text-decoration: none;">→ Régimen fiscal: Cómo tributar al 24%</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#beckham-vs-nomada" style="color: #3b82f6; text-decoration: none;">→ Beckham Law vs Visa Nómada Digital</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#costes" style="color: #3b82f6; text-decoration: none;">→ Costes y gastos asociados</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#ciudades" style="color: #3b82f6; text-decoration: none;">→ Ciudades más populares</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#faq" style="color: #3b82f6; text-decoration: none;">→ Preguntas frecuentes (FAQ)</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#errores-comunes" style="color: #3b82f6; text-decoration: none;">→ Errores comunes a evitar</a></li>
+        </ul>
+      </div>
+
+      
+
+      <h2 id="que-es">¿Qué es la visa de nómada digital en España?</h2>
+      <p>Desde enero de 2023, España ofrece un <strong>permiso de residencia específico para teletrabajadores internacionales</strong>, conocido como <strong>visa de nómada digital</strong>. Esta visa, creada por la <strong>Ley 28/2022 de Fomento del Ecosistema de Empresas Emergentes</strong> (Ley de Startups), permite vivir legalmente en España mientras trabajas remotamente para empresas extranjeras.</p>
+      
+      <p>En 2026, más de <strong>15.000 nómadas digitales</strong> han obtenido este permiso, y España se ha posicionado como uno de los destinos más atractivos de Europa para teletrabajadores gracias a su <strong>clima, coste de vida y beneficios fiscales</strong>.</p>
+
+      <h2 id="ventajas-fiscales">Ventajas fiscales: 24% IRPF vs 47% normal</h2>
+      <p>El principal atractivo de la visa de nómada digital es el <strong>régimen fiscal especial para impatriados</strong> (conocido coloquialmente como "Beckham Law 2.0"). Durante los primeros <strong>5 años de residencia fiscal</strong>, puedes tributar al <strong>24% de IRPF</strong> sobre ingresos del trabajo hasta 600.000€ anuales.</p>
+
+      <h3>Comparativa fiscal</h3>
+      <table>
+        <thead>
+          <tr><th>Ingresos anuales</th><th>IRPF normal</th><th>Régimen impatriados</th><th>Ahorro</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>40.000€</td>
+            <td>~9.200€ (23%)</td>
+            <td>9.600€ (24%)</td>
+            <td>-400€</td>
+          </tr>
+          <tr>
+            <td>60.000€</td>
+            <td>~18.000€ (30%)</td>
+            <td>14.400€ (24%)</td>
+            <td><strong>+3.600€</strong></td>
+          </tr>
+          <tr>
+            <td>100.000€</td>
+            <td>~37.000€ (37%)</td>
+            <td>24.000€ (24%)</td>
+            <td><strong>+13.000€</strong></td>
+          </tr>
+          <tr>
+            <td>150.000€</td>
+            <td>~63.000€ (42%)</td>
+            <td>36.000€ (24%)</td>
+            <td><strong>+27.000€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Importante:</strong> El beneficio solo aplica a <strong>ingresos del trabajo</strong>. Rendimientos de capital mobiliario (dividendos, intereses) y ganancias patrimoniales se gravan según escala general (19-28%).</p>
+
+      <div class="tip-box" style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 1rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h4 style="margin-top: 0; color: #1e40af;">💡 Optimal tax sweet spot</h4>
+        <p>El beneficio fiscal es <strong>máximo entre 60.000€ y 150.000€ anuales</strong>. Por debajo de 40.000€, el ahorro es marginal. Por encima de 600.000€, se aplica escala progresiva normal.</p>
+      </div>
+
+      <h2 id="requisitos">Requisitos para obtener la visa de nómada digital</h2>
+      <p>La <strong>Ley 28/2022, artículo 23</strong>, establece los requisitos oficiales:</p>
+
+      <h3>1️⃣ Requisito de ingresos</h3>
+      <ul>
+        <li><strong>Mínimo mensual:</strong> 200% del Salario Mínimo Interprofesional (SMI)</li>
+        <li><strong>SMI 2026:</strong> 1.184€/mes → <strong>Mínimo requerido: 2.368€/mes (28.416€/año)</strong></li>
+        <li><strong>Con cónyuge:</strong> +75% (35.520€/año total)</li>
+        <li><strong>Con hijos:</strong> +25% por cada hijo adicional</li>
+      </ul>
+
+      <h3>2️⃣ Trabajo remoto para empresa extranjera</h3>
+      <ul>
+        <li><strong>Relación laboral:</strong> Contrato con empresa NO española (o máximo 20% ingresos de empresas españolas)</li>
+        <li><strong>O freelance:</strong> Servicios a clientes extranjeros (máximo 20% facturación a España)</li>
+        <li><strong>Válido:</strong> Empleado de Google USA, freelance para clientes UK/USA, nómina de empresa alemana</li>
+        <li><strong>NO válido:</strong> Empleado de Google España, freelance con 100% clientes españoles</li>
+      </ul>
+
+      <h3>3️⃣ No haber sido residente fiscal en España</h3>
+      <ul>
+        <li><strong>Requisito clave:</strong> No haber sido residente fiscal español en los <strong>últimos 5 años</strong></li>
+        <li><strong>Excepción:</strong> Si fuiste estudiante durante ese periodo, SÍ puedes aplicar</li>
+        <li><strong>Residencia fiscal:</strong> Haber vivido más de 183 días en un año en España</li>
+      </ul>
+
+      <h3>4️⃣ Sin antecedentes penales</h3>
+      <ul>
+        <li><strong>Certificado de antecedentes:</strong> Del país de origen y donde hayas residido últimos 5 años</li>
+        <li><strong>Apostilla de La Haya:</strong> Obligatoria para certificados no-UE</li>
+        <li><strong>Traducción jurada:</strong> Si el certificado no está en español</li>
+      </ul>
+
+      <h3>5️⃣ Seguro médico</h3>
+      <ul>
+        <li><strong>Cobertura obligatoria:</strong> Sin carencias ni copagos</li>
+        <li><strong>Importe mínimo:</strong> No especificado, pero recomendable > 30.000€</li>
+        <li><strong>Opciones válidas:</strong> Sanitas, Adeslas, Asisa, seguro internacional</li>
+        <li><strong>Coste aproximado:</strong> 50-150€/mes según edad y cobertura</li>
+      </ul>
+
+      <h2 id="proceso-solicitud">Proceso de solicitud paso a paso</h2>
+
+      <h3>Opción A: Desde fuera de España (visa de entrada)</h3>
+      <p>Si <strong>NO estás en España</strong>, debes solicitar visa en el consulado español de tu país:</p>
+      
+      <ol>
+        <li><strong>Reserva cita:</strong> Consulado español de tu país (espera: 2-6 semanas)</li>
+        <li><strong>Documentación requerida:</strong>
+          <ul>
+            <li>Formulario de solicitud firmado</li>
+            <li>Pasaporte válido > 1 año</li>
+            <li>Foto tamaño pasaporte</li>
+            <li>Prueba de ingresos (nóminas, contrato, extractos bancarios últimos 3 meses)</li>
+            <li>Certificado antecedentes penales apostillado</li>
+            <li>Seguro médico válido en España</li>
+            <li>Prueba alojamiento en España (reserva, contrato)</li>
+          </ul>
+        </li>
+        <li><strong>Pago tasa:</strong> ~80€ (varía según consulado)</li>
+        <li><strong>Tiempo de resolución:</strong> 20 días hábiles (puede alargarse a 3 meses)</li>
+        <li><strong>Visa aprobada:</strong> Entrada a España en 90 días</li>
+        <li><strong>TIE (Tarjeta de Identidad de Extranjero):</strong> Recoger en Oficina de Extranjería en 30 días tras llegada</li>
+      </ol>
+
+      <h3>Opción B: Desde España (cambio de estancia a residencia)</h3>
+      <p>Si <strong>YA estás en España</strong> con visado turista (o similar), puedes solicitar el cambio:</p>
+      
+      <ol>
+        <li><strong>Requisito previo:</strong> Estar en España legalmente (turista UE sin visa, o visa válida no-UE)</li>
+        <li><strong>Presentación:</strong> Oficina de Extranjería de tu provincia</li>
+        <li><strong>Documentación:</strong> Igual que opción A + empadronamiento</li>
+        <li><strong>Tiempo resolución:</strong> 20 días hábiles (3 meses máximo)</li>
+        <li><strong>Durante trámite:</strong> Puedes permanecer legalmente en España</li>
+      </ol>
+
+      <div class="warning-box" style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h4 style="margin-top: 0; color: #92400e;">⚠️ Atención ciudadanos UE/EEE</h4>
+        <p style="margin-bottom: 0;">Si eres ciudadano de la <strong>Unión Europea, Noruega, Islandia, Liechtenstein o Suiza</strong>, NO necesitas visa de nómada digital para vivir en España. Puedes registrarte directamente como residente comunitario. Sin embargo, <strong>NO puedes acogerte al régimen fiscal del 24%</strong> a menos que seas extracomunitario o cumplas requisitos específicos de impatriación.</p>
+      </div>
+
+      <h2 id="regimen-fiscal">Régimen fiscal: Cómo tributar al 24%</h2>
+      <p>Obtener la visa de nómada digital NO activa automáticamente el beneficio fiscal. Debes <strong>solicitarlo expresamente</strong> a Hacienda:</p>
+
+      <h3>Pasos para aplicar el régimen de impatriados</h3>
+      <ol>
+        <li><strong>Obtener TIE:</strong> Tarjeta de Identidad de Extranjero (permiso de residencia)</li>
+        <li><strong>Obtener NIE:</strong> Número de Identidad de Extranjero (automático con TIE)</li>
+        <li><strong>Residencia fiscal:</strong> Vivir > 183 días en un año natural en España</li>
+        <li><strong>Solicitud modelo 149:</strong> Presentar en Agencia Tributaria <strong>dentro de los 6 meses</strong> tras adquirir residencia fiscal</li>
+        <li><strong>Documentación modelo 149:</strong>
+          <ul>
+            <li>Formulario 149 cumplimentado</li>
+            <li>Copia TIE</li>
+            <li>Contrato de trabajo o justificante actividad</li>
+            <li>Declaración responsable: no haber sido residente fiscal en últimos 5 años</li>
+          </ul>
+        </li>
+        <li><strong>Aprobación:</strong> Hacienda resuelve en 6 meses (silencio administrativo positivo)</li>
+        <li><strong>Duración:</strong> 5 años (año de llegada + 5 años naturales completos)</li>
+      </ol>
+
+      <h3>Obligaciones fiscales como nómada digital</h3>
+      <table>
+        <thead>
+          <tr><th>Obligación</th><th>Modelo</th><th>Periodicidad</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Declaración IRPF</td>
+            <td>Modelo 100</td>
+            <td>Anual (abril-junio)</td>
+          </tr>
+          <tr>
+            <td>Pagos fraccionados</td>
+            <td>Modelo 130</td>
+            <td>Trimestral (si freelance)</td>
+          </tr>
+          <tr>
+            <td>Declaración bienes en extranjero > 50k€</td>
+            <td>Modelo 720</td>
+            <td>Anual (enero-marzo)</td>
+          </tr>
+          <tr>
+            <td>IVA (si facturación española)</td>
+            <td>Modelo 303</td>
+            <td>Trimestral</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="beckham-vs-nomada">Beckham Law vs Visa Nómada Digital</h2>
+      <p>Ambos regímenes ofrecen beneficios fiscales, pero tienen diferencias clave:</p>
+
+      <table>
+        <thead>
+          <tr><th>Aspecto</th><th>Beckham Law (Art. 93)</th><th>Visa Nómada Digital</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Base legal</strong></td>
+            <td>Art. 93 Ley IRPF</td>
+            <td>Ley 28/2022 Startups + Art. 93</td>
+          </tr>
+          <tr>
+            <td><strong>Tipo impositivo</strong></td>
+            <td>24% hasta 600k€</td>
+            <td>24% hasta 600k€</td>
+          </tr>
+          <tr>
+            <td><strong>Requisito trabajo</strong></td>
+            <td>Contrato con empresa española</td>
+            <td>Trabajo remoto empresa extranjera</td>
+          </tr>
+          <tr>
+            <td><strong>Requisito residencia previa</strong></td>
+            <td>No residente 5 años previos</td>
+            <td>No residente 5 años previos</td>
+          </tr>
+          <tr>
+            <td><strong>Duración</strong></td>
+            <td>6 años (1 + 5)</td>
+            <td>6 años (1 + 5)</td>
+          </tr>
+          <tr>
+            <td><strong>Patrimonio extranjero</strong></td>
+            <td>Solo tributa si renta española</td>
+            <td>Solo tributa si renta española</td>
+          </tr>
+          <tr>
+            <td><strong>Target</strong></td>
+            <td>Directivos, deportistas, alta cualificación</td>
+            <td>Teletrabajadores, freelancers</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Conclusión:</strong> Ambos usan el mismo artículo 93 de la Ley IRPF, pero la visa de nómada digital es <strong>más accesible</strong> (requisito ingresos menor: 28k vs 50-60k Beckham tradicional) y está diseñada para teletrabajadores.</p>
+
+      <h2 id="costes">Costes y gastos asociados</h2>
+
+      <h3>Costes iniciales (primer año)</h3>
+      <table>
+        <thead>
+          <tr><th>Concepto</th><th>Coste</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tasa visa consulado</td>
+            <td>80-100€</td>
+          </tr>
+          <tr>
+            <td>Certificado antecedentes penales</td>
+            <td>20-50€</td>
+          </tr>
+          <tr>
+            <td>Apostilla de La Haya</td>
+            <td>10-30€</td>
+          </tr>
+          <tr>
+            <td>Traducción jurada</td>
+            <td>30-80€/página</td>
+          </tr>
+          <tr>
+            <td>Seguro médico (primer año)</td>
+            <td>600-1.800€</td>
+          </tr>
+          <tr>
+            <td>Gestoría/abogado (opcional)</td>
+            <td>500-1.500€</td>
+          </tr>
+          <tr>
+            <td><strong>TOTAL aproximado</strong></td>
+            <td><strong>1.200-3.500€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Costes recurrentes (anual)</h3>
+      <ul>
+        <li><strong>Seguro médico:</strong> 600-1.800€/año</li>
+        <li><strong>Renovación TIE (años 2-3):</strong> ~20€</li>
+        <li><strong>Gestoría fiscal (opcional):</strong> 300-1.000€/año</li>
+      </ul>
+
+      <h2 id="ciudades">Ciudades más populares para nómadas digitales</h2>
+
+      <table>
+        <thead>
+          <tr><th>Ciudad</th><th>Coste vida/mes</th><th>Comunidad</th><th>Clima</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Barcelona</strong></td>
+            <td>1.500-2.500€</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>Mediterráneo</td>
+          </tr>
+          <tr>
+            <td><strong>Madrid</strong></td>
+            <td>1.400-2.300€</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>Continental</td>
+          </tr>
+          <tr>
+            <td><strong>Valencia</strong></td>
+            <td>1.100-1.900€</td>
+            <td>⭐⭐⭐⭐</td>
+            <td>Mediterráneo</td>
+          </tr>
+          <tr>
+            <td><strong>Málaga</strong></td>
+            <td>1.200-2.000€</td>
+            <td>⭐⭐⭐⭐</td>
+            <td>Costa del Sol</td>
+          </tr>
+          <tr>
+            <td><strong>Las Palmas</strong></td>
+            <td>1.000-1.800€</td>
+            <td>⭐⭐⭐⭐</td>
+            <td>Subtropical</td>
+          </tr>
+          <tr>
+            <td><strong>Sevilla</strong></td>
+            <td>1.000-1.700€</td>
+            <td>⭐⭐⭐</td>
+            <td>Muy caluroso verano</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="faq">Preguntas frecuentes (FAQ)</h2>
+
+      <h3>¿Puedo trabajar para clientes españoles?</h3>
+      <p>Sí, pero <strong>máximo 20% de tus ingresos</strong> pueden provenir de empresas españolas. Si superas este límite, pierdes el permiso.</p>
+
+      <h3>¿Puedo traer a mi familia?</h3>
+      <p>Sí, <strong>cónyuge e hijos</strong> pueden solicitar permiso de residencia por reagrupación familiar. El cónyuge puede trabajar legalmente en España. Requisito: demostrar ingresos suficientes (+75% por cónyuge, +25% por hijo).</p>
+
+      <h3>¿Debo pagar Seguridad Social española?</h3>
+      <p>Depende:</p>
+      <ul>
+        <li><strong>Empleado empresa extranjera:</strong> NO pagas Seguridad Social española (pagas en tu país)</li>
+        <li><strong>Freelance/autónomo:</strong> SÍ debes darte de alta como autónomo y pagar cuota (desde 230€/mes)</li>
+        <li><strong>Excepción:</strong> Si estás cubierto por convenio bilateral (USA, UK tienen convenio), puedes estar exento</li>
+      </ul>
+
+      <h3>¿Qué pasa tras 5 años?</h3>
+      <p>Tienes dos opciones:</p>
+      <ol>
+        <li><strong>Renovar visa nómada digital:</strong> Válida hasta 5 años más, pero <strong>pierdes beneficio fiscal 24%</strong> (tributas al IRPF normal)</li>
+        <li><strong>Solicitar residencia permanente:</strong> Tras 5 años continuados, puedes pedir residencia de larga duración UE (permanente)</li>
+      </ol>
+
+      <h3>¿Puedo comprar vivienda en España?</h3>
+      <p>Sí, los extranjeros pueden comprar inmuebles en España sin restricciones. Además, si compras vivienda > 500.000€, puedes optar a la <strong>Golden Visa</strong> (alternativa a visa nómada digital).</p>
+
+      <h3>¿Tributo en mi país de origen también?</h3>
+      <p>Depende de los <strong>convenios de doble imposición</strong>:</p>
+      <ul>
+        <li><strong>Residente fiscal español:</strong> Tributas en España por renta mundial</li>
+        <li><strong>Convenio bilateral:</strong> España tiene convenios con 90+ países para evitar doble tributación</li>
+        <li><strong>USA:</strong> Ciudadanos estadounidenses deben declarar en USA siempre (FATCA), pero pueden deducir impuestos pagados en España</li>
+      </ul>
+
+      <h2 id="errores-comunes">Errores comunes a evitar</h2>
+
+      <table>
+        <thead>
+          <tr><th>Error</th><th>Corrección</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>No solicitar modelo 149 a tiempo</td>
+            <td>Presentar en 6 meses tras residencia fiscal</td>
+          </tr>
+          <tr>
+            <td>Superar 20% facturación española</td>
+            <td>Controlar ingresos España vs extranjero trimestre a trimestre</td>
+          </tr>
+          <tr>
+            <td>No apostillar certificado antecedentes</td>
+            <td>Apostilla de La Haya obligatoria países no-UE</td>
+          </tr>
+          <tr>
+            <td>Seguro con carencias/copagos</td>
+            <td>Seguro sin carencias ni copagos (> 30k cobertura)</td>
+          </tr>
+          <tr>
+            <td>No empadronarse al llegar</td>
+            <td>Empadronamiento obligatorio en 30 días</td>
+          </tr>
+          <tr>
+            <td>Pensar que el 24% aplica a todo</td>
+            <td>Solo ingresos trabajo; capital y ganancias a escala normal</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Conclusión: ¿Vale la pena?</h2>
+      <p>La visa de nómada digital en España es <strong>altamente rentable</strong> si cumples estas condiciones:</p>
+      
+      <ul>
+        <li>✅ Ingresos anuales entre <strong>60.000€ y 150.000€</strong> (máximo ahorro fiscal)</li>
+        <li>✅ Trabajo remoto para empresas extranjeras (> 80% facturación internacional)</li>
+        <li>✅ No has sido residente fiscal español en últimos 5 años</li>
+        <li>✅ Planeas quedarte al menos 3-5 años para amortizar trámites</li>
+      </ul>
+
+      <p>Con un <strong>ahorro fiscal de 3.600€ a 27.000€ anuales</strong>, el retorno de inversión es claro. Además, España ofrece <strong>calidad de vida, clima, infraestructura</strong> y una creciente comunidad de nómadas digitales en ciudades como Barcelona, Madrid y Valencia.</p>
+
+      <p><strong>Siguiente paso:</strong> Contacta con un abogado de extranjería o gestoría especializada para iniciar el proceso. El trámite completo suele tardar 3-6 meses desde solicitud hasta obtención del TIE.</p>
+    `,
+    sources: [
+      { title: 'Agencia Tributaria - Modelo 149', url: 'https://sede.agenciatributaria.gob.es/' }
+    ]
+  }
 ];
 
 export const categories = {

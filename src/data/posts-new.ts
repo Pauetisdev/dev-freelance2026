@@ -1813,7 +1813,7 @@ const axios = require('axios');
 
 async function verificarVAT(vatNumber, countryCode) {
   const response = await axios.get(
-    `https://ec.europa.eu/taxation_customs/vies/rest-api/ms/${countryCode}/vat/${vatNumber}`
+    \`https://ec.europa.eu/taxation_customs/vies/rest-api/ms/\${countryCode}/vat/\${vatNumber}\`
   );
   
   if (response.data.valid) {
