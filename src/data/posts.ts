@@ -2389,7 +2389,7 @@ Deducción anual = 3,88 euros x 12 = 46,56 euros/año</code></pre>
         <li>Copia del modelo 036 con los metros declarados</li>
       </ul>
 
-      <h2>Ejemplo completo: Ahorro real de un developer</h2>
+      <h2 id="ejemplo-completo">Ejemplo completo: Ahorro real de un developer</h2>
 
       <p><strong>Perfil:</strong> Desarrollador full-stack en piso de 90 m² con despacho de 12 m²</p>
 
@@ -4140,15 +4140,6 @@ Luego preguntas específicas como:
           <li style="margin-bottom: 0.5rem;"><a href="#solicitar" style="color: #3b82f6; text-decoration: none;">→ Cómo solicitarlo</a></li>
           <li style="margin-bottom: 0.5rem;"><a href="#incompatibilidades" style="color: #3b82f6; text-decoration: none;">→ Incompatibilidades</a></li>
           <li style="margin-bottom: 0.5rem;"><a href="#casos" style="color: #3b82f6; text-decoration: none;">→ Casos prácticos</a></li>
-        </ul>
-      </div>
-
-      <h2 id="que-es">¿Qué es la Ley de Startups y cómo beneficia a freelancers?</h2>
-          <li>Requisitos para el tipo reducido del 15%</li>
-          <li>Comparativa fiscal: Tipo general vs Ley Startups</li>
-          <li>Cómo solicitar la aplicación del 15%</li>
-          <li>Incompatibilidades y limitaciones</li>
-          <li>Casos prácticos con ahorro real</li>
         </ul>
       </div>
 
