@@ -57,7 +57,13 @@ const FAQ = () => {
                 </p>
                 <p className="mb-3">
                   Sin embargo, <strong>la cotización a la Seguridad Social debe ser desde el primer día</strong> de actividad. La Inspección de Trabajo 
-                  puede sancionar con multas de 3.000€ a 10.000€ por alta tardía según la Ley sobre Infracciones y Sanciones en el Orden Social (LISOS).
+                  puede sancionar con multas de 3.000€ a 10.000€ por alta tardía según la Ley sobre Infracciones y Sanciones en el Orden Social (LISOS). 
+                  El proceso de alta implica dos trámites principales: el alta censal en Hacienda mediante el modelo 036 declarando tu actividad y epígrafe IAE, 
+                  y el alta en el Régimen Especial de Trabajadores Autónomos RETA de la Seguridad Social mediante el modelo TA0521 donde eliges tu base de cotización.
+                </p>
+                <p className="mb-3">
+                  Ambos trámites pueden realizarse telemáticamente con certificado digital o Cl@ve, y el alta es efectiva desde el día que tú indiques como 
+                  inicio de actividad. Si solicitas la tarifa plana debes hacerlo en este mismo momento del alta, no es posible solicitarla posteriormente.
                 </p>
                 <p className="bg-blue-50 dark:bg-blue-950/20 border-l-4 border-blue-500 p-3 rounded">
                   <strong>Consejo práctico:</strong> Date de alta antes de emitir tu primera factura o recibir tu primer pago, 
@@ -82,7 +88,13 @@ const FAQ = () => {
                 </ul>
                 <p className="mb-3">
                   Para desarrollo web, apps móviles, backend, frontend o fullstack, el epígrafe <strong>844.1</strong> es el más adecuado. 
-                  Puedes darte de alta en varios epígrafes sin coste adicional si ofreces servicios diversos.
+                  Puedes darte de alta en varios epígrafes sin coste adicional si ofreces servicios diversos. La elección del epígrafe se realiza en el 
+                  modelo 036 o 037 en el momento del alta, y puedes modificarlo posteriormente si cambias o amplías tu actividad sin coste ni penalización.
+                </p>
+                <p className="mb-3">
+                  Aunque los epígrafes 844 están exentos de pago del Impuesto de Actividades Económicas IAE para empresas con facturación inferior a un millón 
+                  de euros, lo cual incluye a prácticamente todos los autónomos, es importante elegir correctamente porque algunas ayudas o subvenciones públicas 
+                  filtran beneficiarios por epígrafes específicos.
                 </p>
                 <p className="bg-amber-50 dark:bg-amber-950/20 border-l-4 border-amber-500 p-3 rounded">
                   <strong>Importante:</strong> El epígrafe IAE no determina qué puedes facturar, es solo clasificativo. 
@@ -98,7 +110,8 @@ const FAQ = () => {
               <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
                 <p className="mb-3">
                   <strong>Sí, es completamente legal</strong> compatibilizar un trabajo por cuenta ajena con la actividad de autónomo. 
-                  No necesitas permiso de tu empresa actual, aunque es recomendable revisar tu contrato por si hay cláusulas de exclusividad.
+                  No necesitas permiso de tu empresa actual, aunque es recomendable revisar tu contrato por si hay cláusulas de exclusividad o incompatibilidad. 
+                  Las cláusulas de dedicación exclusiva solo son válidas en determinados casos y con compensación económica adicional.
                 </p>
                 <p className="mb-3">
                   Esto se conoce como <strong>pluriactividad</strong> y tiene implicaciones importantes:
@@ -107,7 +120,13 @@ const FAQ = () => {
                   <li>Pagarás cotización completa en ambos regímenes (empresa + autónomo)</li>
                   <li>Si superas 14.764,80€ anuales de cotización total (2026), puedes solicitar <strong>devolución del 50%</strong> del exceso</li>
                   <li>Presentas solicitud en enero del año siguiente mediante el modelo oficial de la TGSS</li>
+                  <li>En tu declaración de la Renta sumarás rendimientos del trabajo por cuenta ajena más rendimientos de actividades económicas</li>
                 </ul>
+                <p className="mb-3">
+                  La cotización en pluriactividad no aumenta tus derechos a pensión de forma proporcional, ya que existe un tope máximo de base de cotización 
+                  que se aplica al conjunto de todas tus actividades. Sin embargo, sí mejora tu cobertura por incapacidad temporal y tu futura prestación por cese 
+                  de actividad como autónomo.
+                </p>
                 <p className="bg-emerald-50 dark:bg-emerald-950/20 border-l-4 border-emerald-500 p-3 rounded">
                   <strong>Ventaja:</strong> Puedes probar tu negocio freelance sin renunciar a la estabilidad de tu empleo actual.
                 </p>
@@ -120,33 +139,52 @@ const FAQ = () => {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
                 <p className="mb-3">
-                  Los costes principales de ser autónomo en 2026 incluyen:
+                  Los costes principales de ser autónomo en 2026 incluyen tres partidas fundamentales: la cuota de cotización a la Seguridad Social, 
+                  los impuestos sobre beneficios mediante el IRPF, y opcionalmente los servicios de gestoría o asesoría. El coste total dependerá directamente 
+                  de tus ingresos netos, ya que el sistema de tramos por rendimientos hace que a mayor facturación mayor sea tanto la cuota como los impuestos.
                 </p>
                 <div className="space-y-3 mb-3">
                   <div className="bg-slate-50 dark:bg-slate-900/30 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">1. Cuota de autónomo (obligatoria)</h4>
-                    <p className="text-sm">
+                    <p className="text-sm mb-2">
                       Desde <strong>225€/mes</strong> (tramo más bajo) hasta <strong>530€/mes</strong> (tramo más alto). 
                       Depende de tus ingresos netos anuales. Con la tarifa plana: <strong>80€/mes los primeros 12 meses</strong>.
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      Esta cuota te da derecho a prestaciones como asistencia sanitaria, baja por enfermedad, protección por cese de actividad y 
+                      cómputo para la pensión de jubilación. Se paga mensualmente mediante domiciliación bancaria.
                     </p>
                   </div>
                   
                   <div className="bg-slate-50 dark:bg-slate-900/30 p-4 rounded-lg">
-                    <h4 className="font-semibold mb-2">2. IRPF (trimestral)</h4>
-                    <p className="text-sm">
+                    <h4 className="font-semibold mb-2">2. IRPF (trimestral y anual)</h4>
+                    <p className="text-sm mb-2">
                       <strong>15% del beneficio neto</strong> (ingresos - gastos) en los pagos fraccionados trimestrales (modelo 130). 
                       En la declaración anual puede variar del 19% al 47% según tramos.
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      Los pagos trimestrales son anticipos que luego se regularizan en la Renta. Si tus clientes te aplican retención del 15% en facturas, 
+                      podrías estar exento de presentar el modelo 130, pero la mayoría de freelancers con clientes internacionales debe presentarlo.
                     </p>
                   </div>
 
                   <div className="bg-slate-50 dark:bg-slate-900/30 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">3. Gestoría (opcional pero recomendada)</h4>
-                    <p className="text-sm">
+                    <p className="text-sm mb-2">
                       Entre <strong>40€ y 80€/mes</strong> según servicios (modelo 130, 303, facturación, nóminas...). 
                       Puedes gestionarlo tú mismo si tienes conocimientos.
                     </p>
+                    <p className="text-xs text-muted-foreground">
+                      Una gestoría se encarga de presentar tus modelos trimestrales, calcular tus obligaciones fiscales, llevar tus libros registro 
+                      y asesorarte sobre deducciones. Muchos autónomos lo gestionan ellos mismos los primeros meses para ahorrar costes.
+                    </p>
                   </div>
                 </div>
+                <p className="mb-3 text-sm">
+                  Además de estos costes principales, debes considerar otros gastos iniciales como la apertura de cuenta bancaria profesional si la entidad 
+                  te la cobra, un seguro de responsabilidad civil profesional recomendable pero no obligatorio que puede costar entre 100 y 300 euros anuales, 
+                  y herramientas de facturación electrónica aunque existen opciones gratuitas como Facturadirecta o las proporcionadas por algunas gestorías.
+                </p>
                 <p className="bg-blue-50 dark:bg-blue-950/20 border-l-4 border-blue-500 p-3 rounded text-sm">
                   <strong>Ejemplo:</strong> Si facturas 30.000€/año con 5.000€ de gastos, pagarás aproximadamente 
                   4.800€ de cuota anual + 3.750€ de IRPF = <strong>8.550€ en impuestos/cotizaciones</strong> (28,5% de tu facturación).
@@ -160,7 +198,11 @@ const FAQ = () => {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
                 <p className="mb-3">
-                  La <strong>tarifa plana</strong> es un descuento en la cuota de autónomos para nuevas altas. En 2026, el esquema es:
+                  La <strong>tarifa plana</strong> es un descuento en la cuota de autónomos para nuevas altas que reduce significativamente los costes 
+                  durante los primeros años de actividad, facilitando el emprendimiento en la fase inicial.
+                </p>
+                <p className="mb-3">
+                  En 2026, el esquema de la tarifa plana es:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 mb-3">
                   <li><strong>Meses 1-12:</strong> 80€/mes (reducción del 65%)</li>
@@ -174,7 +216,13 @@ const FAQ = () => {
                   <li>No haber estado de alta como autónomo en los últimos 2 años (24 meses)</li>
                   <li>No haber aplicado tarifa plana previamente en los últimos 3 años</li>
                   <li>Solicitar en el momento del alta (modelo TA0521)</li>
+                  <li>No ser administrador de sociedad mercantil durante la aplicación de la bonificación</li>
                 </ul>
+                <p className="mb-3 text-sm">
+                  La tarifa plana aplica sobre la cotización por contingencias comunes. Adicionalmente debes abonar aproximadamente 3 euros mensuales 
+                  por contingencias profesionales, cese de actividad y formación profesional. Cotizas por una base mínima que determina tus prestaciones 
+                  por incapacidad temporal y futura pensión.
+                </p>
                 <p className="bg-green-50 dark:bg-green-950/20 border-l-4 border-green-500 p-3 rounded">
                   <strong>Ahorro primer año:</strong> Aproximadamente 1.740€ frente a la cuota mínima estándar (225€/mes).
                 </p>
@@ -352,52 +400,20 @@ const FAQ = () => {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
                 <p className="mb-3">
-                  Para que un gasto sea deducible debe cumplir <strong>3 requisitos</strong> según la Ley del IRPF:
+                  Para que un gasto sea fiscalmente deducible debe cumplir tres requisitos fundamentales según la Ley del IRPF: estar vinculado directamente 
+                  a tu actividad económica, estar correctamente justificado mediante factura completa a tu nombre con NIF, y estar registrado contablemente 
+                  en tus libros de gastos.
                 </p>
-                <ul className="list-disc pl-6 space-y-1 mb-4">
-                  <li>Estar vinculado a tu actividad económica</li>
-                  <li>Estar correctamente justificado (factura a tu nombre con NIF)</li>
-                  <li>Estar registrado contablemente</li>
+                <p className="mb-3">
+                  Los desarrolladores y profesionales IT pueden deducir un amplio espectro de gastos:
+                </p>
+                <ul className="list-disc pl-6 mb-3 space-y-1">
+                  <li><strong>Hardware y software:</strong> Portátiles, monitores, licencias (GitHub, JetBrains, Adobe), servidores cloud (AWS, Azure, Vercel), dominios y hosting</li>
+                  <li><strong>Formación:</strong> Cursos online (Udemy, Platzi), libros técnicos, conferencias y eventos del sector, certificaciones profesionales</li>
+                  <li><strong>Oficina:</strong> Coworking (100%), vivienda habitual (máx 7m²), suministros proporcionales, mobiliario</li>
+                  <li><strong>Comunicación:</strong> Móvil y línea telefónica, internet fibra, correo corporativo, herramientas de videoconferencia</li>
+                  <li><strong>Servicios profesionales:</strong> Gestoría, asesoría fiscal, servicios jurídicos, seguros RC profesional, publicidad y marketing digital</li>
                 </ul>
-                <p className="mb-3 font-semibold">Gastos 100% deducibles para developers:</p>
-                <div className="grid md:grid-cols-2 gap-3 mb-3">
-                  <div className="bg-slate-50 dark:bg-slate-900/30 p-3 rounded text-sm">
-                    <h4 className="font-semibold mb-2">💻 Hardware y Software</h4>
-                    <ul className="space-y-1 text-xs">
-                      <li>• Portátiles, monitores, teclados</li>
-                      <li>• Licencias GitHub, JetBrains, Adobe</li>
-                      <li>• Servidores cloud (AWS, Azure, Vercel)</li>
-                      <li>• Dominios y hosting</li>
-                    </ul>
-                  </div>
-                  <div className="bg-slate-50 dark:bg-slate-900/30 p-3 rounded text-sm">
-                    <h4 className="font-semibold mb-2">📚 Formación</h4>
-                    <ul className="space-y-1 text-xs">
-                      <li>• Cursos online (Udemy, Platzi, etc)</li>
-                      <li>• Libros técnicos</li>
-                      <li>• Conferencias y eventos</li>
-                      <li>• Certificaciones profesionales</li>
-                    </ul>
-                  </div>
-                  <div className="bg-slate-50 dark:bg-slate-900/30 p-3 rounded text-sm">
-                    <h4 className="font-semibold mb-2">🏢 Oficina</h4>
-                    <ul className="space-y-1 text-xs">
-                      <li>• Alquiler coworking (100%)</li>
-                      <li>• % Vivienda habitual (30% de 7m²)</li>
-                      <li>• Luz, agua, internet (% uso)</li>
-                      <li>• Mobiliario de oficina</li>
-                    </ul>
-                  </div>
-                  <div className="bg-slate-50 dark:bg-slate-900/30 p-3 rounded text-sm">
-                    <h4 className="font-semibold mb-2">📱 Comunicación</h4>
-                    <ul className="space-y-1 text-xs">
-                      <li>• Móvil y línea telefónica</li>
-                      <li>• Internet fibra</li>
-                      <li>• Correo corporativo</li>
-                      <li>• Videoconferencia (Zoom, etc)</li>
-                    </ul>
-                  </div>
-                </div>
                 <p className="bg-emerald-50 dark:bg-emerald-950/20 border-l-4 border-emerald-500 p-3 rounded text-sm">
                   <strong>Regla de oro:</strong> Si lo usas para trabajar y tienes factura → es deducible.
                 </p>
@@ -410,34 +426,19 @@ const FAQ = () => {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
                 <p className="mb-3">
-                  <strong>Sí, pero con matices importantes:</strong>
+                  Los equipos informáticos como portátiles, ordenadores de sobremesa o tablets profesionales son cien por cien deducibles si constituyen 
+                  tu herramienta principal de trabajo. Se amortizan aplicando las tablas oficiales del Real Decreto 1777/2004: los equipos informáticos 
+                  tienen un coeficiente máximo del veinticinco por ciento anual, lo que equivale a amortizar en cuatro años. Por ejemplo, si compras 
+                  un MacBook de dos mil euros, puedes deducir quinientos euros anuales durante cuatro ejercicios consecutivos. Existe una alternativa 
+                  de amortización acelerada para elementos de escaso valor: si el coste unitario es inferior a trescientos euros puedes deducir el importe 
+                  íntegro en el mismo año de adquisición.
                 </p>
-                <div className="space-y-3 mb-3">
-                  <div className="border border-border p-3 rounded">
-                    <h4 className="font-semibold text-sm mb-2">Ordenador</h4>
-                    <p className="text-sm mb-2">
-                      Puedes deducir el <strong>100% del coste</strong> si es tu herramienta principal de trabajo. 
-                      Se amortiza según tablas oficiales:
-                    </p>
-                    <ul className="text-xs space-y-1 pl-4">
-                      <li>• <strong>Equipos informáticos:</strong> 25% anual (4 años)</li>
-                      <li>• Ejemplo: MacBook de 2.000€ → deduces 500€/año durante 4 años</li>
-                      <li>• O amortización acelerada: deducir todo el primer año si es &lt; 300€</li>
-                    </ul>
-                  </div>
-
-                  <div className="border border-border p-3 rounded">
-                    <h4 className="font-semibold text-sm mb-2">Móvil y Línea</h4>
-                    <p className="text-sm mb-2">
-                      <strong>Deducible 100%</strong> si es exclusivo para trabajo. Si también lo usas personalmente:
-                    </p>
-                    <ul className="text-xs space-y-1 pl-4">
-                      <li>• Hacienda <strong>acepta un 50%</strong> de deducción sin más justificación</li>
-                      <li>• Si justificas mayor uso profesional (registro llamadas), puedes deducir más</li>
-                      <li>• Línea fija 100% si es solo para clientes</li>
-                    </ul>
-                  </div>
-                </div>
+                <p className="mb-3">
+                  Respecto al teléfono móvil, si es de uso exclusivamente profesional puedes deducir el cien por cien tanto del dispositivo como de la 
+                  línea mensual. Si lo utilizas también para asuntos personales, Hacienda acepta un cincuenta por ciento de deducción sin necesidad 
+                  de mayor justificación documental. Si puedes demostrar un uso profesional superior mediante registro de llamadas o datos de consumo, 
+                  es posible aplicar un porcentaje mayor. La línea fija profesional es cien por cien deducible si está destinada exclusivamente a clientes.
+                </p>
                 <p className="bg-amber-50 dark:bg-amber-950/20 border-l-4 border-amber-500 p-3 rounded text-sm">
                   <strong>Importante:</strong> Guarda las facturas a tu nombre con NIF. Si la tiznea el móvil a nombre personal, 
                   Hacienda puede cuestionar la deducción.
@@ -451,39 +452,31 @@ const FAQ = () => {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
                 <p className="mb-3">
-                  Trabajar desde casa te permite deducir <strong>suministros y parte de la vivienda</strong>. 
-                  Las normas 2026 son claras:
+                  Trabajar desde tu vivienda habitual te permite deducir una proporción de suministros y gastos de la vivienda. La normativa del IRPF 
+                  establece que puedes deducir el treinta por ciento de los gastos correspondientes a los metros cuadrados destinados a la actividad, 
+                  con un límite máximo de siete metros cuadrados. Los gastos deducibles incluyen:
                 </p>
-                <div className="bg-slate-100 dark:bg-slate-800 p-4 rounded-lg mb-3">
-                  <h4 className="font-semibold mb-2">Vivienda en propiedad o alquiler</h4>
-                  <p className="text-sm mb-2">
-                    Puedes deducir el <strong>30% de los gastos</strong> correspondientes a los <strong>metros cuadrados 
-                    destinados a la actividad</strong>, con un máximo de 7m²:
-                  </p>
-                  <ul className="text-sm space-y-1 pl-4 mb-2">
-                    <li>• Alquiler, intereses hipoteca, IBI, comunidad</li>
-                    <li>• Seguro de hogar (proporción)</li>
-                  </ul>
-                  <p className="text-xs bg-white dark:bg-slate-900 p-2 rounded">
-                    <strong>Ejemplo:</strong> Piso de 80m², usas 10m² para oficina. Alquiler 900€/mes.<br/>
-                    Deducible: (7m² / 80m²) × 900€ × 30% = <strong>23,63€/mes</strong>
-                  </p>
-                </div>
-
-                <div className="bg-slate-100 dark:bg-slate-800 p-4 rounded-lg mb-3">
-                  <h4 className="font-semibold mb-2">Suministros (luz, agua, gas, internet)</h4>
-                  <p className="text-sm mb-2">
-                    Deducible según <strong>proporción de metros</strong> o <strong>% uso profesional</strong>:
-                  </p>
-                  <ul className="text-sm space-y-1 pl-4">
-                    <li>• <strong>Internet:</strong> 100% si lo usas principalmente para trabajar</li>
-                    <li>• <strong>Luz:</strong> (m² oficina / m² total) × 30% × factura</li>
-                    <li>• <strong>Agua, gas:</strong> igual que luz</li>
-                  </ul>
-                </div>
-
+                <ul className="list-disc pl-6 mb-3 space-y-1">
+                  <li>Alquiler mensual o intereses de hipoteca (si es propiedad)</li>
+                  <li>Impuesto sobre Bienes Inmuebles (IBI)</li>
+                  <li>Gastos de comunidad de propietarios</li>
+                  <li>Seguro del hogar</li>
+                  <li>Suministros: electricidad, agua, gas e internet (este último puede ser 100% si uso profesional)</li>
+                </ul>
+                <p className="mb-3">
+                  Por ejemplo, si tu piso tiene ochenta metros cuadrados y destinas diez metros a tu oficina, solo puedes aplicar la deducción sobre 
+                  siete metros como máximo. Si pagas novecientos euros de alquiler mensual, la proporción sería de siete metros entre ochenta metros 
+                  multiplicado por novecientos euros y de este resultado el treinta por ciento, resultando en veintitres euros con sesenta céntimos 
+                  mensuales deducibles.
+                </p>
+                <p className="mb-3">
+                  Los suministros como electricidad, agua, gas e internet se deducen aplicando el mismo criterio de proporción de metros más el 
+                  treinta por ciento. La conexión a internet puede deducirse al cien por cien si se justifica que su uso es principalmente profesional, 
+                  sin aplicar el límite de metros ni el treinta por ciento. Es recomendable tener las facturas de suministros a nombre del autónomo o 
+                  poder vincularlas con la actividad mediante domiciliaciones desde la cuenta profesional.
+                </p>
                 <p className="bg-red-50 dark:bg-red-950/20 border-l-4 border-red-500 p-3 rounded text-sm">
-                  <strong>⚠️ Atención:</strong> Si deduces gastos de vivienda habitual en propiedad, 
+                  <strong>Atención:</strong> Si deduces gastos de vivienda habitual en propiedad, 
                   cuando la vendas puede haber implicaciones fiscales en plusvalía. Consulta con asesor.
                 </p>
               </AccordionContent>
@@ -495,31 +488,19 @@ const FAQ = () => {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
                 <p className="mb-3">
-                  Las <strong>comidas con clientes son deducibles</strong>, pero Hacienda es estricta con los requisitos:
+                  Las comidas y gastos de representación con clientes son fiscalmente deducibles siempre que se cumplan requisitos formales y materiales. 
+                  El primer requisito es disponer de factura completa con tu nombre o razón social, NIF completo y detalle de lo consumido, sin que valgan 
+                  tickets simplificados. El segundo requisito es que exista una relación comercial demostrable con el cliente, acreditada mediante contratos, 
+                  correos electrónicos comerciales o facturas emitidas a ese cliente en fechas cercanas. Es recomendable anotar en la factura o documento anexo 
+                  el nombre del cliente, la empresa que representa y el motivo de la reunión. El importe debe ser razonable y proporcionado, ya que cantidades 
+                  elevadas frecuentes pueden ser cuestionadas.
                 </p>
-                <ul className="list-disc pl-6 space-y-2 mb-3">
-                  <li><strong>Factura completa:</strong> Con tu nombre, NIF y detalle (no ticket simplificado)</li>
-                  <li><strong>Relación cliente:</strong> Debe haber relación comercial demostrable (contrato, emails)</li>
-                  <li><strong>Anotación:</strong> Apunta en la factura: "Comida reunión con [Cliente] - [Motivo]"</li>
-                  <li><strong>Razonabilidad:</strong> Montos coherentes (no cenas de 200€ frecuentes)</li>
-                </ul>
                 <p className="mb-3">
-                  <strong>Deducibilidad según tipo:</strong>
+                  Las comidas con clientes fuera de tu localidad habitual de trabajo tienen mayor respaldo documental, especialmente si se producen en el 
+                  contexto de un desplazamiento profesional con factura de transporte o alojamiento. En cambio, comidas habituales en tu misma ciudad requieren 
+                  mayor detalle justificativo, con un límite orientativo de veintiséis euros con sesenta y siete céntimos diarios en manutención. Las comidas 
+                  en solitario o con familiares sin vínculo comercial con tu actividad no son deducibles bajo ningún concepto.
                 </p>
-                <div className="space-y-2 mb-3">
-                  <div className="flex items-start gap-2 text-sm">
-                    <span className="text-green-600 font-bold">✓</span>
-                    <p><strong>100% deducible:</strong> Comidas con clientes fuera de tu localidad habitual</p>
-                  </div>
-                  <div className="flex items-start gap-2 text-sm">
-                    <span className="text-amber-600 font-bold">⚠</span>
-                    <p><strong>Cuestionable:</strong> Comidas habituales en tu ciudad (max 26,67€/día general)</p>
-                  </div>
-                  <div className="flex items-start gap-2 text-sm">
-                    <span className="text-red-600 font-bold">✗</span>
-                    <p><strong>NO deducible:</strong> Comidas solo tuyo o con familiares sin relación comercial</p>
-                  </div>
-                </div>
                 <p className="bg-blue-50 dark:bg-blue-950/20 border-l-4 border-blue-500 p-3 rounded text-sm">
                   <strong>Consejo:</strong> Si tienes dudas, mejor deduce solo las más evidentes. 
                   Hacienda cruza datos con TPV del restaurante y puede pedirte justificaciones.
@@ -533,42 +514,25 @@ const FAQ = () => {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
                 <p className="mb-3">
-                  <strong>Sí, los gastos de formación son 100% deducibles</strong> si están relacionados con tu actividad profesional. 
-                  Esto incluye:
+                  Los gastos de formación directamente relacionados con tu actividad profesional son totalmente deducibles en el Impuesto sobre la Renta 
+                  sin limitación de importe, siempre que puedas acreditar esa vinculación. Esto incluye:
                 </p>
-                <div className="grid md:grid-cols-2 gap-3 mb-3">
-                  <div className="border border-border p-3 rounded">
-                    <h4 className="font-semibold text-sm mb-2">Totalmente deducible</h4>
-                    <ul className="text-xs space-y-1">
-                      <li>• Cursos online (Udemy, Coursera, Platzi)</li>
-                      <li>• Certificaciones (AWS, Google Cloud)</li>
-                      <li>• Libros técnicos</li>
-                      <li>• Bootcamps de programación</li>
-                      <li>• Conferencias (entrada + viaje + hotel)</li>
-                      <li>• Suscripciones educativas (Frontend Masters)</li>
-                    </ul>
-                  </div>
-                  <div className="border border-border p-3 rounded">
-                    <h4 className="font-semibold text-sm mb-2">NO deducible</h4>
-                    <ul className="text-xs space-y-1">
-                      <li>• Cursos de idiomas (salvo justificación)</li>
-                      <li>• Másters no relacionados con IT</li>
-                      <li>• Formación personal/hobby</li>
-                      <li>• Gym o deporte (aunque "mejore productividad")</li>
-                    </ul>
-                  </div>
-                </div>
-                <p className="mb-3 text-sm">
-                  <strong>Requisitos formales:</strong>
-                </p>
-                <ul className="list-disc pl-6 space-y-1 text-sm mb-3">
-                  <li>Factura a nombre del autónomo (NIF completo)</li>
-                  <li>Descripción clara del curso/certificación</li>
-                  <li>Relación evidente con tu actividad económica (web dev, cloud, etc.)</li>
+                <ul className="list-disc pl-6 mb-3 space-y-1">
+                  <li>Cursos online sobre tecnologías que utilizas: React, Node, Python, DevOps, cloud computing, ciberseguridad</li>
+                  <li>Plataformas de suscripción: Udemy, Coursera, Platzi, Frontend Masters, Pluralsight</li>
+                  <li>Certificaciones oficiales: AWS, Google Cloud, Microsoft Azure, Kubernetes (incluye examen y material)</li>
+                  <li>Libros técnicos físicos y digitales</li>
+                  <li>Conferencias, meetups y eventos profesionales (entrada, desplazamiento y alojamiento)</li>
                 </ul>
+                <p className="mb-3">
+                  La formación debe tener relación directa con tu epígrafe de actividad. <strong>NO son deducibles:</strong> cursos de idiomas sin justificación, 
+                  másteres no relacionados con IT o gestión empresarial, formación personal o hobby, gimnasio o coaching no específico del negocio. Todos los 
+                  gastos deben estar respaldados por factura completa emitida a tu nombre con NIF, y es conveniente que la descripción del concepto sea clara 
+                  respecto al contenido formativo.
+                </p>
                 <p className="bg-blue-50 dark:bg-blue-950/20 border-l-4 border-blue-500 p-3 rounded text-sm">
-                  <strong>Bonus:</strong> La formación no solo reduce tu base imponible (IRPF), 
-                  también mejora tu perfil profesional y te permit facturar más. Win-win.
+                  <strong>Beneficio dual:</strong> La formación no solo reduce tu base imponible (IRPF), 
+                  también mejora tu perfil profesional y te permite facturar más.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -722,17 +686,14 @@ const FAQ = () => {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
                 <p className="mb-3">
-                  El modelo 130 es el pago fraccionado trimestral del Impuesto sobre la Renta de las Personas Físicas. Su función principal es adelantar 
-                  a Hacienda parte del impuesto que corresponderá abonar en la declaración anual, evitando así concentrar todo el pago en un único momento. 
-                  Este mecanismo se aplica sobre el beneficio neto obtenido durante el ejercicio y funciona como un sistema de liquidación provisional que 
-                  después se regulariza en la declaración de la Renta del año siguiente.
+                  El modelo 130 es el pago fraccionado trimestral del IRPF que adelanta a Hacienda parte del impuesto correspondiente a la declaración anual, 
+                  evitando concentrar todo el pago en un único momento. Se aplica sobre el beneficio neto obtenido durante el ejercicio y funciona como 
+                  liquidación provisional que después se regulariza en la Renta del año siguiente.
                 </p>
                 <p className="mb-3">
-                  Están obligados a presentar el modelo 130 los autónomos que tributan en estimación directa, ya sea normal o simplificada, siempre que no hayan 
-                  soportado retenciones de IRPF en al menos el setenta por ciento de sus ingresos. Esto significa que si la mayor parte de tu facturación proviene 
-                  de empresas españolas que te aplican retención, podrías estar exento de presentar el 130. Sin embargo, la mayoría de desarrolladores web y 
-                  freelancers digitales que trabajan con clientes internacionales, plataformas extranjeras o particulares deben presentarlo, porque en esos casos 
-                  no se practica retención alguna en las facturas.
+                  Están obligados a presentarlo los autónomos en estimación directa que no hayan soportado retenciones de IRPF en al menos el setenta por ciento 
+                  de sus ingresos. La mayoría de desarrolladores que trabajan con clientes internacionales, plataformas extranjeras o particulares deben presentarlo, 
+                  porque en esos casos no se practica retención en las facturas.
                 </p>
                 <p className="mb-3">
                   El cálculo del modelo 130 se realiza aplicando un quince por ciento sobre el beneficio neto acumulado del año hasta el trimestre que se declara, 
@@ -759,11 +720,9 @@ const FAQ = () => {
                   cliente deduciéndola del importe total que te abona, ingresándola posteriormente a Hacienda en tu nombre mediante sus propios modelos trimestrales.
                 </p>
                 <p className="mb-3">
-                  En la práctica funciona así: si emites una factura de mil euros más IVA a una empresa española, en la factura debes indicar la base imponible de 
-                  mil euros, el IVA de doscientos diez euros veintiún por ciento, la retención de IRPF de ciento cincuenta euros quince por ciento, y el total a 
-                  cobrar resulta en mil sesenta euros. El cliente ingresa los ciento cincuenta euros retenidos a Hacienda. Posteriormente, cuando presentes tu 
-                  declaración de la Renta, esa retención que ya se ingresó a tu nombre se descuenta de la cuota a pagar, funcionando exactamente igual que las 
-                  retenciones que aparecen en una nómina de trabajador por cuenta ajena.
+                  En la práctica funciona así: si emites una factura de mil euros más IVA a una empresa española, aplicas retención del quince por ciento 
+                  sobre la base, que el cliente deduce del total y abona a Hacienda en tu nombre. Posteriormente, en tu declaración de la Renta, esa retención 
+                  se descuenta de la cuota a pagar, igual que las retenciones de una nómina.
                 </p>
                 <p className="mb-3">
                   No debes aplicar retención cuando facturas a particulares consumidores finales, a empresas extranjeras fuera de España, o en operaciones no sujetas 
@@ -795,10 +754,8 @@ const FAQ = () => {
                   inferior a seiscientos mil euros se mantienen en simplificada por su mayor sencillez administrativa.
                 </p>
                 <p className="mb-3">
-                  Ambos regímenes permiten deducir exactamente los mismos gastos, las diferencias radican solo en el porcentaje adicional del cinco por ciento en 
-                  simplificada y en la complejidad de las obligaciones contables. La elección o renuncia se comunica a Hacienda mediante declaración censal en el 
-                  modelo 036 o 037, y los cambios deben realizarse durante el mes de diciembre del año anterior o en los primeros días de enero según el calendario 
-                  tributario vigente.
+                  Ambos regímenes permiten deducir los mismos gastos. Las diferencias son el cinco por ciento adicional en simplificada y la complejidad contable. 
+                  La elección se comunica mediante modelo 036 o 037, y los cambios deben realizarse en diciembre o primeros días de enero.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -816,17 +773,13 @@ const FAQ = () => {
                   rendimientos del capital, ganancias patrimoniales u otras.
                 </p>
                 <p className="mb-3">
-                  El borrador de la declaración que facilita Hacienda no incluye automáticamente tus datos de autónomo. Debes incorporar manualmente tus ingresos 
-                  y gastos profesionales, las cuotas de autónomos pagadas que son deducibles, y comprobar que aparecen correctamente reflejados los pagos fraccionados 
-                  del modelo 130 realizados durante el año y las retenciones practicadas por clientes españoles si las hubo. La cuota íntegra se calcula aplicando 
-                  la escala progresiva del IRPF que va desde el diecinueve hasta el cuarenta y siete por ciento sobre la base liquidable general. De esa cuota se restan 
-                  las deducciones aplicables, los pagos fraccionados del 130, las retenciones soportadas, y el resultado final puede ser a ingresar o a devolver.
+                  El borrador no incluye automáticamente tus datos de autónomo. Debes incorporar manualmente ingresos, gastos, cuotas de autónomos, y comprobar 
+                  que aparecen los pagos del modelo 130 y retenciones. La cuota se calcula aplicando la escala progresiva del IRPF del diecinueve al cuarenta y siete 
+                  por ciento. De esa cuota se restan deducciones, pagos fraccionados y retenciones, resultando el importe a ingresar o devolver.
                 </p>
                 <p className="mb-3">
-                  Es fundamental conservar durante cuatro años toda la documentación justificativa: facturas emitidas, facturas de gastos, justificantes de pagos del 
-                  modelo 130, certificados de retenciones, y extractos bancarios. Hacienda puede iniciar procedimientos de comprobación limitada o inspección donde 
-                  solicite esta documentación, y la falta de justificación de gastos declarados puede llevar a regularizaciones con liquidaciones complementarias, 
-                  intereses  de demora y posibles sanciones.
+                  Es fundamental conservar durante cuatro años toda la documentación: facturas emitidas y de gastos, justificantes del 130, certificados de retenciones 
+                  y extractos bancarios. La falta de justificación puede llevar a regularizaciones con intereses y sanciones.
                 </p>
                 <p className="bg-blue-50 dark:bg-blue-950/20 border-l-4 border-blue-500 p-3 rounded text-sm">
                   <strong>Recomendación profesional:</strong> Si es tu primera declaración como autónomo o tus ingresos superan los treinta mil euros anuales, 
@@ -848,17 +801,13 @@ const FAQ = () => {
                   no vinculados a la actividad no son deducibles como gasto profesional en el apartado de actividades económicas.
                 </p>
                 <p className="mb-3">
-                  Existen determinadas deducciones en la cuota del IRPF que sí se aplican sobre circunstancias personales o familiares, y están disponibles tanto 
-                  para autónomos como para asalariados. Entre ellas destacan las deducciones por vivienda habitual adquirida antes de 2013, por maternidad, por 
-                  familia numerosa, por personas con discapacidad a cargo, por donativos a ONGs o por inversión en empresas de nueva creación. Estas deducciones 
-                  se aplican directamente sobre la cuota íntegra una vez calculada, reduciendo el importe final a pagar, pero no afectan al rendimiento neto de 
-                  tu actividad económica.
+                  Existen deducciones en la cuota del IRPF aplicables a circunstancias personales, disponibles tanto para autónomos como asalariados: vivienda habitual 
+                  adquirida antes de 2013, maternidad, familia numerosa, personas con discapacidad a cargo, donativos o inversión en empresas de nueva creación. 
+                  Estas deducciones se aplican sobre la cuota íntegra reduciendo el importe final, pero no afectan al rendimiento de tu actividad.
                 </p>
                 <p className="mb-3">
-                  Además, al margen de gastos deducibles de la actividad, la normativa del IRPF contempla reducciones en la base imponible general aplicables 
-                  a todos los contribuyentes como las aportaciones a planes de pensiones privados con un límite anual de mil quinientos euros, las aportaciones 
-                  a patrimonios protegidos de personas con discapacidad, o las pensiones compensatorias al cónyuge. Estas reducciones disminuyen la base sobre la 
-                  que se aplican los tipos impositivos del IRPF.
+                  También existen reducciones en la base imponible como aportaciones a planes de pensiones con límite de mil quinientos euros anuales, aportaciones 
+                  a patrimonios protegidos o pensiones compensatorias al cónyuge.
                 </p>
                 <p className="bg-amber-50 dark:bg-amber-950/20 border-l-4 border-amber-500 p-3 rounded text-sm">
                   <strong>Importante diferenciar:</strong> Gastos deducibles de la actividad reducen el beneficio empresarial. Deducciones y reducciones personales 
