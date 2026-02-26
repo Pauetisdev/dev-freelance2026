@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Calculator, AlertTriangle, Info, HelpCircle, Share2, Check } from 'lucide-react';
 import { Layout } from '@/components/Layout';
+import { BackButton } from '@/components/BackButton';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -150,6 +151,7 @@ const Calculadora = () => {
     <Layout>
       <section className="py-8 md:py-12">
         <div className="container mx-auto px-4 max-w-6xl">
+          <BackButton to="/" />
           {/* Header */}
           <header className="text-center mb-8 md:mb-10">
             <div className="inline-flex items-center justify-center p-3 rounded-full bg-accent/10 mb-4">

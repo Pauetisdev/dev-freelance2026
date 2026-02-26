@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { CheckCircle2, Rocket, Target, TrendingUp, Sparkles } from 'lucide-react';
 import { posts } from '@/data/posts';
+import { BackButton } from '@/components/BackButton';
 
 const Roadmap = () => {
   // Organizar posts por niveles
@@ -89,6 +90,7 @@ const Roadmap = () => {
       </Helmet>
 
       <div className="container mx-auto px-4 py-12 max-w-7xl">
+        <BackButton to="/blog" label="Volver al blog" />
         {/* Header con espacio para anuncio superior */}
         <div className="grid lg:grid-cols-[1fr_300px] gap-8 mb-16">
           <div className="text-center lg:text-left">

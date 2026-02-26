@@ -64,6 +64,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link to="/faq" className="text-muted-foreground hover:text-accent transition-colors">
+                  Preguntas Frecuentes
+                </Link>
+              </li>
+              <li>
                 <Link to="/sobre-mi" className="text-muted-foreground hover:text-accent transition-colors">
                   Sobre el proyecto
                 </Link>

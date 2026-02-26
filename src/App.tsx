@@ -10,6 +10,7 @@ import Index from "./pages/Index";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Calculadora from "./pages/Calculadora";
+import FAQ from "./pages/FAQ";
 import SobreElProyecto from "./pages/SobreElProyecto";
 import Roadmap from "./pages/Roadmap";
 import AvisoLegal from "./pages/AvisoLegal";
@@ -34,6 +35,7 @@ const App = () => (
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:slug" element={<BlogPost />} />
               <Route path="/calculadora" element={<Calculadora />} />
+              <Route path="/faq" element={<FAQ />} />
               <Route path="/sobre-mi" element={<SobreElProyecto />} />
               <Route path="/roadmap" element={<Roadmap />} />
               <Route path="/aviso-legal" element={<AvisoLegal />} />

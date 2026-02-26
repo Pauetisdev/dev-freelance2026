@@ -2,6 +2,7 @@ import { Layout } from '@/components/Layout';
 import { Helmet } from 'react-helmet-async';
 import { Heart } from 'lucide-react';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
+import { BackButton } from '@/components/BackButton';
 
 const SobreElProyecto = () => {
   return (
@@ -15,6 +16,7 @@ const SobreElProyecto = () => {
       </Helmet>
 
       <div className="container mx-auto px-4 py-12 max-w-3xl">
+        <BackButton to="/" />
         <h1 className="text-4xl font-bold mb-8">Sobre el Proyecto</h1>
 
         <div className="prose prose-lg dark:prose-invert max-w-none">

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Sun, Moon, Calculator, User, BookOpen, Home, Map, Mail } from 'lucide-react';
+import { Menu, X, Sun, Moon, Calculator, User, BookOpen, Home, Map, Mail, HelpCircle } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { Button } from '@/components/ui/button';
 
@@ -9,6 +9,7 @@ const navItems = [
   { path: '/blog', label: 'Blog', icon: BookOpen },
   { path: '/roadmap', label: 'Roadmap', icon: Map },
   { path: '/calculadora', label: 'Calculadora', icon: Calculator },
+  { path: '/faq', label: 'FAQ', icon: HelpCircle },
   { path: '/sobre-mi', label: 'Sobre el proyecto', icon: User },
   { path: '/contacto', label: 'Contacto', icon: Mail },
 ];

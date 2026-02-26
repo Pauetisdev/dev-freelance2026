@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { Calendar, Clock, ExternalLink } from 'lucide-react';
 import { Layout } from '@/components/Layout';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BackButton } from '@/components/BackButton';
 import { PostCard } from '@/components/PostCard';
 import { Badge } from '@/components/ui/badge';
 import { getPostBySlug, getRelatedPosts, categories } from '@/data/posts';
@@ -94,6 +95,7 @@ const BlogPost = () => {
 
       <article className="py-8">
         <div className="container mx-auto px-4">
+          <BackButton to="/blog" label="Volver al blog" />
           <Breadcrumbs 
             items={[
               { label: 'Blog', path: '/blog' },

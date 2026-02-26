@@ -1,5 +1,6 @@
 import { Layout } from '@/components/Layout';
 import { Helmet } from 'react-helmet-async';
+import { BackButton } from '@/components/BackButton';
 
 const PoliticaPrivacidad = () => {
   return (
@@ -13,6 +14,7 @@ const PoliticaPrivacidad = () => {
       </Helmet>
 
       <div className="container mx-auto px-4 py-12 max-w-4xl">
+        <BackButton to="/" />
         <h1 className="text-4xl font-bold mb-8">Política de Privacidad</h1>
         
         <div className="prose prose-slate dark:prose-invert max-w-none">
