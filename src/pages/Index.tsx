@@ -46,7 +46,7 @@ const Index = () => {
               <span className="text-gradient">Developer Freelance</span> en 2026
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Guías prácticas sobre impuestos, cotización y gastos deducibles para programadores autónomos en España. Sin jerga, solo lo que necesitas saber.
+              Guías prácticas sobre impuestos, cotización y gastos deducibles para programadores autónomos en España. Con lenguaje claro, solo lo que necesitas saber.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/calculadora">
