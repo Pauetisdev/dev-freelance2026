@@ -95,11 +95,6 @@ const SobreElProyecto = () => {
                   <span><strong>Actualizado a 2026:</strong> Información al día con la normativa más reciente, 
                   incluyendo tramos de cotización por ingresos reales, límites de deducción actualizados y cambios fiscales vigentes.</span>
                 </li>
-                <li className="flex gap-3">
-                  <span className="text-accent font-bold">✓</span>
-                  <span><strong>Transparencia Total:</strong> Identifico claramente mi autoría, proporciono enlaces a mi perfil profesional 
-                  y estoy disponible para feedback constructivo de la comunidad.</span>
-                </li>
               </ul>
             </div>
           </section>
@@ -123,28 +118,44 @@ const SobreElProyecto = () => {
               <div className="bg-card border border-border rounded-lg p-4">
                 <h3 className="font-semibold text-accent mb-2">📚 Blog</h3>
                 <p className="text-sm text-muted-foreground">
-                  24 artículos extensos y actualizados sobre IVA internacional, gastos deducibles, 
-                  amortizaciones, criptomonedas, factura electrónica, Ley de Startups y más temas clave.
+                  Más de 27 artículos extensos y actualizados sobre IVA internacional, gastos deducibles, 
+                  amortizaciones, criptomonedas, factura electrónica, Ley de Startups, pluriactividad, 
+                  nómada digital y más temas clave para freelancers.
+                </p>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-4">
+                <h3 className="font-semibold text-accent mb-2">❓ FAQ</h3>
+                <p className="text-sm text-muted-foreground">
+                  Sección de preguntas frecuentes con 25 respuestas detalladas sobre alta de autónomo, 
+                  tramos de cotización, gastos deducibles, IVA, facturación, IRPF y modelos fiscales.
                 </p>
               </div>
               <div className="bg-card border border-border rounded-lg p-4">
                 <h3 className="font-semibold text-accent mb-2">🧮 Calculadora</h3>
                 <p className="text-sm text-muted-foreground">
-                  Herramienta para calcular tu cuota de autónomo según el sistema de tramos 
-                  por rendimientos reales de 2026.
+                  Herramienta interactiva para calcular tu cuota de autónomo según el sistema de tramos 
+                  por rendimientos reales de 2026 y estimar tu neto mensual.
                 </p>
               </div>
               <div className="bg-card border border-border rounded-lg p-4">
                 <h3 className="font-semibold text-accent mb-2">🗺️ Roadmap</h3>
                 <p className="text-sm text-muted-foreground">
                   Ruta de aprendizaje organizada por niveles para acompañarte desde el alta 
-                  hasta la optimización fiscal avanzada.
+                  hasta la optimización fiscal avanzada con recursos específicos.
+                </p>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-4">
+                <h3 className="font-semibold text-accent mb-2">📞 Contacto</h3>
+                <p className="text-sm text-muted-foreground">
+                  Formulario para enviar feedback, reportar errores o solicitar nuevos temas. 
+                  Toda sugerencia constructiva es bienvenida.
                 </p>
               </div>
               <div className="bg-card border border-border rounded-lg p-4">
                 <h3 className="font-semibold text-accent mb-2">⚖️ Páginas Legales</h3>
                 <p className="text-sm text-muted-foreground">
-                  Aviso Legal, Política de Privacidad y Cookies, cumpliendo con RGPD y normativa vigente.
+                  Aviso Legal, Política de Privacidad y Cookies, cumpliendo con RGPD y normativa vigente 
+                  sobre protección de datos y transparencia.
                 </p>
               </div>
             </div>
@@ -158,7 +169,7 @@ const SobreElProyecto = () => {
             <p className="text-muted-foreground leading-relaxed mb-3">
               <strong>DevFreelance es un proyecto divulgativo con fines exclusivamente educativos.</strong> 
               La información publicada se basa en normativa oficial (BOE, AEAT, Seguridad Social) y se actualiza 
-              regularmente, pero <strong>NO SUSTITUYE el asesoramiento profesional</strong> 
+              regularmente, pero <strong>NO SUSTITUYE el asesoramiento profesional </strong> 
               de un asesor fiscal colegiado, gestor administrativo o abogado tributarista.
             </p>
             <p className="text-muted-foreground leading-relaxed">

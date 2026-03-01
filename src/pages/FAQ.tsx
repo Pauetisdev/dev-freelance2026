@@ -69,6 +69,11 @@ const FAQ = () => {
                   <strong>Consejo práctico:</strong> Date de alta antes de emitir tu primera factura o recibir tu primer pago, 
                   aunque sea un proyecto pequeño. Es mejor prevenir que pagar sanciones.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/alta-autonomo-desarrollador-iae-763-845-guia-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Puedes leer más sobre esto en nuestra guía completa: Darse de Alta como Developer Freelance en 2026
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -100,6 +105,11 @@ const FAQ = () => {
                   <strong>Importante:</strong> El epígrafe IAE no determina qué puedes facturar, es solo clasificativo. 
                   La AEAT lo usa para estadísticas, no para limitarte.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/alta-autonomo-desarrollador-iae-763-845-guia-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Descubre todos los detalles del proceso de alta en nuestra guía: Darse de Alta como Developer Freelance en 2026
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -129,6 +139,11 @@ const FAQ = () => {
                 </p>
                 <p className="bg-emerald-50 dark:bg-emerald-950/20 border-l-4 border-emerald-500 p-3 rounded">
                   <strong>Ventaja:</strong> Puedes probar tu negocio freelance sin renunciar a la estabilidad de tu empleo actual.
+                </p>
+                <p className="mt-3">
+                  <a href="/blog/pluriactividad-autonomo-empleado-compatibilizar-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Lee nuestra guía completa sobre Pluriactividad: Cómo Compatibilizar Autónomo y Empleado en 2026
+                  </a>
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -188,6 +203,11 @@ const FAQ = () => {
                 <p className="bg-blue-50 dark:bg-blue-950/20 border-l-4 border-blue-500 p-3 rounded text-sm">
                   <strong>Ejemplo:</strong> Si facturas 30.000€/año con 5.000€ de gastos, pagarás aproximadamente 
                   4.800€ de cuota anual + 3.750€ de IRPF = <strong>8.550€ en impuestos/cotizaciones</strong> (28,5% de tu facturación).
+                </p>
+                <p className="mt-3">
+                  <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Consulta el desglose completo en nuestro artículo: Nuevos Tramos de Cotización Autónomos 2026
+                  </a>
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -279,6 +299,11 @@ const FAQ = () => {
                   <strong>Ejemplo práctico:</strong> Un desarrollador con facturación anual de 40.000 euros y 15.000 euros de gastos deducibles 
                   tendrá un rendimiento neto de 25.000 euros anuales, equivalente a 2.083 euros mensuales, lo que implica una cuota de 360 euros al mes.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/tramos-cotizacion-autonomos-2026-rendimientos-netos" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Profundiza en el sistema de tramos en nuestro artículo: Nuevos Tramos de Cotización Autónomos 2026
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -300,6 +325,11 @@ const FAQ = () => {
                 <p className="bg-amber-50 dark:bg-amber-950/20 border-l-4 border-amber-500 p-3 rounded text-sm">
                   <strong>Estrategia recomendada:</strong> Revisa tu situación cada trimestre al presentar el modelo 130 de IRPF. Si detectas 
                   desviaciones superiores al 20 por ciento respecto a tu previsión inicial, solicita el cambio de tramo para evitar recargos posteriores.
+                </p>
+                <p className="mt-3">
+                  <a href="/blog/tramos-ahorro-cotizacion-estrategica-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Aprende estrategias de optimización en: Tramos de Autónomos: Cómo Ahorrar con Cotización Estratégica
+                  </a>
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -330,6 +360,11 @@ const FAQ = () => {
                 <p className="bg-blue-50 dark:bg-blue-950/20 border-l-4 border-blue-500 p-3 rounded text-sm">
                   <strong>Optimización fiscal:</strong> Maximizar tus gastos deducibles legítimos no solo reduce tu IRPF, también baja tu tramo 
                   de cotización y por tanto pagas menos cuota mensual a la Seguridad Social.
+                </p>
+                <p className="mt-3">
+                  <a href="/blog/gastos-deducibles-autonomos-desarrolladores-2026-guia-completa" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Guía completa de optimización: Gastos Deducibles para Autónomos Desarrolladores 2026
+                  </a>
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -417,6 +452,11 @@ const FAQ = () => {
                 <p className="bg-emerald-50 dark:bg-emerald-950/20 border-l-4 border-emerald-500 p-3 rounded text-sm">
                   <strong>Regla de oro:</strong> Si lo usas para trabajar y tienes factura → es deducible.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/gastos-deducibles-autonomos-desarrolladores-2026-guia-completa" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Lee más sobre gastos deducibles en: Guía Completa de Gastos Deducibles para Desarrolladores
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -442,6 +482,11 @@ const FAQ = () => {
                 <p className="bg-amber-50 dark:bg-amber-950/20 border-l-4 border-amber-500 p-3 rounded text-sm">
                   <strong>Importante:</strong> Guarda las facturas a tu nombre con NIF. Si la tiznea el móvil a nombre personal, 
                   Hacienda puede cuestionar la deducción.
+                </p>
+                <p className="mt-3">
+                  <a href="/blog/amortizacion-ordenador-portatil-autonomo-2026-deduccion" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Descubre cómo amortizar correctamente en: Cómo Amortizar tu PC o Mac como Autónomo
+                  </a>
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -478,6 +523,11 @@ const FAQ = () => {
                 <p className="bg-red-50 dark:bg-red-950/20 border-l-4 border-red-500 p-3 rounded text-sm">
                   <strong>Atención:</strong> Si deduces gastos de vivienda habitual en propiedad, 
                   cuando la vendas puede haber implicaciones fiscales en plusvalía. Consulta con asesor.
+                </p>
+                <p className="mt-3">
+                  <a href="/blog/deduccion-gastos-teletrabajo-autonomos-luz-internet-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Guía completa con cálculos detallados: Teletrabajo para Autónomos - Deducción del 30%
+                  </a>
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -534,6 +584,11 @@ const FAQ = () => {
                   <strong>Beneficio dual:</strong> La formación no solo reduce tu base imponible (IRPF), 
                   también mejora tu perfil profesional y te permite facturar más.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/gastos-deducibles-autonomos-desarrolladores-2026-guia-completa" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Más ejemplos de deducibles en: Guía Completa de Gastos Deducibles para Desarrolladores
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -569,6 +624,11 @@ const FAQ = () => {
                   <strong>Ventaja competitiva:</strong> Tus servicios resultan un 21 por ciento más económicos que los de competidores europeos que deben aplicar 
                   IVA, lo que te posiciona mejor en mercados internacionales.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/iva-internacional-inversion-sujeto-pasivo-usa-uk-freelance" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Guía detallada con ejemplos prácticos: IVA Internacional para Developers - Inversión del Sujeto Pasivo
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -593,6 +653,11 @@ const FAQ = () => {
                   o mensualmente si superas esa cifra. La falta de presentación o errores en el VAT pueden derivar en que Hacienda te reclame el IVA español 
                   más recargos e intereses.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/vies-roi-iva-intracomunitario-saas-servicios-digitales-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Todo lo que necesitas saber en: VIES y ROI - IVA Intracomunitario para Servicios Digitales
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -616,6 +681,11 @@ const FAQ = () => {
                 <p className="bg-amber-50 dark:bg-amber-950/20 border-l-4 border-amber-500 p-3 rounded text-sm">
                   <strong>Sanciones por incumplimiento:</strong> La emisión de facturas sin numeración correlativa o con datos incompletos puede conllevar 
                   multa de 150 euros por cada factura. No emitir factura cuando es preceptivo supone multas del 1 al 2 por ciento de la cuota defraudada.
+                </p>
+                <p className="mt-3">
+                  <a href="/blog/factura-legal-elementos-obligatorios-retenciones-developers-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Aprende a facturar correctamente: Cómo Hacer una Factura Legal - Elementos Obligatorios
+                  </a>
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -705,6 +775,11 @@ const FAQ = () => {
                   <strong>Aclaración importante:</strong> El modelo 130 no es un impuesto adicional sino un anticipo. Todo lo pagado mediante este modelo durante 
                   el año se descuenta automáticamente de la cuota resultante en tu declaración de la Renta del ejercicio siguiente.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/modelo-130-irpf-pagos-fraccionados-autonomos-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Guía paso a paso: El Modelo 130 Explicado - Pagos Fraccionados de IRPF
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -732,6 +807,11 @@ const FAQ = () => {
                   <strong>Errores frecuentes:</strong> Olvidar aplicar la retención cuando es obligatoria puede generar problemas tanto para ti como para el cliente. 
                   Si el cliente es empresa y no le aplicas retención debiendo hacerlo, pueden reclamarte después una factura rectificativa.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/factura-legal-elementos-obligatorios-retenciones-developers-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Todo sobre retenciones en: Cómo Hacer una Factura Legal - Elementos Obligatorios
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -756,6 +836,11 @@ const FAQ = () => {
                 <p className="mb-3">
                   Ambos regímenes permiten deducir los mismos gastos. Las diferencias son el cinco por ciento adicional en simplificada y la complejidad contable. 
                   La elección se comunica mediante modelo 036 o 037, y los cambios deben realizarse en diciembre o primeros días de enero.
+                </p>
+                <p className="mt-3">
+                  <a href="/blog/gastos-deducibles-autonomos-desarrolladores-2026-guia-completa" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Maximiza tus deducciones en: Guía Completa de Gastos Deducibles para Desarrolladores
+                  </a>
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -786,6 +871,11 @@ const FAQ = () => {
                   considera contratar a un asesor fiscal. El coste de la gestoría suele oscilar entre cien y trescientos euros por la declaración, y puede ahorrarte 
                   errores costosos en deducciones o en la imputación de gastos.
                 </p>
+                <p className="mt-3">
+                  <a href="/blog/modelo-130-irpf-pagos-fraccionados-autonomos-2026" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Entiende mejor el proceso en: El Modelo 130 Explicado - Pagos Fraccionados de IRPF
+                  </a>
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -813,6 +903,11 @@ const FAQ = () => {
                   <strong>Importante diferenciar:</strong> Gastos deducibles de la actividad reducen el beneficio empresarial. Deducciones y reducciones personales 
                   operan sobre la base imponible o cuota final pero no están vinculadas a tu facturación como autónomo. No confundas ambos conceptos al preparar 
                   tu declaración.
+                </p>
+                <p className="mt-3">
+                  <a href="/blog/gastos-deducibles-autonomos-desarrolladores-2026-guia-completa" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                    → Aprende a optimizar tus deducciones: Guía Completa de Gastos Deducibles para Desarrolladores
+                  </a>
                 </p>
               </AccordionContent>
             </AccordionItem>
