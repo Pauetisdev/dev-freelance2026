@@ -1,4 +1,5 @@
 import { Layout } from '@/components/Layout';
+import { Newsletter } from '@/components/Newsletter';
 import { Helmet } from 'react-helmet-async';
 import { Heart } from 'lucide-react';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
@@ -161,9 +162,9 @@ const SobreElProyecto = () => {
             </div>
           </section>
 
-          <section className="bg-muted/50 border border-border rounded-lg p-6 mb-8">
+          <section className="bg-muted/50 border border-border rounded-lg p-6 mb-4">
             <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
-              <span className="text-2xl">⚠️</span>
+              <span className="text-2xl">⚠️</span>{' '}
               Importante: Disclaimer Profesional
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-3">
@@ -179,19 +180,11 @@ const SobreElProyecto = () => {
             </p>
           </section>
 
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">Tecnología</h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              DevFreelance está construido con tecnologías modernas:
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-accent/20 text-accent rounded-md text-sm font-medium">React</span>
-              <span className="px-3 py-1 bg-accent/20 text-accent rounded-md text-sm font-medium">TypeScript</span>
-              <span className="px-3 py-1 bg-accent/20 text-accent rounded-md text-sm font-medium">Vite</span>
-              <span className="px-3 py-1 bg-accent/20 text-accent rounded-md text-sm font-medium">Tailwind CSS</span>
-              <span className="px-3 py-1 bg-accent/20 text-accent rounded-md text-sm font-medium">shadcn/ui</span>
-            </div>
-          </section>
+        </div>
+
+        {/* Newsletter Section - dentro del container */}
+        <div className="mt-8">
+          <Newsletter />
         </div>
       </div>
     </Layout>

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Calculator, TrendingUp, Shield } from 'lucide-react';
 import { Layout } from '@/components/Layout';
 import { PostCard } from '@/components/PostCard';
+import { Newsletter } from '@/components/Newsletter';
 import { Button } from '@/components/ui/button';
 import { Helmet } from 'react-helmet-async';
 import { posts } from '@/data/posts';
@@ -142,6 +143,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Newsletter Section */}
+      <Newsletter />
     </Layout>
   );
 };
