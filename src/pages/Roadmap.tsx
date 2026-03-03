@@ -22,6 +22,7 @@ const Roadmap = () => {
           '7', // Modelo 130
           '18', // Nómada digital (setup fiscal internacional)
           '22', // Nuevo post relevante para setup inicial
+          '27', // Mejores bancos para freelancers
         ].includes(p.id)),
     },
     {
@@ -39,6 +40,7 @@ const Roadmap = () => {
           '13', // Factura Electrónica
           '21', // Contratar primer empleado
           '23', // Nuevo post relevante para facturación
+          '28', // Errores Modelo 130 con IA
         ].includes(p.id)),
     },
     {
@@ -75,6 +77,7 @@ const Roadmap = () => {
           '17', // Baja médica autónomos
           '19', // Cese de actividad (paro autónomos)
           '25', // Nuevo post relevante para estrategia y escalado
+          '26', // Visa nómada digital España
         ].includes(p.id)),
     },
   ];
