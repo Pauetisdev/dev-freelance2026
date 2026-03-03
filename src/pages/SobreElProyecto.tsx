@@ -1,5 +1,4 @@
 import { Layout } from '@/components/Layout';
-import { Newsletter } from '@/components/Newsletter';
 import { Helmet } from 'react-helmet-async';
 import { Heart } from 'lucide-react';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
@@ -180,11 +179,6 @@ const SobreElProyecto = () => {
             </p>
           </section>
 
-        </div>
-
-        {/* Newsletter Section - dentro del container */}
-        <div className="mt-8">
-          <Newsletter />
         </div>
       </div>
     </Layout>

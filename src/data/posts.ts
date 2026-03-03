@@ -16,6 +16,219 @@ export interface BlogPost {
 }
 
 export const posts: BlogPost[] = [
+  // 28. Modelo 130 errores IA 2026
+  {
+    id: '28',
+    slug: 'errores-modelo-130-hacienda-ia-2026-sanciones',
+    title: 'Los 3 errores en el Modelo 130 que Hacienda está persiguiendo con IA en 2026: Guía Profesional para Evitar Sanciones y Requerimientos',
+    metaDescription: 'Descubre los 3 errores en el Modelo 130 que Hacienda está persiguiendo con IA en 2026 y aprende cómo evitar inspecciones, sanciones y requerimientos gracias a una gestión fiscal profesional y transparente.',
+    category: 'impuestos',
+    publishDate: '2026-03-03',
+    readTime: 15,
+    featured: true,
+    excerpt: 'La Agencia Tributaria utiliza inteligencia artificial en 2026 para detectar errores en el Modelo 130. Descubre los 3 fallos más perseguidos y cómo evitar sanciones, requerimientos e inspecciones con una gestión fiscal profesional.',
+    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&auto=format&fit=crop',
+    imageAlt: 'Inteligencia artificial analizando datos fiscales y documentos tributarios',
+    content: `
+      <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 1.5rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; font-weight: 600; color: #1e293b;">📋 Contenido del artículo</h3>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; list-style: none;">
+          <li style="margin-bottom: 0.5rem;"><a href="#nueva-fiscalidad" style="color: #3b82f6; text-decoration: none;">→ La nueva fiscalidad automatizada en 2026</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#error-1" style="color: #3b82f6; text-decoration: none;">→ Error 1: Gastos de suministros no proporcionales</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#error-2" style="color: #3b82f6; text-decoration: none;">→ Error 2: Desfase en IVA intracomunitario</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#error-3" style="color: #3b82f6; text-decoration: none;">→ Error 3: Facturas que no encajan con la actividad</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#preguntas-frecuentes" style="color: #3b82f6; text-decoration: none;">→ Preguntas frecuentes</a></li>
+        </ul>
+      </div>
+
+      <p>En 2026, la fiscalidad para autónomos y desarrolladores freelance en España ha cambiado más de lo que muchos imaginan. La digitalización de la Administración ya no es una promesa futura: es una realidad operativa. La Agencia Tributaria ha desplegado sistemas avanzados de inteligencia artificial capaces de cruzar datos bancarios, facturación electrónica, declaraciones trimestrales y registros europeos en cuestión de segundos.</p>
+
+      <p>Esto significa que los <strong>3 errores en el Modelo 130 que Hacienda está persiguiendo con IA en 2026</strong> ya no se detectan por casualidad ni por una inspección aleatoria. Ahora es una máquina la que analiza patrones, compara comportamientos y marca desviaciones estadísticas respecto a otros profesionales del mismo sector.</p>
+
+      <p>Si eres desarrollador, programador, consultor IT o trabajas como autónomo digital, este artículo está diseñado para ti. Aquí no vas a encontrar alarmismo, sino análisis profesional y práctico para proteger tu actividad y tu tranquilidad fiscal.</p>
+
+      <h2 id="nueva-fiscalidad">La nueva fiscalidad automatizada en 2026: qué está cambiando realmente</h2>
+
+      <p>Durante años, muchos autónomos confiaban en que pequeños desajustes pasarían desapercibidos. Sin embargo, el contexto actual es distinto. Hacienda ha integrado sistemas de análisis masivo de datos que cruzan automáticamente:</p>
+
+      <ul>
+        <li><strong>Modelos 130 y 303</strong> (IRPF e IVA trimestrales)</li>
+        <li><strong>Información bancaria</strong> (cuentas corrientes y transferencias)</li>
+        <li><strong>Facturación electrónica obligatoria</strong></li>
+        <li><strong>Datos del sistema europeo VIES</strong> (operadores intracomunitarios)</li>
+        <li><strong>Metros cuadrados afectos</strong> declarados en modelos censales</li>
+      </ul>
+
+      <p>Este nivel de automatización convierte cualquier incoherencia en un posible aviso interno. No hablamos necesariamente de sanciones automáticas, pero sí de <strong>alertas que pueden derivar en requerimientos formales</strong>.</p>
+
+      <p>El cambio más relevante no es solo tecnológico, sino estratégico. La Administración ya no busca únicamente grandes fraudes; también optimiza la detección de errores recurrentes que afectan a miles de pequeños contribuyentes.</p>
+
+      <div style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1.5rem; margin: 2rem 0; border-radius: 0.5rem;">
+        <p style="margin: 0;"><strong>⚠️ Importante:</strong> Los sistemas de IA no interpretan la buena fe. Solo detectan inconsistencias matemáticas y semánticas. La prevención es siempre más económica que una regularización posterior.</p>
+      </div>
+
+      <h2 id="error-1">Error 1: Gastos de suministros no proporcionales en el Modelo 130</h2>
+
+      <p>Uno de los errores más habituales, especialmente entre desarrolladores que trabajan desde casa, es la <strong>deducción incorrecta de suministros</strong>. La luz, el internet o el agua son gastos parcialmente deducibles cuando existe afectación de la vivienda a la actividad económica, pero no en la proporción que muchos creen.</p>
+
+      <h3>La fórmula legal correcta</h3>
+
+      <p>La normativa establece un criterio claro:</p>
+
+      <ol>
+        <li><strong>Primero:</strong> Calcular el porcentaje de metros cuadrados de la vivienda destinados a la actividad profesional</li>
+        <li><strong>Segundo:</strong> Sobre esa proporción, aplicar un <strong>30% como límite de deducción</strong> de suministros</li>
+      </ol>
+
+      <div style="background: #dbeafe; border: 2px solid #3b82f6; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h4 style="margin-top: 0; color: #1e40af;">🧮 Ejemplo práctico</h4>
+        <p style="margin-bottom: 0.5rem;"><strong>Situación:</strong> Vivienda de 100 m² con despacho de 20 m²</p>
+        <ul style="margin-bottom: 0;">
+          <li>Porcentaje de afectación: 20/100 = <strong>20%</strong></li>
+          <li>Límite deducible de suministros: 20% × 30% = <strong>6%</strong></li>
+          <li>Factura de luz de 100€: Deducible = 100€ × 6% = <strong>6€</strong></li>
+        </ul>
+      </div>
+
+      <p>Sin embargo, muchos autónomos aplican porcentajes muy superiores, en ocasiones deduciendo el 50%, 70% o incluso el 100% del gasto de internet o electricidad. <strong>Aquí es donde entra la inteligencia artificial.</strong></p>
+
+      <h3>Cómo detecta la IA este error</h3>
+
+      <p>En 2026, los sistemas automatizados cruzan:</p>
+
+      <ul>
+        <li>Los <strong>metros declarados en el modelo 036 o 037</strong></li>
+        <li>El <strong>consumo energético medio de la zona</strong></li>
+        <li>La <strong>facturación anual del profesional</strong></li>
+        <li>Comparación con <strong>otros autónomos del mismo epígrafe</strong></li>
+      </ul>
+
+      <p>Si el patrón de gasto resulta incoherente con la actividad declarada, el algoritmo genera una alerta interna. No se trata solo de una cuestión matemática. También interviene el <strong>análisis comparativo sectorial</strong>.</p>
+
+      <h3>Recomendación profesional</h3>
+
+      <p>Aplica estrictamente la fórmula legal, conserva facturas detalladas y evita interpretaciones creativas. La coherencia entre metros declarados, volumen de ingresos y gasto energético es fundamental para evitar problemas futuros.</p>
+
+      <h2 id="error-2">Error 2: Desfase en el IVA de servicios intracomunitarios</h2>
+
+      <p>El segundo gran foco de vigilancia en 2026 afecta a los <strong>servicios intracomunitarios</strong>, un área especialmente sensible para programadores y freelancers digitales que utilizan software SaaS o facturan a clientes europeos.</p>
+
+      <h3>¿Qué son las operaciones intracomunitarias?</h3>
+
+      <p>Cuando compras servicios a empresas de la Unión Europea —por ejemplo, herramientas de desarrollo, plataformas de marketing o servicios en la nube— debes estar inscrito en el <strong>Registro de Operadores Intracomunitarios (ROI)</strong>. Además, debes autorrepercutir el IVA en el modelo 303 y declarar la operación en el modelo 349.</p>
+
+      <h3>El sistema VIES: cruce automático</h3>
+
+      <p>En 2026, la inteligencia artificial cruza automáticamente:</p>
+
+      <ul>
+        <li>Datos del <strong>modelo 303</strong> (IVA trimestral)</li>
+        <li>Declaraciones del <strong>modelo 130</strong> (IRPF)</li>
+        <li>Información del <strong>modelo 349</strong> (operaciones intracomunitarias)</li>
+        <li>Registro en <strong>VIES</strong> (VAT Information Exchange System)</li>
+        <li><strong>Facturación electrónica</strong> emitida y recibida</li>
+      </ul>
+
+      <div style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 1.5rem; margin: 2rem 0; border-radius: 0.5rem;">
+        <p style="margin: 0;"><strong>🚨 Atención:</strong> Si compras servicios a una empresa alemana, irlandesa o francesa y no estás dado de alta en ROI, la discrepancia se detecta automáticamente. Del mismo modo, si facturas a clientes europeos sin cumplir los requisitos formales, el sistema lo registra como posible incumplimiento.</p>
+      </div>
+
+      <h3>Pasos para evitar este error</h3>
+
+      <ol>
+        <li><strong>Solicita el alta en ROI</strong> mediante modelo 036 (casilla 582)</li>
+        <li><strong>Verifica el VAT del cliente</strong> en <a href="https://ec.europa.eu/taxation_customs/vies/" target="_blank" rel="noopener">ec.europa.eu/taxation_customs/vies</a></li>
+        <li><strong>Emite facturas correctamente:</strong> Sin IVA español, con mención "Inversión del sujeto pasivo"</li>
+        <li><strong>Declara en modelo 349:</strong> Todas las operaciones intracomunitarias trimestral o mensualmente</li>
+        <li><strong>Conserva documentación:</strong> Capturas de VIES, contratos, facturas durante 4 años</li>
+      </ol>
+
+      <h2 id="error-3">Error 3: Facturas de gastos que no encajan con la actividad declarada</h2>
+
+      <p>El tercer error que está generando más revisiones en 2026 tiene que ver con la <strong>naturaleza de los gastos deducibles</strong>. Hacienda ha incorporado técnicas de procesamiento de lenguaje natural (NLP) para analizar el concepto de las facturas electrónicas.</p>
+
+      <h3>La IA lee el texto de tus facturas</h3>
+
+      <p>Los algoritmos no solo leen importes, <strong>también analizan descripciones</strong>. Si un desarrollador declara gastos recurrentes en categorías que no guardan relación con su actividad —como compras personales en grandes plataformas online bajo conceptos genéricos como "material de oficina"— el sistema puede detectar la incoherencia semántica.</p>
+
+      <p>El análisis evalúa:</p>
+
+      <ul>
+        <li>El <strong>epígrafe de actividad</strong> declarado (CNAE)</li>
+        <li>El <strong>tipo de proveedor</strong> y su actividad</li>
+        <li>La <strong>frecuencia del gasto</strong></li>
+        <li>La <strong>comparación con otros autónomos</strong> del mismo sector</li>
+      </ul>
+
+      <div style="background: #dbeafe; border: 2px solid #3b82f6; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h4 style="margin-top: 0; color: #1e40af;">💡 Ejemplo real</h4>
+        <p style="margin-bottom: 0;"><strong>Factura sospechosa:</strong> Un desarrollador web deduce 15 compras mensuales en Amazon con concepto genérico "Material oficina y equipos". La IA detecta que el patrón es atípico comparado con otros profesionales del mismo epígrafe. Resultado: Requerimiento de justificación documental.</p>
+      </div>
+
+      <h3>La regla de oro para gastos deducibles</h3>
+
+      <p>Un gasto es deducible solo si cumple <strong>todos estos criterios</strong>:</p>
+
+      <ol>
+        <li><strong>Necesario:</strong> Imprescindible para desarrollar la actividad</li>
+        <li><strong>Justificado:</strong> Factura correcta con todos los datos</li>
+        <li><strong>Contabilizado:</strong> Registrado en tu libro de gastos</li>
+        <li><strong>Vinculado:</strong> Relación directa con la obtención de ingresos</li>
+      </ol>
+
+      <p>Si no puede defenderse razonablemente ante un inspector, es preferible no incluirlo como deducible.</p>
+
+      <h2 id="preguntas-frecuentes">Preguntas Frecuentes sobre los 3 errores en el Modelo 130 que Hacienda está persiguiendo con IA en 2026</h2>
+
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b;">¿Hacienda revisa automáticamente todos los Modelos 130?</h3>
+        <p style="margin-bottom: 0;">Sí. Los sistemas automatizados analizan todas las declaraciones presentadas, aunque no todas derivan en inspección. El algoritmo marca alertas según criterios de riesgo y desviación estadística.</p>
+      </div>
+
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b;">¿Un pequeño error puede generar sanción inmediata?</h3>
+        <p style="margin-bottom: 0;">No necesariamente. Primero suele producirse un requerimiento o regularización, pero los errores repetidos sí aumentan el riesgo sancionador según el artículo 191 de la Ley General Tributaria.</p>
+      </div>
+
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b;">¿Es obligatorio inscribirse en ROI para facturar a clientes europeos?</h3>
+        <p style="margin-bottom: 0;">Sí, siempre que realices operaciones intracomunitarias sujetas a IVA. La inscripción se solicita mediante el modelo 036 marcando la casilla 582.</p>
+      </div>
+
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b;">¿Se puede deducir el 100% del internet si solo lo uso para trabajar?</h3>
+        <p style="margin-bottom: 0;">Si trabajas desde casa, debes aplicar la regla proporcional establecida por la normativa: porcentaje de metros cuadrados afectos × 30%. No es posible deducir el 100% salvo que dispongas de un local comercial exclusivo.</p>
+      </div>
+
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b;">¿La inteligencia artificial realmente analiza el texto de las facturas?</h3>
+        <p style="margin-bottom: 0;">Sí. En 2026 se utilizan sistemas de análisis semántico y procesamiento de lenguaje natural (NLP) para detectar incoherencias entre actividad declarada y conceptos facturados.</p>
+      </div>
+
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem;">
+        <h3 style="margin-top: 0; font-size: 1.1rem; color: #1e293b;">¿Cuál es la mejor estrategia para evitar problemas fiscales?</h3>
+        <p style="margin-bottom: 0;">Mantener coherencia contable, cumplir con las obligaciones formales (ROI, VIES, modelos 303/130/349) y apoyarse en asesoramiento profesional cuando existan dudas. La prevención siempre es más económica que una regularización.</p>
+      </div>
+
+      <h2>Conclusión: Transparencia y coherencia como estrategia fiscal en 2026</h2>
+
+      <p>La evolución tecnológica de la Administración Tributaria no debe verse como una amenaza, sino como un <strong>incentivo para profesionalizar la gestión fiscal</strong>. En un entorno donde los datos se cruzan automáticamente y los algoritmos detectan desviaciones estadísticas, la improvisación ya no es una opción viable.</p>
+
+      <p>Evitar los <strong>3 errores en el Modelo 130 que Hacienda está persiguiendo con IA en 2026</strong> pasa por aplicar correctamente la normativa, mantener registros claros y actuar con transparencia. La prevención siempre será más económica que una regularización posterior.</p>
+
+      <div style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 1.5rem; margin: 2rem 0; border-radius: 0.5rem;">
+        <p style="margin: 0;"><strong>✅ Resumen de acción:</strong> Verifica tus deducciones de suministros aplicando la fórmula correcta, asegúrate de estar en ROI si operas con la UE, y revisa que todos tus gastos deducibles tengan justificación real y coherente con tu actividad.</p>
+      </div>
+
+      <p>La buena noticia es que cumplir correctamente no es complicado, pero sí requiere <strong>atención y conocimiento actualizado</strong>.</p>
+    `,
+    sources: [
+      {
+        title: 'Ley 37/1992 del IVA - Agencia Tributaria',
+        url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740'
+      }
+    ]
+  },
   // 1. IVA Internacional
   {
     id: '1',
