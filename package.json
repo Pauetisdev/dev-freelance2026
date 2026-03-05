@@ -7,11 +7,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run generate-sitemap && npm run generate-rss",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-sitemap": "node ./scripts/generate-sitemap.js"
+    "generate-sitemap": "node ./scripts/generate-sitemap.js",
+    "generate-rss": "node ./scripts/generate-rss.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

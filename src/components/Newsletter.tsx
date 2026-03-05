@@ -13,17 +13,40 @@ export function Newsletter() {
 
     setIsLoading(true);
     
-    // Simula el envío (aquí podrías integrar tu servicio de newsletter)
-    await new Promise(resolve => setTimeout(resolve, 800));
-    
-    setIsSubmitted(true);
-    setIsLoading(false);
-    setEmail('');
-    
-    // Resetea el mensaje de éxito después de 5 segundos
-    setTimeout(() => {
-      setIsSubmitted(false);
-    }, 5000);
+    try {
+      // MailerLite API - Suscribe directamente sin necesidad de especificar grupo
+      const response = await fetch(`https://connect.mailerlite.com/api/subscribers`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+          'Authorization': `Bearer ${import.meta.env.VITE_MAILERLITE_API_KEY || ''}`
+        },
+        body: JSON.stringify({
+          email: email,
+          status: 'active'
+        })
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        console.error('Error de MailerLite:', errorData);
+        throw new Error('Error al suscribirse');
+      }
+      
+      setIsSubmitted(true);
+      setEmail('');
+      
+      // Resetea el mensaje de éxito después de 5 segundos
+      setTimeout(() => {
+        setIsSubmitted(false);
+      }, 5000);
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Hubo un error al suscribirte. Por favor, inténtalo de nuevo.');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
