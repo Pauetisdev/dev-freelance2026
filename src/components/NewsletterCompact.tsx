@@ -14,23 +14,20 @@ export function NewsletterCompact() {
     setIsLoading(true);
     
     try {
-      // MailerLite API - Hardcoded temporalmente
-      const response = await fetch(`https://connect.mailerlite.com/api/subscribers`, {
+      // Usar el endpoint serverless de Vercel
+      const response = await fetch('/api/subscribe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json',
-          'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiZDBhYTI3NTA3NDA4ZTNiMzA0MWM1OWI2M2ZiOTdjZWUzZmE3ZTY2YWJiM2U3YTk1YWIxYjc0YmRkYmRkMzc3MDMyNTA0MzA0NTAxYjQ5MDYiLCJpYXQiOjE3NzI3NTAyMTQuMDUwMjEzLCJuYmYiOjE3NzI3NTAyMTQuMDUwMjE3LCJleHAiOjQ5Mjg0MjM4MTQuMDQxODc2LCJzdWIiOiIyMTg0Njk2Iiwic2NvcGVzIjpbXX0.rJhhGifasIBLzD8n-jkyoOWhlBsaiepjm9fFo-JDRv-YJjFovpYgupi8LdBjGp73uUIcpHGXMpONl-ybWej7LTt5ZKG1jBPiMoQ1jU82DcUiaDL2E9XLcahvgmqXH4teeKHXgmNfL0Z5zDqLw6kbzjxZDIrJhbF3Dj9cP7yxCzHoYdsqfTUIYn51174l0F--8EYfaAPZwaOKnuv4RuwC3jT8FWKb--uZUFFV39fTdBEhYBbAl3e9i3BrI3cKgAmua5UzalOWNg0Y51nGdUqgJrphi5bBxhUfMyMmHztUMyzYoWgZDn49ySnomVVv_n57G8JQ7k5rs28Kx_AsHNIffH2JC8k_jbLkam3mmzno_XCw3KcT1g-PE9OVcNkjoLKb4Zg8IARub3IOhYNdjI6GPmASJhxPZpJcHwBvfldEY4CYpB6IIwd8GLokBzuIPHYl6zLueRaKnFETt0eElESG1kQRwWEh8B68MxmTvyC6jFoqh2vjw74yxzQgAiKqWFDCkLd1cy73a_ICQLzOQYQkZFdeyM0TxkocJmGon_atVHqu7AMQIdkqbc5liqLEvepkMSM6VbIIJIfdhc0Bdp67eIyof91QDj7QP_kBEoYtfpoh_TsuTbt-gPbCK7_C8fGxfnxxRj2v3g_T4DmsDdAiQX2k5v1GA6vKSXVp4NQd-3A'
         },
         body: JSON.stringify({
           email: email,
-          status: 'active'
         })
       });
 
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
-        console.error('Error de MailerLite:', errorData);
+        console.error('Error al suscribirse:', errorData);
         throw new Error('Error al suscribirse');
       }
       
