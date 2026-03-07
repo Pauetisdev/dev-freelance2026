@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { NewsletterCompact } from './NewsletterCompact';
 import { Helmet } from 'react-helmet-async';
 
 export function Footer() {
@@ -25,7 +24,7 @@ export function Footer() {
       </Helmet>
       <footer className="border-t border-border bg-card mt-auto">
       <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-2 font-bold text-xl mb-3">
@@ -102,11 +101,6 @@ export function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
-
-          {/* Newsletter */}
-          <div>
-            <NewsletterCompact />
           </div>
         </div>
 
