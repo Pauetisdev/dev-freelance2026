@@ -4,8 +4,8 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 const UPSTASH_URL = process.env.UPSTASH_REDIS_REST_URL;
 const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
 
-// MailerLite API
-const MAILERLITE_API_KEY = process.env.VITE_MAILERLITE_API_KEY;
+// MailerLite API (usamos variable sin prefijo VITE_ para el servidor)
+const MAILERLITE_API_KEY = process.env.MAILERLITE_API_KEY || process.env.VITE_MAILERLITE_API_KEY;
 
 interface SubscribeRequest {
   email: string;
