@@ -33,6 +33,15 @@ export default async function handler(
       return res.status(400).json({ error: 'Email inválido' });
     }
 
+    // Verificar que existe la API key de MailerLite
+    if (!MAILERLITE_API_KEY) {
+      console.error('MAILERLITE_API_KEY no está configurada');
+      return res.status(500).json({ 
+        error: 'Sistema de newsletter no configurado. Contacta al administrador.',
+        debug: 'MAILERLITE_API_KEY no encontrada en variables de entorno'
+      });
+    }
+
     // 1. Guardar en Upstash Redis (backup/analytics)
     if (UPSTASH_URL && UPSTASH_TOKEN) {
       try {
@@ -62,25 +71,27 @@ export default async function handler(
     }
 
     // 2. Suscribir en MailerLite
-    if (MAILERLITE_API_KEY) {
-      const mlResponse = await fetch('https://connect.mailerlite.com/api/subscribers', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-          Authorization: `Bearer ${MAILERLITE_API_KEY}`,
-        },
-        body: JSON.stringify({
-          email: email,
-          status: 'active',
-        }),
-      });
+    const mlResponse = await fetch('https://connect.mailerlite.com/api/subscribers', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+        Authorization: `Bearer ${MAILERLITE_API_KEY}`,
+      },
+      body: JSON.stringify({
+        email: email,
+        status: 'active',
+      }),
+    });
 
-      if (!mlResponse.ok) {
-        const errorData = await mlResponse.json().catch(() => ({}));
-        console.error('Error de MailerLite:', errorData);
-        throw new Error('Error al suscribirse en MailerLite');
-      }
+    if (!mlResponse.ok) {
+      const errorData = await mlResponse.json().catch(() => ({}));
+      console.error('Error de MailerLite:', mlResponse.status, errorData);
+      return res.status(500).json({
+        error: 'Error al suscribirse',
+        debug: `MailerLite error: ${mlResponse.status}`,
+        details: errorData
+      });
     }
 
     return res.status(200).json({
