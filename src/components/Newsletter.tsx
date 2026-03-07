@@ -14,23 +14,20 @@ export function Newsletter() {
     setIsLoading(true);
     
     try {
-      // MailerLite API - Suscribe directamente sin necesidad de especificar grupo
-      const response = await fetch(`https://connect.mailerlite.com/api/subscribers`, {
+      // Llamar a nuestra API serverless
+      const response = await fetch('/api/subscribe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json',
-          'Authorization': `Bearer ${import.meta.env.VITE_MAILERLITE_API_KEY || ''}`
         },
         body: JSON.stringify({
           email: email,
-          status: 'active'
-        })
+        }),
       });
 
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
-        console.error('Error de MailerLite:', errorData);
+        console.error('Error al suscribirse:', errorData);
         throw new Error('Error al suscribirse');
       }
       

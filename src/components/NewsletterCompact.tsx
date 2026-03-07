@@ -13,17 +13,37 @@ export function NewsletterCompact() {
 
     setIsLoading(true);
     
-    // Simula el envío (aquí podrías integrar tu servicio de newsletter)
-    await new Promise(resolve => setTimeout(resolve, 800));
-    
-    setIsSubmitted(true);
-    setIsLoading(false);
-    setEmail('');
-    
-    // Resetea el mensaje de éxito después de 5 segundos
-    setTimeout(() => {
-      setIsSubmitted(false);
-    }, 5000);
+    try {
+      // Llamar a nuestra API serverless
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        console.error('Error al suscribirse:', errorData);
+        throw new Error('Error al suscribirse');
+      }
+      
+      setIsSubmitted(true);
+      setEmail('');
+      
+      // Resetea el mensaje de éxito después de 5 segundos
+      setTimeout(() => {
+        setIsSubmitted(false);
+      }, 5000);
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Hubo un error al suscribirte. Por favor, inténtalo de nuevo.');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
